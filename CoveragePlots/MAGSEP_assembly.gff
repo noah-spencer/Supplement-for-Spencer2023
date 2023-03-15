@@ -1,0 +1,1169 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM277493v1
+#!genome-build-accession NCBI_Assembly:GCA_002774935.1
+##sequence-region CM008730.1 1 63626
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008730.1	Genbank	region	1	63626	.	+	.	ID=CM008730.1:1..63626;Dbxref=taxon:573658;Is_circular=true;Name=variant1;chromosome=variant1;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008730.1	Genbank	gene	62	2775	.	+	.	ID=gene-magsep_1;Name=magsep_1;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_1
+CM008730.1	Genbank	rRNA	62	2775	.	+	.	ID=rna-magsep_1;Parent=gene-magsep_1;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_1;product=23S ribosomal RNA
+CM008730.1	Genbank	exon	62	2775	.	+	.	ID=exon-magsep_1-1;Parent=rna-magsep_1;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_1;product=23S ribosomal RNA
+CM008730.1	Genbank	gene	7242	7673	.	+	.	ID=gene-magsep_2;Name=rpsG;gbkey=Gene;gene=rpsG;gene_biotype=protein_coding;locus_tag=magsep_2
+CM008730.1	Genbank	CDS	7242	7673	.	+	0	ID=cds-PIM95393.1;Parent=gene-magsep_2;Dbxref=NCBI_GP:PIM95393.1;Name=PIM95393.1;Note=phmmer;gbkey=CDS;gene=rpsG;locus_tag=magsep_2;product=30S ribosomal protein S7;protein_id=PIM95393.1;transl_table=4
+CM008730.1	Genbank	gene	10918	11262	.	+	.	ID=gene-magsep_3;Name=rpsJ;gbkey=Gene;gene=rpsJ;gene_biotype=protein_coding;locus_tag=magsep_3
+CM008730.1	Genbank	CDS	10918	11262	.	+	0	ID=cds-PIM95394.1;Parent=gene-magsep_3;Dbxref=NCBI_GP:PIM95394.1;Name=PIM95394.1;Note=phmmer;gbkey=CDS;gene=rpsJ;locus_tag=magsep_3;product=30S ribosomal protein S10;protein_id=PIM95394.1;transl_table=4
+CM008730.1	Genbank	gene	11280	11813	.	+	.	ID=gene-magsep_4;Name=rplC;gbkey=Gene;gene=rplC;gene_biotype=protein_coding;locus_tag=magsep_4
+CM008730.1	Genbank	CDS	11280	11813	.	+	0	ID=cds-PIM95395.1;Parent=gene-magsep_4;Dbxref=NCBI_GP:PIM95395.1;Name=PIM95395.1;Note=phmmer;gbkey=CDS;gene=rplC;locus_tag=magsep_4;product=50S ribosomal subunit protein L3;protein_id=PIM95395.1;transl_table=4
+CM008730.1	Genbank	gene	11814	12344	.	+	.	ID=gene-magsep_5;Name=rplD;gbkey=Gene;gene=rplD;gene_biotype=protein_coding;locus_tag=magsep_5
+CM008730.1	Genbank	CDS	11814	12344	.	+	0	ID=cds-PIM95396.1;Parent=gene-magsep_5;Dbxref=NCBI_GP:PIM95396.1;Name=PIM95396.1;Note=phmmer;gbkey=CDS;gene=rplD;locus_tag=magsep_5;product=50S ribosomal subunit protein L4;protein_id=PIM95396.1;transl_table=4
+CM008730.1	Genbank	gene	14771	14995	.	+	.	ID=gene-magsep_6;Name=rpsQ;gbkey=Gene;gene=rpsQ;gene_biotype=protein_coding;locus_tag=magsep_6
+CM008730.1	Genbank	CDS	14771	14995	.	+	0	ID=cds-PIM95397.1;Parent=gene-magsep_6;Dbxref=NCBI_GP:PIM95397.1;Name=PIM95397.1;Note=phmmer;gbkey=CDS;gene=rpsQ;locus_tag=magsep_6;product=30S ribosomal protein S17;protein_id=PIM95397.1;transl_table=4
+CM008730.1	Genbank	gene	18156	18518	.	+	.	ID=gene-magsep_7;Name=rplO;gbkey=Gene;gene=rplO;gene_biotype=protein_coding;locus_tag=magsep_7
+CM008730.1	Genbank	CDS	18156	18518	.	+	0	ID=cds-PIM95398.1;Parent=gene-magsep_7;Dbxref=NCBI_GP:PIM95398.1;Name=PIM95398.1;Note=HMMER_3.1b2;gbkey=CDS;gene=rplO;locus_tag=magsep_7;product=50S ribosomal protein L15;protein_id=PIM95398.1;transl_table=4
+CM008730.1	Genbank	gene	21053	21127	.	-	.	ID=gene-magsep_8;Name=tRNA-Met;gbkey=Gene;gene=tRNA-Met;gene_biotype=tRNA;locus_tag=magsep_8
+CM008730.1	Genbank	tRNA	21053	21127	.	-	.	ID=rna-magsep_8;Parent=gene-magsep_8;Note=tRNAscan-SE_1.23;gbkey=tRNA;gene=tRNA-Met;locus_tag=magsep_8;product=tRNA-Met
+CM008730.1	Genbank	exon	21053	21127	.	-	.	ID=exon-magsep_8-1;Parent=rna-magsep_8;Note=tRNAscan-SE_1.23;gbkey=tRNA;gene=tRNA-Met;locus_tag=magsep_8;product=tRNA-Met
+CM008730.1	Genbank	gene	30343	31485	.	+	.	ID=gene-magsep_9;Name=fbcH;gbkey=Gene;gene=fbcH;gene_biotype=protein_coding;locus_tag=magsep_9
+CM008730.1	Genbank	CDS	30343	31485	.	+	0	ID=cds-PIM95399.1;Parent=gene-magsep_9;Dbxref=NCBI_GP:PIM95399.1;Name=PIM95399.1;Note=phmmer;gbkey=CDS;gene=fbcH;locus_tag=magsep_9;product=cytochrome b;protein_id=PIM95399.1;transl_table=4
+CM008730.1	Genbank	gene	31476	32087	.	+	.	ID=gene-magsep_10;Name=petC;gbkey=Gene;gene=petC;gene_biotype=protein_coding;locus_tag=magsep_10
+CM008730.1	Genbank	CDS	31476	32087	.	+	0	ID=cds-PIM95400.1;Parent=gene-magsep_10;Dbxref=NCBI_GP:PIM95400.1;Name=PIM95400.1;Note=phmmer;gbkey=CDS;gene=petC;locus_tag=magsep_10;product=Cytochrome c1 precursor;protein_id=PIM95400.1;transl_table=4
+CM008730.1	Genbank	gene	32470	33093	.	+	.	ID=gene-magsep_11;Name=rpsD;gbkey=Gene;gene=rpsD;gene_biotype=protein_coding;locus_tag=magsep_11
+CM008730.1	Genbank	CDS	32470	33093	.	+	0	ID=cds-PIM95401.1;Parent=gene-magsep_11;Dbxref=NCBI_GP:PIM95401.1;Name=PIM95401.1;Note=phmmer;gbkey=CDS;gene=rpsD;locus_tag=magsep_11;product=30S ribosomal subunit protein S4;protein_id=PIM95401.1;transl_table=4
+CM008730.1	Genbank	gene	33562	34092	.	-	.	ID=gene-magsep_12;Name=ctaG;gbkey=Gene;gene=ctaG;gene_biotype=protein_coding;locus_tag=magsep_12
+CM008730.1	Genbank	CDS	33562	34092	.	-	0	ID=cds-PIM95402.1;Parent=gene-magsep_12;Dbxref=NCBI_GP:PIM95402.1;Name=PIM95402.1;Note=phmmer;gbkey=CDS;gene=ctaG;locus_tag=magsep_12;product=Cytochrome c oxidase assembly protein CtaG;protein_id=PIM95402.1;transl_table=4
+CM008730.1	Genbank	gene	34095	35732	.	-	.	ID=gene-magsep_13;Name=ctaD;gbkey=Gene;gene=ctaD;gene_biotype=protein_coding;locus_tag=magsep_13
+CM008730.1	Genbank	CDS	34095	35732	.	-	0	ID=cds-PIM95403.1;Parent=gene-magsep_13;Dbxref=NCBI_GP:PIM95403.1;Name=PIM95403.1;Note=phmmer;gbkey=CDS;gene=ctaD;locus_tag=magsep_13;product=cytochrome c oxidase subunit 1;protein_id=PIM95403.1;transl_table=4
+CM008730.1	Genbank	gene	35722	36504	.	-	.	ID=gene-magsep_14;Name=ctaC;gbkey=Gene;gene=ctaC;gene_biotype=protein_coding;locus_tag=magsep_14
+CM008730.1	Genbank	CDS	35722	36504	.	-	0	ID=cds-PIM95404.1;Parent=gene-magsep_14;Dbxref=NCBI_GP:PIM95404.1;Name=PIM95404.1;Note=phmmer;gbkey=CDS;gene=ctaC;locus_tag=magsep_14;product=cytochrome c oxidase subunit 2;protein_id=PIM95404.1;transl_table=4
+CM008730.1	Genbank	gene	37664	38287	.	-	.	ID=gene-magsep_15;Name=magsep_15;Note=xxxM;gbkey=Gene;gene_biotype=protein_coding;locus_tag=magsep_15
+CM008730.1	Genbank	CDS	37664	38287	.	-	0	ID=cds-PIM95405.1;Parent=gene-magsep_15;Dbxref=NCBI_GP:PIM95405.1;Name=PIM95405.1;Note=phmmer;gbkey=CDS;locus_tag=magsep_15;product=hypothetical protein;protein_id=PIM95405.1;transl_table=4
+CM008730.1	Genbank	gene	46287	47027	.	+	.	ID=gene-magsep_16;Name=etfB;gbkey=Gene;gene=etfB;gene_biotype=protein_coding;locus_tag=magsep_16
+CM008730.1	Genbank	CDS	46287	47027	.	+	0	ID=cds-PIM95406.1;Parent=gene-magsep_16;Dbxref=NCBI_GP:PIM95406.1;Name=PIM95406.1;Note=phmmer;gbkey=CDS;gene=etfB;locus_tag=magsep_16;product=Electron transfer flavoprotein small subunit;protein_id=PIM95406.1;transl_table=4
+CM008730.1	Genbank	gene	47417	48484	.	+	.	ID=gene-magsep_17;Name=etfA;gbkey=Gene;gene=etfA;gene_biotype=protein_coding;locus_tag=magsep_17
+CM008730.1	Genbank	CDS	47417	48484	.	+	0	ID=cds-PIM95407.1;Parent=gene-magsep_17;Dbxref=NCBI_GP:PIM95407.1;Name=PIM95407.1;Note=phmmer;gbkey=CDS;gene=etfA;locus_tag=magsep_17;product=Electron transfer flavoprotein large subunit;protein_id=PIM95407.1;transl_table=4
+CM008730.1	Genbank	gene	50807	50880	.	+	.	ID=gene-magsep_18;Name=tRNA-Val;gbkey=Gene;gene=tRNA-Val;gene_biotype=tRNA;locus_tag=magsep_18
+CM008730.1	Genbank	tRNA	50807	50880	.	+	.	ID=rna-magsep_18;Parent=gene-magsep_18;Note=ARAGORN_v1.2.36%3B tRNA-Val(tac);gbkey=tRNA;gene=tRNA-Val;locus_tag=magsep_18;product=tRNA-Val
+CM008730.1	Genbank	exon	50807	50880	.	+	.	ID=exon-magsep_18-1;Parent=rna-magsep_18;Note=ARAGORN_v1.2.36%3B tRNA-Val(tac);gbkey=tRNA;gene=tRNA-Val;locus_tag=magsep_18;product=tRNA-Val
+CM008730.1	Genbank	gene	52637	53422	.	-	.	ID=gene-magsep_19;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_19
+CM008730.1	Genbank	CDS	52637	53422	.	-	0	ID=cds-PIM95408.1;Parent=gene-magsep_19;Dbxref=NCBI_GP:PIM95408.1;Name=PIM95408.1;Note=phmmer;gbkey=CDS;gene=fpr;locus_tag=magsep_19;product=Ferredoxin--NADP reductase;protein_id=PIM95408.1;transl_table=4
+CM008730.1	Genbank	gene	58736	59476	.	+	.	ID=gene-magsep_20;Name=etfB;gbkey=Gene;gene=etfB;gene_biotype=protein_coding;locus_tag=magsep_20
+CM008730.1	Genbank	CDS	58736	59476	.	+	0	ID=cds-PIM95409.1;Parent=gene-magsep_20;Dbxref=NCBI_GP:PIM95409.1;Name=PIM95409.1;Note=phmmer;gbkey=CDS;gene=etfB;locus_tag=magsep_20;product=Electron transfer flavoprotein small subunit;protein_id=PIM95409.1;transl_table=4
+CM008730.1	Genbank	gene	59866	60933	.	+	.	ID=gene-magsep_21;Name=etfA;gbkey=Gene;gene=etfA;gene_biotype=protein_coding;locus_tag=magsep_21
+CM008730.1	Genbank	CDS	59866	60933	.	+	0	ID=cds-PIM95410.1;Parent=gene-magsep_21;Dbxref=NCBI_GP:PIM95410.1;Name=PIM95410.1;Note=phmmer;gbkey=CDS;gene=etfA;locus_tag=magsep_21;product=Electron transfer flavoprotein large subunit;protein_id=PIM95410.1;transl_table=4
+CM008730.1	Genbank	gene	61774	63331	.	+	.	ID=gene-magsep_22;Name=magsep_22;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_22
+CM008730.1	Genbank	rRNA	61774	63331	.	+	.	ID=rna-magsep_22;Parent=gene-magsep_22;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_22;product=16S ribosomal RNA
+CM008730.1	Genbank	exon	61774	63331	.	+	.	ID=exon-magsep_22-1;Parent=rna-magsep_22;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_22;product=16S ribosomal RNA
+##sequence-region CM008741.1 1 61848
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008741.1	Genbank	region	1	61848	.	+	.	ID=CM008741.1:1..61848;Dbxref=taxon:573658;Is_circular=true;Name=variant2;chromosome=variant2;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008741.1	Genbank	gene	8864	12439	.	-	.	ID=gene-magsep_23;Name=metH;gbkey=Gene;gene=metH;gene_biotype=protein_coding;locus_tag=magsep_23
+CM008741.1	Genbank	CDS	8864	12439	.	-	0	ID=cds-PIM95386.1;Parent=gene-magsep_23;Dbxref=NCBI_GP:PIM95386.1;Name=PIM95386.1;Note=phmmer;gbkey=CDS;gene=metH;locus_tag=magsep_23;product=Methionine synthase;protein_id=PIM95386.1;transl_table=4
+CM008741.1	Genbank	gene	25635	26315	.	-	.	ID=gene-magsep_24;Name=tsf;gbkey=Gene;gene=tsf;gene_biotype=protein_coding;locus_tag=magsep_24
+CM008741.1	Genbank	CDS	25635	26315	.	-	0	ID=cds-PIM95387.1;Parent=gene-magsep_24;Dbxref=NCBI_GP:PIM95387.1;Name=PIM95387.1;Note=phmmer;gbkey=CDS;gene=tsf;locus_tag=magsep_24;product=elongation factor EF-Ts;protein_id=PIM95387.1;transl_table=4
+CM008741.1	Genbank	gene	26335	27408	.	-	.	ID=gene-magsep_25;Name=rpsB;gbkey=Gene;gene=rpsB;gene_biotype=protein_coding;locus_tag=magsep_25
+CM008741.1	Genbank	CDS	26335	27408	.	-	0	ID=cds-PIM95388.1;Parent=gene-magsep_25;Dbxref=NCBI_GP:PIM95388.1;Name=PIM95388.1;Note=phmmer;gbkey=CDS;gene=rpsB;locus_tag=magsep_25;product=30S ribosomal protein S2;protein_id=PIM95388.1;transl_table=4
+CM008741.1	Genbank	gene	47251	48621	.	-	.	ID=gene-magsep_26;Name=glyA;gbkey=Gene;gene=glyA;gene_biotype=protein_coding;locus_tag=magsep_26
+CM008741.1	Genbank	CDS	47251	48621	.	-	0	ID=cds-PIM95389.1;Parent=gene-magsep_26;Dbxref=NCBI_GP:PIM95389.1;Name=PIM95389.1;Note=phmmer;gbkey=CDS;gene=glyA;locus_tag=magsep_26;product=Serine hydroxymethyltransferase;protein_id=PIM95389.1;transl_table=4
+CM008741.1	Genbank	gene	55259	55903	.	-	.	ID=gene-magsep_27;Name=hisE;gbkey=Gene;gene=hisE;gene_biotype=protein_coding;locus_tag=magsep_27
+CM008741.1	Genbank	CDS	55259	55903	.	-	0	ID=cds-PIM95390.1;Parent=gene-magsep_27;Dbxref=NCBI_GP:PIM95390.1;Name=PIM95390.1;Note=phmmer;gbkey=CDS;gene=hisE;locus_tag=magsep_27;product=Phosphoribosyl-ATP pyrophosphatase;protein_id=PIM95390.1;transl_table=4
+CM008741.1	Genbank	gene	58321	58393	.	+	.	ID=gene-magsep_28;Name=tRNA-Ile;gbkey=Gene;gene=tRNA-Ile;gene_biotype=tRNA;locus_tag=magsep_28
+CM008741.1	Genbank	tRNA	58321	58393	.	+	.	ID=rna-magsep_28;Parent=gene-magsep_28;Note=ARAGORN_v1.2.36;gbkey=tRNA;gene=tRNA-Ile;locus_tag=magsep_28;product=tRNA-Ile
+CM008741.1	Genbank	exon	58321	58393	.	+	.	ID=exon-magsep_28-1;Parent=rna-magsep_28;Note=ARAGORN_v1.2.36;gbkey=tRNA;gene=tRNA-Ile;locus_tag=magsep_28;product=tRNA-Ile
+CM008741.1	Genbank	gene	58955	59995	.	-	.	ID=gene-magsep_29;Name=cysK;gbkey=Gene;gene=cysK;gene_biotype=protein_coding;locus_tag=magsep_29
+CM008741.1	Genbank	CDS	58955	59995	.	-	0	ID=cds-PIM95391.1;Parent=gene-magsep_29;Dbxref=NCBI_GP:PIM95391.1;Name=PIM95391.1;Note=phmmer;gbkey=CDS;gene=cysK;locus_tag=magsep_29;product=Cysteine synthase;protein_id=PIM95391.1;transl_table=4
+##sequence-region CM008752.1 1 61285
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008752.1	Genbank	region	1	61285	.	+	.	ID=CM008752.1:1..61285;Dbxref=taxon:573658;Is_circular=true;Name=variant3;chromosome=variant3;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008752.1	Genbank	gene	95	1024	.	+	.	ID=gene-magsep_30;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_30
+CM008752.1	Genbank	CDS	95	1024	.	+	0	ID=cds-PIM95379.1;Parent=gene-magsep_30;Dbxref=NCBI_GP:PIM95379.1;Name=PIM95379.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_30;product=cobalamin biosynthesis protein;protein_id=PIM95379.1;transl_table=4
+CM008752.1	Genbank	gene	8910	9881	.	-	.	ID=gene-magsep_31;Name=trpS;gbkey=Gene;gene=trpS;gene_biotype=protein_coding;locus_tag=magsep_31
+CM008752.1	Genbank	CDS	8910	9881	.	-	0	ID=cds-PIM95380.1;Parent=gene-magsep_31;Dbxref=NCBI_GP:PIM95380.1;Name=PIM95380.1;Note=phmmer;gbkey=CDS;gene=trpS;locus_tag=magsep_31;product=Tryptophan--tRNA ligase;protein_id=PIM95380.1;transl_table=4
+CM008752.1	Genbank	gene	11741	12487	.	+	.	ID=gene-magsep_32;Name=glyQ;gbkey=Gene;gene=glyQ;gene_biotype=protein_coding;locus_tag=magsep_32
+CM008752.1	Genbank	CDS	11741	12487	.	+	0	ID=cds-PIM95381.1;Parent=gene-magsep_32;Dbxref=NCBI_GP:PIM95381.1;Name=PIM95381.1;Note=phmmer;gbkey=CDS;gene=glyQ;locus_tag=magsep_32;product=Glycine--tRNA ligase alpha subunit;protein_id=PIM95381.1;transl_table=4
+CM008752.1	Genbank	gene	20180	20398	.	+	.	ID=gene-magsep_33;Name=magsep_33;Note=xxxF;gbkey=Gene;gene_biotype=protein_coding;locus_tag=magsep_33
+CM008752.1	Genbank	CDS	20180	20398	.	+	0	ID=cds-PIM95382.1;Parent=gene-magsep_33;Dbxref=NCBI_GP:PIM95382.1;Name=PIM95382.1;Note=HMMER_3.1b2;gbkey=CDS;locus_tag=magsep_33;product=hypothetical protein;protein_id=PIM95382.1;transl_table=4
+CM008752.1	Genbank	gene	27409	28839	.	+	.	ID=gene-magsep_34;Name=infB;gbkey=Gene;gene=infB;gene_biotype=protein_coding;locus_tag=magsep_34
+CM008752.1	Genbank	CDS	27409	28839	.	+	0	ID=cds-PIM95383.1;Parent=gene-magsep_34;Dbxref=NCBI_GP:PIM95383.1;Name=PIM95383.1;Note=phmmer;gbkey=CDS;gene=infB;locus_tag=magsep_34;product=Translation initiation factor IF-2;protein_id=PIM95383.1;transl_table=4
+CM008752.1	Genbank	gene	36049	36804	.	+	.	ID=gene-magsep_35;Name=cobM;gbkey=Gene;gene=cobM;gene_biotype=protein_coding;locus_tag=magsep_35
+CM008752.1	Genbank	CDS	36049	36804	.	+	0	ID=cds-PIM95384.1;Parent=gene-magsep_35;Dbxref=NCBI_GP:PIM95384.1;Name=PIM95384.1;Note=phmmer;gbkey=CDS;gene=cobM;locus_tag=magsep_35;product=Cobalt-precorrin-4 C(11)-methyltransferase;protein_id=PIM95384.1;transl_table=4
+CM008752.1	Genbank	gene	40405	40764	.	+	.	ID=gene-magsep_36;Name=cobP;gbkey=Gene;gene=cobP;gene_biotype=protein_coding;locus_tag=magsep_36
+CM008752.1	Genbank	CDS	40405	40764	.	+	0	ID=cds-PIM95385.1;Parent=gene-magsep_36;Dbxref=NCBI_GP:PIM95385.1;Name=PIM95385.1;Note=HMMER_3.1b2;gbkey=CDS;gene=cobP;locus_tag=magsep_36;product=Adenosylcobinamide kinase;protein_id=PIM95385.1;transl_table=4
+##sequence-region CM008763.1 1 57162
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008763.1	Genbank	region	1	57162	.	+	.	ID=CM008763.1:1..57162;Dbxref=taxon:573658;Is_circular=true;Name=variant4;chromosome=variant4;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008763.1	Genbank	gene	623	1192	.	-	.	ID=gene-magsep_37;Name=ribC;gbkey=Gene;gene=ribC;gene_biotype=protein_coding;locus_tag=magsep_37
+CM008763.1	Genbank	CDS	623	1192	.	-	0	ID=cds-PIM95363.1;Parent=gene-magsep_37;Dbxref=NCBI_GP:PIM95363.1;Name=PIM95363.1;Note=phmmer;gbkey=CDS;gene=ribC;locus_tag=magsep_37;product=Riboflavin synthase alpha chain;protein_id=PIM95363.1;transl_table=4
+CM008763.1	Genbank	gene	1428	2789	.	-	.	ID=gene-magsep_38;Name=glyA;gbkey=Gene;gene=glyA;gene_biotype=protein_coding;locus_tag=magsep_38
+CM008763.1	Genbank	CDS	1428	2789	.	-	0	ID=cds-PIM95364.1;Parent=gene-magsep_38;Dbxref=NCBI_GP:PIM95364.1;Name=PIM95364.1;Note=phmmer;gbkey=CDS;gene=glyA;locus_tag=magsep_38;product=Serine hydroxymethyltransferase;protein_id=PIM95364.1;transl_table=4
+CM008763.1	Genbank	gene	3145	5732	.	-	.	ID=gene-magsep_39;Name=magsep_39;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_39
+CM008763.1	Genbank	rRNA	3145	5732	.	-	.	ID=rna-magsep_39;Parent=gene-magsep_39;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_39;product=23S ribosomal RNA
+CM008763.1	Genbank	exon	3145	5732	.	-	.	ID=exon-magsep_39-1;Parent=rna-magsep_39;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_39;product=23S ribosomal RNA
+CM008763.1	Genbank	gene	6440	7995	.	-	.	ID=gene-magsep_40;Name=magsep_40;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_40
+CM008763.1	Genbank	rRNA	6440	7995	.	-	.	ID=rna-magsep_40;Parent=gene-magsep_40;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_40;product=16S ribosomal RNA
+CM008763.1	Genbank	exon	6440	7995	.	-	.	ID=exon-magsep_40-1;Parent=rna-magsep_40;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_40;product=16S ribosomal RNA
+CM008763.1	Genbank	gene	12411	12938	.	+	.	ID=gene-magsep_41;Name=rplY;gbkey=Gene;gene=rplY;gene_biotype=protein_coding;locus_tag=magsep_41
+CM008763.1	Genbank	CDS	12411	12938	.	+	0	ID=cds-PIM95365.1;Parent=gene-magsep_41;Dbxref=NCBI_GP:PIM95365.1;Name=PIM95365.1;Note=phmmer;gbkey=CDS;gene=rplY;locus_tag=magsep_41;product=50S ribosomal protein L25;protein_id=PIM95365.1;transl_table=4
+CM008763.1	Genbank	gene	23519	26866	.	-	.	ID=gene-magsep_42;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=magsep_42
+CM008763.1	Genbank	CDS	23519	26866	.	-	0	ID=cds-PIM95366.1;Parent=gene-magsep_42;Dbxref=NCBI_GP:PIM95366.1;Name=PIM95366.1;Note=phmmer;gbkey=CDS;gene=rpoB;locus_tag=magsep_42;product=DNA-directed RNA polymerase subunit beta;protein_id=PIM95366.1;transl_table=4
+CM008763.1	Genbank	gene	30697	30789	.	-	.	ID=gene-magsep_43;Name=magsep_43;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_43
+CM008763.1	Genbank	rRNA	30697	30789	.	-	.	ID=rna-magsep_43;Parent=gene-magsep_43;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_43;product=5S ribosomal RNA
+CM008763.1	Genbank	exon	30697	30789	.	-	.	ID=exon-magsep_43-1;Parent=rna-magsep_43;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_43;product=5S ribosomal RNA
+CM008763.1	Genbank	gene	33127	33203	.	-	.	ID=gene-magsep_44;Name=tRNA-Gly;gbkey=Gene;gene=tRNA-Gly;gene_biotype=tRNA;locus_tag=magsep_44
+CM008763.1	Genbank	tRNA	33127	33203	.	-	.	ID=rna-magsep_44;Parent=gene-magsep_44;Note=ARAGORN_v1.2.36%3B tRNA-Gly(gcc);gbkey=tRNA;gene=tRNA-Gly;locus_tag=magsep_44;product=tRNA-Gly
+CM008763.1	Genbank	exon	33127	33203	.	-	.	ID=exon-magsep_44-1;Parent=rna-magsep_44;Note=ARAGORN_v1.2.36%3B tRNA-Gly(gcc);gbkey=tRNA;gene=tRNA-Gly;locus_tag=magsep_44;product=tRNA-Gly
+CM008763.1	Genbank	gene	37619	38560	.	-	.	ID=gene-magsep_45;Name=metF;gbkey=Gene;gene=metF;gene_biotype=protein_coding;locus_tag=magsep_45
+CM008763.1	Genbank	CDS	37619	38560	.	-	0	ID=cds-PIM95367.1;Parent=gene-magsep_45;Dbxref=NCBI_GP:PIM95367.1;Name=PIM95367.1;Note=phmmer;gbkey=CDS;gene=metF;locus_tag=magsep_45;product=5%2C10-methylenetetrahydrofolate reductase;protein_id=PIM95367.1;transl_table=4
+CM008763.1	Genbank	gene	38669	39301	.	-	.	ID=gene-magsep_46;Name=hisI;gbkey=Gene;gene=hisI;gene_biotype=protein_coding;locus_tag=magsep_46
+CM008763.1	Genbank	CDS	38669	39301	.	-	0	ID=cds-PIM95368.1;Parent=gene-magsep_46;Dbxref=NCBI_GP:PIM95368.1;Name=PIM95368.1;Note=manual;gbkey=CDS;gene=hisI;locus_tag=magsep_46;product=Phosphoribosyl-AMP cyclohydrolase;protein_id=PIM95368.1;transl_table=4
+CM008763.1	Genbank	gene	39393	40181	.	-	.	ID=gene-magsep_47;Name=hisF;gbkey=Gene;gene=hisF;gene_biotype=protein_coding;locus_tag=magsep_47
+CM008763.1	Genbank	CDS	39393	40181	.	-	0	ID=cds-PIM95369.1;Parent=gene-magsep_47;Dbxref=NCBI_GP:PIM95369.1;Name=PIM95369.1;Note=phmmer;gbkey=CDS;gene=hisF;locus_tag=magsep_47;product=Imidazole glycerol phosphate synthase subunit HisF;protein_id=PIM95369.1;transl_table=4
+CM008763.1	Genbank	gene	40174	40920	.	-	.	ID=gene-magsep_48;Name=hisA;gbkey=Gene;gene=hisA;gene_biotype=protein_coding;locus_tag=magsep_48
+CM008763.1	Genbank	CDS	40174	40920	.	-	0	ID=cds-PIM95370.1;Parent=gene-magsep_48;Dbxref=NCBI_GP:PIM95370.1;Name=PIM95370.1;Note=phmmer;gbkey=CDS;gene=hisA;locus_tag=magsep_48;product=1-(5-phosphoribosyl)-5-[(5- phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase;protein_id=PIM95370.1;transl_table=4
+CM008763.1	Genbank	gene	40899	41555	.	-	.	ID=gene-magsep_49;Name=hisH;gbkey=Gene;gene=hisH;gene_biotype=protein_coding;locus_tag=magsep_49
+CM008763.1	Genbank	CDS	40899	41555	.	-	0	ID=cds-PIM95371.1;Parent=gene-magsep_49;Dbxref=NCBI_GP:PIM95371.1;Name=PIM95371.1;Note=phmmer;gbkey=CDS;gene=hisH;locus_tag=magsep_49;product=Imidazole glycerol phosphate synthase subunit HisH 1;protein_id=PIM95371.1;transl_table=4
+CM008763.1	Genbank	gene	41546	42127	.	-	.	ID=gene-magsep_50;Name=hisB;gbkey=Gene;gene=hisB;gene_biotype=protein_coding;locus_tag=magsep_50
+CM008763.1	Genbank	CDS	41546	42127	.	-	0	ID=cds-PIM95372.1;Parent=gene-magsep_50;Dbxref=NCBI_GP:PIM95372.1;Name=PIM95372.1;Note=phmmer;gbkey=CDS;gene=hisB;locus_tag=magsep_50;product=Imidazoleglycerol-phosphate dehydratase;protein_id=PIM95372.1;transl_table=4
+CM008763.1	Genbank	gene	42136	42543	.	-	.	ID=gene-magsep_51;Name=rpsI;gbkey=Gene;gene=rpsI;gene_biotype=protein_coding;locus_tag=magsep_51
+CM008763.1	Genbank	CDS	42136	42543	.	-	0	ID=cds-PIM95373.1;Parent=gene-magsep_51;Dbxref=NCBI_GP:PIM95373.1;Name=PIM95373.1;Note=phmmer;gbkey=CDS;gene=rpsI;locus_tag=magsep_51;product=30S ribosomal subunit protein S9;protein_id=PIM95373.1;transl_table=4
+CM008763.1	Genbank	gene	42536	42922	.	-	.	ID=gene-magsep_52;Name=rplM;gbkey=Gene;gene=rplM;gene_biotype=protein_coding;locus_tag=magsep_52
+CM008763.1	Genbank	CDS	42536	42922	.	-	0	ID=cds-PIM95374.1;Parent=gene-magsep_52;Dbxref=NCBI_GP:PIM95374.1;Name=PIM95374.1;Note=phmmer;gbkey=CDS;gene=rplM;locus_tag=magsep_52;product=50S ribosomal protein L13;protein_id=PIM95374.1;transl_table=4
+CM008763.1	Genbank	gene	48004	51585	.	-	.	ID=gene-magsep_53;Name=metH;gbkey=Gene;gene=metH;gene_biotype=protein_coding;locus_tag=magsep_53
+CM008763.1	Genbank	CDS	48004	51585	.	-	0	ID=cds-PIM95375.1;Parent=gene-magsep_53;Dbxref=NCBI_GP:PIM95375.1;Name=PIM95375.1;Note=phmmer;gbkey=CDS;gene=metH;locus_tag=magsep_53;product=Methionine synthase;protein_id=PIM95375.1;transl_table=4
+CM008763.1	Genbank	gene	51652	52446	.	-	.	ID=gene-magsep_54;Name=hisN;gbkey=Gene;gene=hisN;gene_biotype=protein_coding;locus_tag=magsep_54
+CM008763.1	Genbank	CDS	51652	52446	.	-	0	ID=cds-PIM95376.1;Parent=gene-magsep_54;Dbxref=NCBI_GP:PIM95376.1;Name=PIM95376.1;Note=phmmer;gbkey=CDS;gene=hisN;locus_tag=magsep_54;product=Histidinol phosphatase;protein_id=PIM95376.1;transl_table=4
+CM008763.1	Genbank	gene	54958	56574	.	-	.	ID=gene-magsep_55;Name=groL;gbkey=Gene;gene=groL;gene_biotype=protein_coding;locus_tag=magsep_55
+CM008763.1	Genbank	CDS	54958	56574	.	-	0	ID=cds-PIM95377.1;Parent=gene-magsep_55;Dbxref=NCBI_GP:PIM95377.1;Name=PIM95377.1;Note=phmmer;gbkey=CDS;gene=groL;locus_tag=magsep_55;product=60 kDa chaperonin;protein_id=PIM95377.1;transl_table=4
+CM008763.1	Genbank	gene	56574	56843	.	-	.	ID=gene-magsep_56;Name=groS;gbkey=Gene;gene=groS;gene_biotype=protein_coding;locus_tag=magsep_56
+CM008763.1	Genbank	CDS	56574	56843	.	-	0	ID=cds-PIM95378.1;Parent=gene-magsep_56;Dbxref=NCBI_GP:PIM95378.1;Name=PIM95378.1;Note=phmmer;gbkey=CDS;gene=groS;locus_tag=magsep_56;product=10 kDa chaperonin;protein_id=PIM95378.1;transl_table=4
+##sequence-region CM008764.1 1 56298
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008764.1	Genbank	region	1	56298	.	+	.	ID=CM008764.1:1..56298;Dbxref=taxon:573658;Is_circular=true;Name=variant5;chromosome=variant5;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008764.1	Genbank	gene	2312	3595	.	-	.	ID=gene-magsep_57;Name=sufS;gbkey=Gene;gene=sufS;gene_biotype=protein_coding;locus_tag=magsep_57
+CM008764.1	Genbank	CDS	2312	3595	.	-	0	ID=cds-PIM95354.1;Parent=gene-magsep_57;Dbxref=NCBI_GP:PIM95354.1;Name=PIM95354.1;Note=phmmer;gbkey=CDS;gene=sufS;locus_tag=magsep_57;product=Cysteine desulfurase;protein_id=PIM95354.1;transl_table=4
+CM008764.1	Genbank	gene	3916	4590	.	-	.	ID=gene-magsep_58;Name=sufC;gbkey=Gene;gene=sufC;gene_biotype=protein_coding;locus_tag=magsep_58
+CM008764.1	Genbank	CDS	3916	4590	.	-	0	ID=cds-PIM95355.1;Parent=gene-magsep_58;Dbxref=NCBI_GP:PIM95355.1;Name=PIM95355.1;Note=phmmer;gbkey=CDS;gene=sufC;locus_tag=magsep_58;product=FeS assembly ATPase SufC;protein_id=PIM95355.1;transl_table=4
+CM008764.1	Genbank	gene	8499	9719	.	-	.	ID=gene-magsep_59;Name=rpoD;gbkey=Gene;gene=rpoD;gene_biotype=protein_coding;locus_tag=magsep_59
+CM008764.1	Genbank	CDS	8499	9719	.	-	0	ID=cds-PIM95356.1;Parent=gene-magsep_59;Dbxref=NCBI_GP:PIM95356.1;Name=PIM95356.1;Note=phmmer;gbkey=CDS;gene=rpoD;locus_tag=magsep_59;product=RNA polymerase sigma factor rpoD;protein_id=PIM95356.1;transl_table=4
+CM008764.1	Genbank	gene	17762	20472	.	-	.	ID=gene-magsep_60;Name=magsep_60;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_60
+CM008764.1	Genbank	rRNA	17762	20472	.	-	.	ID=rna-magsep_60;Parent=gene-magsep_60;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_60;product=23S ribosomal RNA
+CM008764.1	Genbank	exon	17762	20472	.	-	.	ID=exon-magsep_60-1;Parent=rna-magsep_60;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_60;product=23S ribosomal RNA
+CM008764.1	Genbank	gene	20918	22465	.	-	.	ID=gene-magsep_61;Name=magsep_61;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_61
+CM008764.1	Genbank	rRNA	20918	22465	.	-	.	ID=rna-magsep_61;Parent=gene-magsep_61;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_61;product=16S ribosomal RNA
+CM008764.1	Genbank	exon	20918	22465	.	-	.	ID=exon-magsep_61-1;Parent=rna-magsep_61;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_61;product=16S ribosomal RNA
+CM008764.1	Genbank	gene	26102	26965	.	+	.	ID=gene-magsep_62;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_62
+CM008764.1	Genbank	CDS	26102	26965	.	+	0	ID=cds-PIM95357.1;Parent=gene-magsep_62;Dbxref=NCBI_GP:PIM95357.1;Name=PIM95357.1;Note=phmmer;gbkey=CDS;gene=fpr;locus_tag=magsep_62;product=Ferredoxin--NADP reductase;protein_id=PIM95357.1;transl_table=4
+CM008764.1	Genbank	gene	27208	28287	.	+	.	ID=gene-magsep_63;Name=cysK;gbkey=Gene;gene=cysK;gene_biotype=protein_coding;locus_tag=magsep_63
+CM008764.1	Genbank	CDS	27208	28287	.	+	0	ID=cds-PIM95358.1;Parent=gene-magsep_63;Dbxref=NCBI_GP:PIM95358.1;Name=PIM95358.1;Note=phmmer;gbkey=CDS;gene=cysK;locus_tag=magsep_63;product=Cysteine synthase;protein_id=PIM95358.1;transl_table=4
+CM008764.1	Genbank	gene	29213	29284	.	+	.	ID=gene-magsep_64;Name=tRNA-Trp;gbkey=Gene;gene=tRNA-Trp;gene_biotype=tRNA;locus_tag=magsep_64
+CM008764.1	Genbank	tRNA	29213	29284	.	+	.	ID=rna-magsep_64;Parent=gene-magsep_64;Note=ARAGORN_v1.2.36%3B tRNA-Trp(tca);gbkey=tRNA;gene=tRNA-Trp;locus_tag=magsep_64;product=tRNA-Trp
+CM008764.1	Genbank	exon	29213	29284	.	+	.	ID=exon-magsep_64-1;Parent=rna-magsep_64;Note=ARAGORN_v1.2.36%3B tRNA-Trp(tca);gbkey=tRNA;gene=tRNA-Trp;locus_tag=magsep_64;product=tRNA-Trp
+CM008764.1	Genbank	gene	29339	29782	.	+	.	ID=gene-magsep_65;Name=rplK;gbkey=Gene;gene=rplK;gene_biotype=protein_coding;locus_tag=magsep_65
+CM008764.1	Genbank	CDS	29339	29782	.	+	0	ID=cds-PIM95359.1;Parent=gene-magsep_65;Dbxref=NCBI_GP:PIM95359.1;Name=PIM95359.1;Note=phmmer;gbkey=CDS;gene=rplK;locus_tag=magsep_65;product=50S ribosomal subunit protein L11;protein_id=PIM95359.1;transl_table=4
+CM008764.1	Genbank	gene	29766	30287	.	+	.	ID=gene-magsep_66;Name=rplJ;gbkey=Gene;gene=rplJ;gene_biotype=protein_coding;locus_tag=magsep_66
+CM008764.1	Genbank	CDS	29766	30287	.	+	0	ID=cds-PIM95360.1;Parent=gene-magsep_66;Dbxref=NCBI_GP:PIM95360.1;Name=PIM95360.1;Note=phmmer;gbkey=CDS;gene=rplJ;locus_tag=magsep_66;product=50S ribosomal protein L10;protein_id=PIM95360.1;transl_table=4
+CM008764.1	Genbank	gene	36071	36565	.	+	.	ID=gene-magsep_67;Name=rluA;gbkey=Gene;gene=rluA;gene_biotype=protein_coding;locus_tag=magsep_67
+CM008764.1	Genbank	CDS	36071	36565	.	+	0	ID=cds-PIM95361.1;Parent=gene-magsep_67;Dbxref=NCBI_GP:PIM95361.1;Name=PIM95361.1;Note=phmmer;gbkey=CDS;gene=rluA;locus_tag=magsep_67;product=pseudouridine synthase%2C RluA family;protein_id=PIM95361.1;transl_table=4
+CM008764.1	Genbank	gene	38109	39143	.	-	.	ID=gene-magsep_68;Name=cobL;gbkey=Gene;gene=cobL;gene_biotype=protein_coding;locus_tag=magsep_68
+CM008764.1	Genbank	CDS	38109	39143	.	-	0	ID=cds-PIM95362.1;Parent=gene-magsep_68;Dbxref=NCBI_GP:PIM95362.1;Name=PIM95362.1;Note=phmmer;gbkey=CDS;gene=cobL;locus_tag=magsep_68;product=Precorrin-6Y C5%2C15-methyltransferase;protein_id=PIM95362.1;transl_table=4
+##sequence-region CM008765.1 1 56278
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008765.1	Genbank	region	1	56278	.	+	.	ID=CM008765.1:1..56278;Dbxref=taxon:573658;Is_circular=true;Name=variant6;chromosome=variant6;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008765.1	Genbank	gene	742	2289	.	+	.	ID=gene-magsep_69;Name=magsep_69;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_69
+CM008765.1	Genbank	rRNA	742	2289	.	+	.	ID=rna-magsep_69;Parent=gene-magsep_69;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_69;product=16S ribosomal RNA
+CM008765.1	Genbank	exon	742	2289	.	+	.	ID=exon-magsep_69-1;Parent=rna-magsep_69;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_69;product=16S ribosomal RNA
+CM008765.1	Genbank	gene	2735	5445	.	+	.	ID=gene-magsep_70;Name=magsep_70;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_70
+CM008765.1	Genbank	rRNA	2735	5445	.	+	.	ID=rna-magsep_70;Parent=gene-magsep_70;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_70;product=23S ribosomal RNA
+CM008765.1	Genbank	exon	2735	5445	.	+	.	ID=exon-magsep_70-1;Parent=rna-magsep_70;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_70;product=23S ribosomal RNA
+CM008765.1	Genbank	gene	13483	14703	.	+	.	ID=gene-magsep_71;Name=rpoD;gbkey=Gene;gene=rpoD;gene_biotype=protein_coding;locus_tag=magsep_71
+CM008765.1	Genbank	CDS	13483	14703	.	+	0	ID=cds-PIM95348.1;Parent=gene-magsep_71;Dbxref=NCBI_GP:PIM95348.1;Name=PIM95348.1;Note=phmmer;gbkey=CDS;gene=rpoD;locus_tag=magsep_71;product=RNA polymerase sigma factor rpoD;protein_id=PIM95348.1;transl_table=4
+CM008765.1	Genbank	gene	18606	19280	.	+	.	ID=gene-magsep_72;Name=sufC;gbkey=Gene;gene=sufC;gene_biotype=protein_coding;locus_tag=magsep_72
+CM008765.1	Genbank	CDS	18606	19280	.	+	0	ID=cds-PIM95349.1;Parent=gene-magsep_72;Dbxref=NCBI_GP:PIM95349.1;Name=PIM95349.1;Note=phmmer;gbkey=CDS;gene=sufC;locus_tag=magsep_72;product=FeS assembly ATPase SufC;protein_id=PIM95349.1;transl_table=4
+CM008765.1	Genbank	gene	19523	20812	.	+	.	ID=gene-magsep_73;Name=sufS;gbkey=Gene;gene=sufS;gene_biotype=protein_coding;locus_tag=magsep_73
+CM008765.1	Genbank	CDS	19523	20812	.	+	0	ID=cds-PIM95350.1;Parent=gene-magsep_73;Dbxref=NCBI_GP:PIM95350.1;Name=PIM95350.1;Note=phmmer;gbkey=CDS;gene=sufS;locus_tag=magsep_73;product=Cysteine desulfurase;protein_id=PIM95350.1;transl_table=4
+CM008765.1	Genbank	gene	43126	43539	.	-	.	ID=gene-magsep_74;Name=rluA;gbkey=Gene;gene=rluA;gene_biotype=protein_coding;locus_tag=magsep_74
+CM008765.1	Genbank	CDS	43126	43539	.	-	0	ID=cds-PIM95351.1;Parent=gene-magsep_74;Dbxref=NCBI_GP:PIM95351.1;Name=PIM95351.1;Note=phmmer;gbkey=CDS;gene=rluA;locus_tag=magsep_74;product=pseudouridine synthase%2C RluA family;protein_id=PIM95351.1;transl_table=4
+CM008765.1	Genbank	gene	50202	50273	.	-	.	ID=gene-magsep_75;Name=tRNA-Trp;gbkey=Gene;gene=tRNA-Trp;gene_biotype=tRNA;locus_tag=magsep_75
+CM008765.1	Genbank	tRNA	50202	50273	.	-	.	ID=rna-magsep_75;Parent=gene-magsep_75;Note=ARAGORN_v1.2.36%3B tRNA-Trp(tca);gbkey=tRNA;gene=tRNA-Trp;locus_tag=magsep_75;product=tRNA-Trp
+CM008765.1	Genbank	exon	50202	50273	.	-	.	ID=exon-magsep_75-1;Parent=rna-magsep_75;Note=ARAGORN_v1.2.36%3B tRNA-Trp(tca);gbkey=tRNA;gene=tRNA-Trp;locus_tag=magsep_75;product=tRNA-Trp
+CM008765.1	Genbank	gene	51200	52279	.	-	.	ID=gene-magsep_76;Name=cysK;gbkey=Gene;gene=cysK;gene_biotype=protein_coding;locus_tag=magsep_76
+CM008765.1	Genbank	CDS	51200	52279	.	-	0	ID=cds-PIM95352.1;Parent=gene-magsep_76;Dbxref=NCBI_GP:PIM95352.1;Name=PIM95352.1;Note=phmmer;gbkey=CDS;gene=cysK;locus_tag=magsep_76;product=Cysteine synthase;protein_id=PIM95352.1;transl_table=4
+CM008765.1	Genbank	gene	52522	53385	.	-	.	ID=gene-magsep_77;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_77
+CM008765.1	Genbank	CDS	52522	53385	.	-	0	ID=cds-PIM95353.1;Parent=gene-magsep_77;Dbxref=NCBI_GP:PIM95353.1;Name=PIM95353.1;Note=phmmer;gbkey=CDS;gene=fpr;locus_tag=magsep_77;product=Ferredoxin--NADP reductase;protein_id=PIM95353.1;transl_table=4
+##sequence-region CM008766.1 1 48066
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008766.1	Genbank	region	1	48066	.	+	.	ID=CM008766.1:1..48066;Dbxref=taxon:573658;Is_circular=true;Name=variant7;chromosome=variant7;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008766.1	Genbank	gene	1414	1539	.	-	.	ID=gene-magsep_78;Name=rpmJ;gbkey=Gene;gene=rpmJ;gene_biotype=protein_coding;locus_tag=magsep_78
+CM008766.1	Genbank	CDS	1414	1539	.	-	0	ID=cds-PIM95336.1;Parent=gene-magsep_78;Dbxref=NCBI_GP:PIM95336.1;Name=PIM95336.1;Note=phmmer;gbkey=CDS;gene=rpmJ;locus_tag=magsep_78;product=50S ribosomal protein L36;protein_id=PIM95336.1;transl_table=4
+CM008766.1	Genbank	gene	3454	3524	.	-	.	ID=gene-magsep_79;Name=tRNA-Cys;gbkey=Gene;gene=tRNA-Cys;gene_biotype=tRNA;locus_tag=magsep_79
+CM008766.1	Genbank	tRNA	3454	3524	.	-	.	ID=rna-magsep_79;Parent=gene-magsep_79;Note=ARAGORN_v1.2.36%3B tRNA-Cys(gca);gbkey=tRNA;gene=tRNA-Cys;locus_tag=magsep_79;product=tRNA-Cys
+CM008766.1	Genbank	exon	3454	3524	.	-	.	ID=exon-magsep_79-1;Parent=rna-magsep_79;Note=ARAGORN_v1.2.36%3B tRNA-Cys(gca);gbkey=tRNA;gene=tRNA-Cys;locus_tag=magsep_79;product=tRNA-Cys
+CM008766.1	Genbank	gene	3871	5151	.	-	.	ID=gene-magsep_80;Name=sufB;gbkey=Gene;gene=sufB;gene_biotype=protein_coding;locus_tag=magsep_80
+CM008766.1	Genbank	CDS	3871	5151	.	-	0	ID=cds-PIM95337.1;Parent=gene-magsep_80;Dbxref=NCBI_GP:PIM95337.1;Name=PIM95337.1;Note=phmmer;gbkey=CDS;gene=sufB;locus_tag=magsep_80;product=FeS cluster assembly protein sufB;protein_id=PIM95337.1;transl_table=4
+CM008766.1	Genbank	gene	9802	10518	.	-	.	ID=gene-magsep_81;Name=magsep_81;Note=xxxD;gbkey=Gene;gene_biotype=protein_coding;locus_tag=magsep_81
+CM008766.1	Genbank	CDS	9802	10518	.	-	0	ID=cds-PIM95338.1;Parent=gene-magsep_81;Dbxref=NCBI_GP:PIM95338.1;Name=PIM95338.1;Note=phmmer;gbkey=CDS;locus_tag=magsep_81;product=hypothetical protein;protein_id=PIM95338.1;transl_table=4
+CM008766.1	Genbank	gene	12447	15641	.	-	.	ID=gene-magsep_82;Name=metH;gbkey=Gene;gene=metH;gene_biotype=protein_coding;locus_tag=magsep_82
+CM008766.1	Genbank	CDS	12447	15641	.	-	0	ID=cds-PIM95339.1;Parent=gene-magsep_82;Dbxref=NCBI_GP:PIM95339.1;Name=PIM95339.1;Note=phmmer;gbkey=CDS;gene=metH;locus_tag=magsep_82;product=Methionine synthase;protein_id=PIM95339.1;transl_table=4
+CM008766.1	Genbank	gene	25312	29292	.	-	.	ID=gene-magsep_83;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=magsep_83
+CM008766.1	Genbank	CDS	25312	29292	.	-	0	ID=cds-PIM95340.1;Parent=gene-magsep_83;Dbxref=NCBI_GP:PIM95340.1;Name=PIM95340.1;Note=phmmer;gbkey=CDS;gene=rpoC;locus_tag=magsep_83;product=DNA-directed RNA polymerase subunit beta';protein_id=PIM95340.1;transl_table=4
+CM008766.1	Genbank	gene	29285	33100	.	-	.	ID=gene-magsep_84;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=magsep_84
+CM008766.1	Genbank	CDS	29285	33100	.	-	0	ID=cds-PIM95341.1;Parent=gene-magsep_84;Dbxref=NCBI_GP:PIM95341.1;Name=PIM95341.1;Note=phmmer;gbkey=CDS;gene=rpoB;locus_tag=magsep_84;product=DNA-directed RNA polymerase subunit beta;protein_id=PIM95341.1;transl_table=4
+CM008766.1	Genbank	gene	36239	37126	.	-	.	ID=gene-magsep_85;Name=metC;gbkey=Gene;gene=metC;gene_biotype=protein_coding;locus_tag=magsep_85
+CM008766.1	Genbank	CDS	36239	37126	.	-	0	ID=cds-PIM95342.1;Parent=gene-magsep_85;Dbxref=NCBI_GP:PIM95342.1;Name=PIM95342.1;Note=HMMER_3.1b2;gbkey=CDS;gene=metC;locus_tag=magsep_85;product=cystathionine beta-lyase;protein_id=PIM95342.1;transl_table=4
+CM008766.1	Genbank	gene	37555	38163	.	-	.	ID=gene-magsep_86;Name=ribC;gbkey=Gene;gene=ribC;gene_biotype=protein_coding;locus_tag=magsep_86
+CM008766.1	Genbank	CDS	37555	38163	.	-	0	ID=cds-PIM95343.1;Parent=gene-magsep_86;Dbxref=NCBI_GP:PIM95343.1;Name=PIM95343.1;Note=HMMER_3.1b2;gbkey=CDS;gene=ribC;locus_tag=magsep_86;product=Riboflavin synthase alpha chain;protein_id=PIM95343.1;transl_table=4
+CM008766.1	Genbank	gene	38300	39700	.	-	.	ID=gene-magsep_87;Name=glyA;gbkey=Gene;gene=glyA;gene_biotype=protein_coding;locus_tag=magsep_87
+CM008766.1	Genbank	CDS	38300	39700	.	-	0	ID=cds-PIM95344.1;Parent=gene-magsep_87;Dbxref=NCBI_GP:PIM95344.1;Name=PIM95344.1;Note=phmmer;gbkey=CDS;gene=glyA;locus_tag=magsep_87;product=Serine hydroxymethyltransferase;protein_id=PIM95344.1;transl_table=4
+CM008766.1	Genbank	gene	39869	40252	.	-	.	ID=gene-magsep_88;Name=rpsL;gbkey=Gene;gene=rpsL;gene_biotype=protein_coding;locus_tag=magsep_88
+CM008766.1	Genbank	CDS	39869	40252	.	-	0	ID=cds-PIM95345.1;Parent=gene-magsep_88;Dbxref=NCBI_GP:PIM95345.1;Name=PIM95345.1;Note=phmmer;gbkey=CDS;gene=rpsL;locus_tag=magsep_88;product=30S ribosomal protein S12;protein_id=PIM95345.1;transl_table=4
+CM008766.1	Genbank	gene	46712	48065	.	-	.	ID=gene-magsep_89;Name=magsep_89;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_89
+CM008766.1	Genbank	rRNA	46712	48065	.	-	.	ID=rna-magsep_89;Parent=gene-magsep_89;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_89;product=16S ribosomal RNA
+CM008766.1	Genbank	exon	46712	48065	.	-	.	ID=exon-magsep_89-1;Parent=rna-magsep_89;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_89;product=16S ribosomal RNA
+##sequence-region CM008767.1 1 43440
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008767.1	Genbank	region	1	43440	.	+	.	ID=CM008767.1:1..43440;Dbxref=taxon:573658;Is_circular=true;Name=variant8;chromosome=variant8;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008767.1	Genbank	gene	5736	6665	.	-	.	ID=gene-magsep_90;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_90
+CM008767.1	Genbank	CDS	5736	6665	.	-	0	ID=cds-PIM95333.1;Parent=gene-magsep_90;Dbxref=NCBI_GP:PIM95333.1;Name=PIM95333.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_90;product=cobalamin biosynthesis protein;protein_id=PIM95333.1;transl_table=4
+CM008767.1	Genbank	gene	31190	31945	.	-	.	ID=gene-magsep_91;Name=cobM;gbkey=Gene;gene=cobM;gene_biotype=protein_coding;locus_tag=magsep_91
+CM008767.1	Genbank	CDS	31190	31945	.	-	0	ID=cds-PIM95334.1;Parent=gene-magsep_91;Dbxref=NCBI_GP:PIM95334.1;Name=PIM95334.1;Note=phmmer;gbkey=CDS;gene=cobM;locus_tag=magsep_91;product=Cobalt-precorrin-4 C(11)-methyltransferase;protein_id=PIM95334.1;transl_table=4
+CM008767.1	Genbank	gene	39184	40632	.	-	.	ID=gene-magsep_92;Name=infB;gbkey=Gene;gene=infB;gene_biotype=protein_coding;locus_tag=magsep_92
+CM008767.1	Genbank	CDS	39184	40632	.	-	0	ID=cds-PIM95335.1;Parent=gene-magsep_92;Dbxref=NCBI_GP:PIM95335.1;Name=PIM95335.1;Note=phmmer;gbkey=CDS;gene=infB;locus_tag=magsep_92;product=Translation initiation factor IF-2;protein_id=PIM95335.1;transl_table=4
+##sequence-region CM008768.1 1 34489
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008768.1	Genbank	region	1	34489	.	+	.	ID=CM008768.1:1..34489;Dbxref=taxon:573658;Is_circular=true;Name=variant9;chromosome=variant9;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008768.1	Genbank	gene	20367	21026	.	+	.	ID=gene-magsep_93;Name=hisG;gbkey=Gene;gene=hisG;gene_biotype=protein_coding;locus_tag=magsep_93
+CM008768.1	Genbank	CDS	20367	21026	.	+	0	ID=cds-PIM95329.1;Parent=gene-magsep_93;Dbxref=NCBI_GP:PIM95329.1;Name=PIM95329.1;Note=phmmer;gbkey=CDS;gene=hisG;locus_tag=magsep_93;product=ATP phosphoribosyltransferase;protein_id=PIM95329.1;transl_table=4
+CM008768.1	Genbank	gene	24513	27707	.	+	.	ID=gene-magsep_94;Name=cobN;gbkey=Gene;gene=cobN;gene_biotype=protein_coding;locus_tag=magsep_94
+CM008768.1	Genbank	CDS	24513	27707	.	+	0	ID=cds-PIM95330.1;Parent=gene-magsep_94;Dbxref=NCBI_GP:PIM95330.1;Name=PIM95330.1;Note=phmmer;gbkey=CDS;gene=cobN;locus_tag=magsep_94;product=Aerobic cobaltochelatase subunit CobN;protein_id=PIM95330.1;transl_table=4
+CM008768.1	Genbank	gene	28935	29882	.	+	.	ID=gene-magsep_95;Name=pcobS;gbkey=Gene;gene=pcobS;gene_biotype=protein_coding;locus_tag=magsep_95
+CM008768.1	Genbank	CDS	28935	29882	.	+	0	ID=cds-PIM95331.1;Parent=gene-magsep_95;Dbxref=NCBI_GP:PIM95331.1;Name=PIM95331.1;Note=phmmer;gbkey=CDS;gene=pcobS;locus_tag=magsep_95;product=Cobalamin biosynthesis protein CobS;protein_id=PIM95331.1;transl_table=4
+CM008768.1	Genbank	gene	30360	31262	.	+	.	ID=gene-magsep_96;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_96
+CM008768.1	Genbank	CDS	30360	31262	.	+	0	ID=cds-PIM95332.1;Parent=gene-magsep_96;Dbxref=NCBI_GP:PIM95332.1;Name=PIM95332.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_96;product=cobalamin biosynthesis protein;protein_id=PIM95332.1;transl_table=4
+##sequence-region CM008731.1 1 33034
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008731.1	Genbank	region	1	33034	.	+	.	ID=CM008731.1:1..33034;Dbxref=taxon:573658;Is_circular=true;Name=variant10;chromosome=variant10;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008731.1	Genbank	gene	11742	12959	.	-	.	ID=gene-magsep_97;Name=rpoD;gbkey=Gene;gene=rpoD;gene_biotype=protein_coding;locus_tag=magsep_97
+CM008731.1	Genbank	CDS	11742	12959	.	-	0	ID=cds-PIM95321.1;Parent=gene-magsep_97;Dbxref=NCBI_GP:PIM95321.1;Name=PIM95321.1;Note=phmmer;gbkey=CDS;gene=rpoD;locus_tag=magsep_97;product=RNA polymerase sigma factor rpoD;protein_id=PIM95321.1;transl_table=4
+CM008731.1	Genbank	gene	27815	28228	.	+	.	ID=gene-magsep_98;Name=yqgF;gbkey=Gene;gene=yqgF;gene_biotype=protein_coding;locus_tag=magsep_98
+CM008731.1	Genbank	CDS	27815	28228	.	+	0	ID=cds-PIM95322.1;Parent=gene-magsep_98;Dbxref=NCBI_GP:PIM95322.1;Name=PIM95322.1;Note=phmmer;gbkey=CDS;gene=yqgF;locus_tag=magsep_98;product=putative pre-16S rRNA nuclease;protein_id=PIM95322.1;transl_table=4
+CM008731.1	Genbank	gene	30193	31122	.	+	.	ID=gene-magsep_99;Name=prs;gbkey=Gene;gene=prs;gene_biotype=protein_coding;locus_tag=magsep_99
+CM008731.1	Genbank	CDS	30193	31122	.	+	0	ID=cds-PIM95323.1;Parent=gene-magsep_99;Dbxref=NCBI_GP:PIM95323.1;Name=PIM95323.1;Note=phmmer;gbkey=CDS;gene=prs;locus_tag=magsep_99;product=Ribose-phosphate pyrophosphokinase;protein_id=PIM95323.1;transl_table=4
+##sequence-region CM008732.1 1 28244
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008732.1	Genbank	region	1	28244	.	+	.	ID=CM008732.1:1..28244;Dbxref=taxon:573658;Is_circular=true;Name=variant11;chromosome=variant11;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008732.1	Genbank	gene	7229	7429	.	-	.	ID=gene-magsep_100;Name=infA;gbkey=Gene;gene=infA;gene_biotype=protein_coding;locus_tag=magsep_100
+CM008732.1	Genbank	CDS	7229	7429	.	-	0	ID=cds-PIM95316.1;Parent=gene-magsep_100;Dbxref=NCBI_GP:PIM95316.1;Name=PIM95316.1;Note=phmmer;gbkey=CDS;gene=infA;locus_tag=magsep_100;product=Translation initiation factor IF-1;protein_id=PIM95316.1;transl_table=4
+CM008732.1	Genbank	gene	13619	14638	.	-	.	ID=gene-magsep_101;Name=etfA;gbkey=Gene;gene=etfA;gene_biotype=protein_coding;locus_tag=magsep_101
+CM008732.1	Genbank	CDS	13619	14638	.	-	0	ID=cds-PIM95317.1;Parent=gene-magsep_101;Dbxref=NCBI_GP:PIM95317.1;Name=PIM95317.1;Note=phmmer;gbkey=CDS;gene=etfA;locus_tag=magsep_101;product=Electron transfer flavoprotein large subunit;protein_id=PIM95317.1;transl_table=4
+CM008732.1	Genbank	gene	14644	15384	.	-	.	ID=gene-magsep_102;Name=etfB;gbkey=Gene;gene=etfB;gene_biotype=protein_coding;locus_tag=magsep_102
+CM008732.1	Genbank	CDS	14644	15384	.	-	0	ID=cds-PIM95318.1;Parent=gene-magsep_102;Dbxref=NCBI_GP:PIM95318.1;Name=PIM95318.1;Note=phmmer;gbkey=CDS;gene=etfB;locus_tag=magsep_102;product=Electron transfer flavoprotein small subunit;protein_id=PIM95318.1;transl_table=4
+CM008732.1	Genbank	gene	15385	15939	.	-	.	ID=gene-magsep_103;Name=cycM;gbkey=Gene;gene=cycM;gene_biotype=protein_coding;locus_tag=magsep_103
+CM008732.1	Genbank	CDS	15385	15939	.	-	0	ID=cds-PIM95319.1;Parent=gene-magsep_103;Dbxref=NCBI_GP:PIM95319.1;Name=PIM95319.1;Note=phmmer;gbkey=CDS;gene=cycM;locus_tag=magsep_103;product=Cytochrome c;protein_id=PIM95319.1;transl_table=4
+##sequence-region CM008733.1 1 22960
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008733.1	Genbank	region	1	22960	.	+	.	ID=CM008733.1:1..22960;Dbxref=taxon:573658;Is_circular=true;Name=variant12;chromosome=variant12;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008733.1	Genbank	gene	11396	12364	.	-	.	ID=gene-magsep_104;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_104
+CM008733.1	Genbank	CDS	11396	12364	.	-	0	ID=cds-PIM95314.1;Parent=gene-magsep_104;Dbxref=NCBI_GP:PIM95314.1;Name=PIM95314.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_104;product=cobalamin biosynthesis protein;protein_id=PIM95314.1;transl_table=4
+CM008733.1	Genbank	gene	15275	15679	.	-	.	ID=gene-magsep_105;Name=ribH;gbkey=Gene;gene=ribH;gene_biotype=protein_coding;locus_tag=magsep_105
+CM008733.1	Genbank	CDS	15275	15679	.	-	0	ID=cds-PIM95315.1;Parent=gene-magsep_105;Dbxref=NCBI_GP:PIM95315.1;Name=PIM95315.1;Note=phmmer;gbkey=CDS;gene=ribH;locus_tag=magsep_105;product=6%2C7-dimethyl-8-ribityllumazine synthase;protein_id=PIM95315.1;transl_table=4
+CM008733.1	Genbank	gene	17376	17475	.	-	.	ID=gene-magsep_106;Name=magsep_106;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_106
+CM008733.1	Genbank	rRNA	17376	17475	.	-	.	ID=rna-magsep_106;Parent=gene-magsep_106;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_106;product=5S ribosomal RNA
+CM008733.1	Genbank	exon	17376	17475	.	-	.	ID=exon-magsep_106-1;Parent=rna-magsep_106;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_106;product=5S ribosomal RNA
+CM008733.1	Genbank	gene	17521	20111	.	-	.	ID=gene-magsep_107;Name=magsep_107;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_107
+CM008733.1	Genbank	rRNA	17521	20111	.	-	.	ID=rna-magsep_107;Parent=gene-magsep_107;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_107;product=23S ribosomal RNA
+CM008733.1	Genbank	exon	17521	20111	.	-	.	ID=exon-magsep_107-1;Parent=rna-magsep_107;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_107;product=23S ribosomal RNA
+CM008733.1	Genbank	gene	20383	21893	.	-	.	ID=gene-magsep_108;Name=magsep_108;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_108
+CM008733.1	Genbank	rRNA	20383	21893	.	-	.	ID=rna-magsep_108;Parent=gene-magsep_108;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_108;product=16S ribosomal RNA
+CM008733.1	Genbank	exon	20383	21893	.	-	.	ID=exon-magsep_108-1;Parent=rna-magsep_108;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_108;product=16S ribosomal RNA
+##sequence-region CM008734.1 1 22204
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008734.1	Genbank	region	1	22204	.	+	.	ID=CM008734.1:1..22204;Dbxref=taxon:573658;Is_circular=true;Name=variant13;chromosome=variant13;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008734.1	Genbank	gene	561	3150	.	-	.	ID=gene-magsep_110;Name=magsep_110;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_110
+CM008734.1	Genbank	rRNA	561	3150	.	-	.	ID=rna-magsep_110;Parent=gene-magsep_110;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_110;product=23S ribosomal RNA
+CM008734.1	Genbank	exon	561	3150	.	-	.	ID=exon-magsep_110-1;Parent=rna-magsep_110;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_110;product=23S ribosomal RNA
+CM008734.1	Genbank	gene	3828	5387	.	-	.	ID=gene-magsep_109;Name=magsep_109;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_109
+CM008734.1	Genbank	rRNA	3828	5387	.	-	.	ID=rna-magsep_109;Parent=gene-magsep_109;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_109;product=16S ribosomal RNA
+CM008734.1	Genbank	exon	3828	5387	.	-	.	ID=exon-magsep_109-1;Parent=rna-magsep_109;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_109;product=16S ribosomal RNA
+CM008734.1	Genbank	gene	12694	13425	.	-	.	ID=gene-magsep_111;Name=tsf;gbkey=Gene;gene=tsf;gene_biotype=protein_coding;locus_tag=magsep_111
+CM008734.1	Genbank	CDS	12694	13425	.	-	0	ID=cds-PIM95308.1;Parent=gene-magsep_111;Dbxref=NCBI_GP:PIM95308.1;Name=PIM95308.1;Note=phmmer;gbkey=CDS;gene=tsf;locus_tag=magsep_111;product=elongation factor EF-Ts;protein_id=PIM95308.1;transl_table=4
+CM008734.1	Genbank	gene	18590	19270	.	-	.	ID=gene-magsep_112;Name=cysE;gbkey=Gene;gene=cysE;gene_biotype=protein_coding;locus_tag=magsep_112
+CM008734.1	Genbank	CDS	18590	19270	.	-	0	ID=cds-PIM95309.1;Parent=gene-magsep_112;Dbxref=NCBI_GP:PIM95309.1;Name=PIM95309.1;Note=phmmer;gbkey=CDS;gene=cysE;locus_tag=magsep_112;product=Serine acetyltransferase;protein_id=PIM95309.1;transl_table=4
+##sequence-region CM008735.1 1 21903
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008735.1	Genbank	region	1	21903	.	+	.	ID=CM008735.1:1..21903;Dbxref=taxon:573658;Is_circular=true;Name=variant14;chromosome=variant14;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008735.1	Genbank	gene	3545	4420	.	-	.	ID=gene-magsep_113;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_113
+CM008735.1	Genbank	CDS	3545	4420	.	-	0	ID=cds-PIM95302.1;Parent=gene-magsep_113;Dbxref=NCBI_GP:PIM95302.1;Name=PIM95302.1;Note=phmmer;gbkey=CDS;gene=fpr;locus_tag=magsep_113;product=Ferredoxin--NADP reductase;protein_id=PIM95302.1;transl_table=4
+CM008735.1	Genbank	gene	19204	20112	.	-	.	ID=gene-magsep_114;Name=cobT;gbkey=Gene;gene=cobT;gene_biotype=protein_coding;locus_tag=magsep_114
+CM008735.1	Genbank	CDS	19204	20112	.	-	0	ID=cds-PIM95303.1;Parent=gene-magsep_114;Dbxref=NCBI_GP:PIM95303.1;Name=PIM95303.1;Note=phmmer;gbkey=CDS;gene=cobT;locus_tag=magsep_114;product=Aerobic cobaltochelatase subunit CobT;protein_id=PIM95303.1;transl_table=4
+CM008735.1	Genbank	gene	20091	21038	.	-	.	ID=gene-magsep_115;Name=pcobS;gbkey=Gene;gene=pcobS;gene_biotype=protein_coding;locus_tag=magsep_115
+CM008735.1	Genbank	CDS	20091	21038	.	-	0	ID=cds-PIM95304.1;Parent=gene-magsep_115;Dbxref=NCBI_GP:PIM95304.1;Name=PIM95304.1;Note=phmmer;gbkey=CDS;gene=pcobS;locus_tag=magsep_115;product=Cobalamin biosynthesis protein CobS;protein_id=PIM95304.1;transl_table=4
+##sequence-region CM008736.1 1 21496
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008736.1	Genbank	region	1	21496	.	+	.	ID=CM008736.1:1..21496;Dbxref=taxon:573658;Is_circular=true;Name=variant15;chromosome=variant15;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008736.1	Genbank	gene	1956	2663	.	+	.	ID=gene-magsep_116;Name=cobS;gbkey=Gene;gene=cobS;gene_biotype=protein_coding;locus_tag=magsep_116
+CM008736.1	Genbank	CDS	1956	2663	.	+	0	ID=cds-PIM95300.1;Parent=gene-magsep_116;Dbxref=NCBI_GP:PIM95300.1;Name=PIM95300.1;Note=phmmer;gbkey=CDS;gene=cobS;locus_tag=magsep_116;product=Adenosylcobinamide-GDP ribazoletransferase;protein_id=PIM95300.1;transl_table=4
+CM008736.1	Genbank	gene	18219	19457	.	-	.	ID=gene-magsep_117;Name=hisS;gbkey=Gene;gene=hisS;gene_biotype=protein_coding;locus_tag=magsep_117
+CM008736.1	Genbank	CDS	18219	19457	.	-	0	ID=cds-PIM95301.1;Parent=gene-magsep_117;Dbxref=NCBI_GP:PIM95301.1;Name=PIM95301.1;Note=phmmer;gbkey=CDS;gene=hisS;locus_tag=magsep_117;product=Histidine--tRNA ligase;protein_id=PIM95301.1;transl_table=4
+##sequence-region CM008737.1 1 19133
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008737.1	Genbank	region	1	19133	.	+	.	ID=CM008737.1:1..19133;Dbxref=taxon:573658;Is_circular=true;Name=variant16;chromosome=variant16;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008737.1	Genbank	gene	7932	8861	.	+	.	ID=gene-magsep_118;Name=ribD;gbkey=Gene;gene=ribD;gene_biotype=protein_coding;locus_tag=magsep_118
+CM008737.1	Genbank	CDS	7932	8861	.	+	0	ID=cds-PIM95283.1;Parent=gene-magsep_118;Dbxref=NCBI_GP:PIM95283.1;Name=PIM95283.1;Note=phmmer;gbkey=CDS;gene=ribD;locus_tag=magsep_118;product=Riboflavin biosynthesis protein RibD;protein_id=PIM95283.1;transl_table=4
+CM008737.1	Genbank	gene	17044	17640	.	+	.	ID=gene-magsep_119;Name=cobH;gbkey=Gene;gene=cobH;gene_biotype=protein_coding;locus_tag=magsep_119
+CM008737.1	Genbank	CDS	17044	17640	.	+	0	ID=cds-PIM95284.1;Parent=gene-magsep_119;Dbxref=NCBI_GP:PIM95284.1;Name=PIM95284.1;Note=phmmer;gbkey=CDS;gene=cobH;locus_tag=magsep_119;product=Precorrin-8X methylmutase;protein_id=PIM95284.1;transl_table=4
+##sequence-region CM008738.1 1 18932
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008738.1	Genbank	region	1	18932	.	+	.	ID=CM008738.1:1..18932;Dbxref=taxon:573658;Is_circular=true;Name=variant17;chromosome=variant17;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008738.1	Genbank	gene	6083	9832	.	+	.	ID=gene-magsep_120;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=magsep_120
+CM008738.1	Genbank	CDS	6083	9832	.	+	0	ID=cds-PIM95279.1;Parent=gene-magsep_120;Dbxref=NCBI_GP:PIM95279.1;Name=PIM95279.1;Note=phmmer;gbkey=CDS;gene=rpoB;locus_tag=magsep_120;product=DNA-directed RNA polymerase subunit beta;protein_id=PIM95279.1;transl_table=4
+CM008738.1	Genbank	gene	9835	13854	.	+	.	ID=gene-magsep_121;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=magsep_121
+CM008738.1	Genbank	CDS	9835	13854	.	+	0	ID=cds-PIM95280.1;Parent=gene-magsep_121;Dbxref=NCBI_GP:PIM95280.1;Name=PIM95280.1;Note=phmmer;gbkey=CDS;gene=rpoC;locus_tag=magsep_121;product=DNA-directed RNA polymerase subunit beta';protein_id=PIM95280.1;transl_table=4
+CM008738.1	Genbank	gene	13950	14525	.	+	.	ID=gene-magsep_122;Name=dnaQ;gbkey=Gene;gene=dnaQ;gene_biotype=protein_coding;locus_tag=magsep_122
+CM008738.1	Genbank	CDS	13950	14525	.	+	0	ID=cds-PIM95281.1;Parent=gene-magsep_122;Dbxref=NCBI_GP:PIM95281.1;Name=PIM95281.1;Note=phmmer;gbkey=CDS;gene=dnaQ;locus_tag=magsep_122;product=DNA polymerase III subunit epsilon;protein_id=PIM95281.1;transl_table=4
+CM008738.1	Genbank	gene	15500	16354	.	-	.	ID=gene-magsep_123;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_123
+CM008738.1	Genbank	CDS	15500	16354	.	-	0	ID=cds-PIM95282.1;Parent=gene-magsep_123;Dbxref=NCBI_GP:PIM95282.1;Name=PIM95282.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_123;product=cobalamin biosynthesis protein;protein_id=PIM95282.1;transl_table=4
+##sequence-region CM008739.1 1 17726
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008739.1	Genbank	region	1	17726	.	+	.	ID=CM008739.1:1..17726;Dbxref=taxon:573658;Is_circular=true;Name=variant18;chromosome=variant18;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008739.1	Genbank	gene	9989	10936	.	-	.	ID=gene-magsep_124;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_124
+CM008739.1	Genbank	CDS	9989	10936	.	-	0	ID=cds-PIM95278.1;Parent=gene-magsep_124;Dbxref=NCBI_GP:PIM95278.1;Name=PIM95278.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_124;product=cobalamin biosynthesis protein;protein_id=PIM95278.1;transl_table=4
+##sequence-region CM008740.1 1 15979
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008740.1	Genbank	region	1	15979	.	+	.	ID=CM008740.1:1..15979;Dbxref=taxon:573658;Is_circular=true;Name=variant19;chromosome=variant19;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008740.1	Genbank	gene	1614	4187	.	-	.	ID=gene-magsep_125;Name=magsep_125;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_125
+CM008740.1	Genbank	rRNA	1614	4187	.	-	.	ID=rna-magsep_125;Parent=gene-magsep_125;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_125;product=23S ribosomal RNA
+CM008740.1	Genbank	exon	1614	4187	.	-	.	ID=exon-magsep_125-1;Parent=rna-magsep_125;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_125;product=23S ribosomal RNA
+CM008740.1	Genbank	gene	4474	6010	.	-	.	ID=gene-magsep_126;Name=magsep_126;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_126
+CM008740.1	Genbank	rRNA	4474	6010	.	-	.	ID=rna-magsep_126;Parent=gene-magsep_126;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_126;product=16S ribosomal RNA
+CM008740.1	Genbank	exon	4474	6010	.	-	.	ID=exon-magsep_126-1;Parent=rna-magsep_126;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_126;product=16S ribosomal RNA
+CM008740.1	Genbank	gene	13485	14234	.	-	.	ID=gene-magsep_127;Name=hisE;gbkey=Gene;gene=hisE;gene_biotype=protein_coding;locus_tag=magsep_127
+CM008740.1	Genbank	CDS	13485	14234	.	-	0	ID=cds-PIM95276.1;Parent=gene-magsep_127;Dbxref=NCBI_GP:PIM95276.1;Name=PIM95276.1;Note=phmmer;gbkey=CDS;gene=hisE;locus_tag=magsep_127;product=Phosphoribosyl-ATP pyrophosphatase;protein_id=PIM95276.1;transl_table=4
+##sequence-region CM008742.1 1 11397
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008742.1	Genbank	region	1	11397	.	+	.	ID=CM008742.1:1..11397;Dbxref=taxon:573658;Is_circular=true;Name=variant20;chromosome=variant20;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008742.1	Genbank	gene	465	1319	.	+	.	ID=gene-magsep_128;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_128
+CM008742.1	Genbank	CDS	465	1319	.	+	0	ID=cds-PIM95274.1;Parent=gene-magsep_128;Dbxref=NCBI_GP:PIM95274.1;Name=PIM95274.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_128;product=cobalamin biosynthesis protein;protein_id=PIM95274.1;transl_table=4
+CM008742.1	Genbank	gene	9904	10473	.	-	.	ID=gene-magsep_129;Name=frr;gbkey=Gene;gene=frr;gene_biotype=protein_coding;locus_tag=magsep_129
+CM008742.1	Genbank	CDS	9904	10473	.	-	0	ID=cds-PIM95275.1;Parent=gene-magsep_129;Dbxref=NCBI_GP:PIM95275.1;Name=PIM95275.1;Note=phmmer;gbkey=CDS;gene=frr;locus_tag=magsep_129;product=ribosome recycling factor;protein_id=PIM95275.1;transl_table=4
+##sequence-region CM008743.1 1 11166
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008743.1	Genbank	region	1	11166	.	+	.	ID=CM008743.1:1..11166;Dbxref=taxon:573658;Is_circular=true;Name=variant21;chromosome=variant21;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008743.1	Genbank	gene	429	3138	.	-	.	ID=gene-magsep_131;Name=magsep_131;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_131
+CM008743.1	Genbank	rRNA	429	3138	.	-	.	ID=rna-magsep_131;Parent=gene-magsep_131;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_131;product=23S ribosomal RNA
+CM008743.1	Genbank	exon	429	3138	.	-	.	ID=exon-magsep_131-1;Parent=rna-magsep_131;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_131;product=23S ribosomal RNA
+CM008743.1	Genbank	gene	3244	4791	.	-	.	ID=gene-magsep_130;Name=magsep_130;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_130
+CM008743.1	Genbank	rRNA	3244	4791	.	-	.	ID=rna-magsep_130;Parent=gene-magsep_130;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_130;product=16S ribosomal RNA
+CM008743.1	Genbank	exon	3244	4791	.	-	.	ID=exon-magsep_130-1;Parent=rna-magsep_130;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_130;product=16S ribosomal RNA
+##sequence-region CM008744.1 1 3224
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008744.1	Genbank	region	1	3224	.	+	.	ID=CM008744.1:1..3224;Dbxref=taxon:573658;Is_circular=true;Name=variant22;chromosome=variant22;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008744.1	Genbank	gene	1110	2219	.	-	.	ID=gene-magsep_132;Name=etfA;gbkey=Gene;gene=etfA;gene_biotype=protein_coding;locus_tag=magsep_132
+CM008744.1	Genbank	CDS	1110	2219	.	-	0	ID=cds-PIM95266.1;Parent=gene-magsep_132;Dbxref=NCBI_GP:PIM95266.1;Name=PIM95266.1;Note=phmmer;gbkey=CDS;gene=etfA;locus_tag=magsep_132;product=Electron transfer flavoprotein large subunit;protein_id=PIM95266.1;transl_table=4
+CM008744.1	Genbank	gene	2546	3220	.	-	.	ID=gene-magsep_133;Name=etfB;gbkey=Gene;gene=etfB;gene_biotype=protein_coding;locus_tag=magsep_133
+CM008744.1	Genbank	CDS	2546	3220	.	-	0	ID=cds-PIM95267.1;Parent=gene-magsep_133;Dbxref=NCBI_GP:PIM95267.1;Name=PIM95267.1;Note=phmmer;gbkey=CDS;gene=etfB;locus_tag=magsep_133;product=Electron transfer flavoprotein small subunit;protein_id=PIM95267.1;transl_table=4
+##sequence-region CM008745.1 1 1099
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008745.1	Genbank	region	1	1099	.	+	.	ID=CM008745.1:1..1099;Dbxref=taxon:573658;Is_circular=true;Name=variant23;chromosome=variant23;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008745.1	Genbank	gene	358	1086	.	+	.	ID=gene-magsep_134;Name=prfA;gbkey=Gene;gene=prfA;gene_biotype=protein_coding;locus_tag=magsep_134
+CM008745.1	Genbank	CDS	358	1086	.	+	0	ID=cds-PIM95263.1;Parent=gene-magsep_134;Dbxref=NCBI_GP:PIM95263.1;Name=PIM95263.1;Note=phmmer;gbkey=CDS;gene=prfA;locus_tag=magsep_134;product=Peptide chain release factor 1;protein_id=PIM95263.1;transl_table=4
+##sequence-region CM008746.1 1 49806
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008746.1	Genbank	region	1	49806	.	+	.	ID=CM008746.1:1..49806;Dbxref=taxon:573658;Is_circular=true;Name=variant24;chromosome=variant24;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008746.1	Genbank	gene	19545	19970	.	-	.	ID=gene-magsep_135;Name=rplP;gbkey=Gene;gene=rplP;gene_biotype=protein_coding;locus_tag=magsep_135
+CM008746.1	Genbank	CDS	19545	19970	.	-	0	ID=cds-PIM95258.1;Parent=gene-magsep_135;Dbxref=NCBI_GP:PIM95258.1;Name=PIM95258.1;Note=phmmer;gbkey=CDS;gene=rplP;locus_tag=magsep_135;product=50S ribosomal subunit protein L16;protein_id=PIM95258.1;transl_table=4
+CM008746.1	Genbank	gene	25813	27111	.	-	.	ID=gene-magsep_136;Name=hisD;gbkey=Gene;gene=hisD;gene_biotype=protein_coding;locus_tag=magsep_136
+CM008746.1	Genbank	CDS	25813	27111	.	-	0	ID=cds-PIM95259.1;Parent=gene-magsep_136;Dbxref=NCBI_GP:PIM95259.1;Name=PIM95259.1;Note=phmmer;gbkey=CDS;gene=hisD;locus_tag=magsep_136;product=Histidinol dehydrogenase;protein_id=PIM95259.1;transl_table=4
+CM008746.1	Genbank	gene	44299	46874	.	-	.	ID=gene-magsep_137;Name=magsep_137;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_137
+CM008746.1	Genbank	rRNA	44299	46874	.	-	.	ID=rna-magsep_137;Parent=gene-magsep_137;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_137;product=23S ribosomal RNA
+CM008746.1	Genbank	exon	44299	46874	.	-	.	ID=exon-magsep_137-1;Parent=rna-magsep_137;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_137;product=23S ribosomal RNA
+CM008746.1	Genbank	gene	47349	48903	.	-	.	ID=gene-magsep_138;Name=magsep_138;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_138
+CM008746.1	Genbank	rRNA	47349	48903	.	-	.	ID=rna-magsep_138;Parent=gene-magsep_138;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_138;product=16S ribosomal RNA
+CM008746.1	Genbank	exon	47349	48903	.	-	.	ID=exon-magsep_138-1;Parent=rna-magsep_138;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_138;product=16S ribosomal RNA
+##sequence-region CM008747.1 1 42010
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008747.1	Genbank	region	1	42010	.	+	.	ID=CM008747.1:1..42010;Dbxref=taxon:573658;Is_circular=true;Name=variant25;chromosome=variant25;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008747.1	Genbank	gene	2299	3363	.	+	.	ID=gene-magsep_139;Name=dnaJ;gbkey=Gene;gene=dnaJ;gene_biotype=protein_coding;locus_tag=magsep_139
+CM008747.1	Genbank	CDS	2299	3363	.	+	0	ID=cds-PIM95234.1;Parent=gene-magsep_139;Dbxref=NCBI_GP:PIM95234.1;Name=PIM95234.1;Note=phmmer;gbkey=CDS;gene=dnaJ;locus_tag=magsep_139;product=Chaperone protein DnaJ;protein_id=PIM95234.1;transl_table=4
+CM008747.1	Genbank	gene	5254	6042	.	+	.	ID=gene-magsep_140;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_140
+CM008747.1	Genbank	CDS	5254	6042	.	+	0	ID=cds-PIM95235.1;Parent=gene-magsep_140;Dbxref=NCBI_GP:PIM95235.1;Name=PIM95235.1;Note=phmmer;gbkey=CDS;gene=fpr;locus_tag=magsep_140;product=Ferredoxin--NADP reductase;protein_id=PIM95235.1;transl_table=4
+CM008747.1	Genbank	gene	6047	6119	.	-	.	ID=gene-magsep_141;Name=tRNA-Lys;gbkey=Gene;gene=tRNA-Lys;gene_biotype=tRNA;locus_tag=magsep_141
+CM008747.1	Genbank	tRNA	6047	6119	.	-	.	ID=rna-magsep_141;Parent=gene-magsep_141;Note=ARAGORN_v1.2.36%3B tRNA-Lys(ttt);gbkey=tRNA;gene=tRNA-Lys;locus_tag=magsep_141;product=tRNA-Lys
+CM008747.1	Genbank	exon	6047	6119	.	-	.	ID=exon-magsep_141-1;Parent=rna-magsep_141;Note=ARAGORN_v1.2.36%3B tRNA-Lys(ttt);gbkey=tRNA;gene=tRNA-Lys;locus_tag=magsep_141;product=tRNA-Lys
+CM008747.1	Genbank	gene	6293	7324	.	+	.	ID=gene-magsep_142;Name=cysK;gbkey=Gene;gene=cysK;gene_biotype=protein_coding;locus_tag=magsep_142
+CM008747.1	Genbank	CDS	6293	7324	.	+	0	ID=cds-PIM95236.1;Parent=gene-magsep_142;Dbxref=NCBI_GP:PIM95236.1;Name=PIM95236.1;Note=phmmer;gbkey=CDS;gene=cysK;locus_tag=magsep_142;product=Cysteine synthase;protein_id=PIM95236.1;transl_table=4
+CM008747.1	Genbank	gene	15314	15634	.	+	.	ID=gene-magsep_143;Name=fdxA;gbkey=Gene;gene=fdxA;gene_biotype=protein_coding;locus_tag=magsep_143
+CM008747.1	Genbank	CDS	15314	15634	.	+	0	ID=cds-PIM95237.1;Parent=gene-magsep_143;Dbxref=NCBI_GP:PIM95237.1;Name=PIM95237.1;Note=phmmer;gbkey=CDS;gene=fdxA;locus_tag=magsep_143;product=Ferredoxin II;protein_id=PIM95237.1;transl_table=4
+CM008747.1	Genbank	gene	17545	18318	.	+	.	ID=gene-magsep_144;Name=ctaC;gbkey=Gene;gene=ctaC;gene_biotype=protein_coding;locus_tag=magsep_144
+CM008747.1	Genbank	CDS	17545	18318	.	+	0	ID=cds-PIM95238.1;Parent=gene-magsep_144;Dbxref=NCBI_GP:PIM95238.1;Name=PIM95238.1;Note=phmmer;gbkey=CDS;gene=ctaC;locus_tag=magsep_144;product=cytochrome c oxidase subunit 2;protein_id=PIM95238.1;transl_table=4
+CM008747.1	Genbank	gene	18311	19948	.	+	.	ID=gene-magsep_145;Name=ctaD;gbkey=Gene;gene=ctaD;gene_biotype=protein_coding;locus_tag=magsep_145
+CM008747.1	Genbank	CDS	18311	19948	.	+	0	ID=cds-PIM95239.1;Parent=gene-magsep_145;Dbxref=NCBI_GP:PIM95239.1;Name=PIM95239.1;Note=phmmer;gbkey=CDS;gene=ctaD;locus_tag=magsep_145;product=cytochrome c oxidase subunit 1;protein_id=PIM95239.1;transl_table=4
+CM008747.1	Genbank	gene	19951	20481	.	+	.	ID=gene-magsep_146;Name=ctaG;gbkey=Gene;gene=ctaG;gene_biotype=protein_coding;locus_tag=magsep_146
+CM008747.1	Genbank	CDS	19951	20481	.	+	0	ID=cds-PIM95240.1;Parent=gene-magsep_146;Dbxref=NCBI_GP:PIM95240.1;Name=PIM95240.1;Note=phmmer;gbkey=CDS;gene=ctaG;locus_tag=magsep_146;product=Cytochrome c oxidase assembly protein CtaG;protein_id=PIM95240.1;transl_table=4
+CM008747.1	Genbank	gene	22542	23696	.	-	.	ID=gene-magsep_147;Name=fbcH;gbkey=Gene;gene=fbcH;gene_biotype=protein_coding;locus_tag=magsep_147
+CM008747.1	Genbank	CDS	22542	23696	.	-	0	ID=cds-PIM95241.1;Parent=gene-magsep_147;Dbxref=NCBI_GP:PIM95241.1;Name=PIM95241.1;Note=phmmer;gbkey=CDS;gene=fbcH;locus_tag=magsep_147;product=cytochrome b;protein_id=PIM95241.1;transl_table=4
+CM008747.1	Genbank	gene	23706	24260	.	-	.	ID=gene-magsep_148;Name=petA;gbkey=Gene;gene=petA;gene_biotype=protein_coding;locus_tag=magsep_148
+CM008747.1	Genbank	CDS	23706	24260	.	-	0	ID=cds-PIM95242.1;Parent=gene-magsep_148;Dbxref=NCBI_GP:PIM95242.1;Name=PIM95242.1;Note=phmmer;gbkey=CDS;gene=petA;locus_tag=magsep_148;product=Ubiquinol-cytochrome c reductase iron-sulfur subunit;protein_id=PIM95242.1;transl_table=4
+CM008747.1	Genbank	gene	25504	25965	.	-	.	ID=gene-magsep_149;Name=rpsG;gbkey=Gene;gene=rpsG;gene_biotype=protein_coding;locus_tag=magsep_149
+CM008747.1	Genbank	CDS	25504	25965	.	-	0	ID=cds-PIM95243.1;Parent=gene-magsep_149;Dbxref=NCBI_GP:PIM95243.1;Name=PIM95243.1;Note=phmmer;gbkey=CDS;gene=rpsG;locus_tag=magsep_149;product=30S ribosomal protein S7;protein_id=PIM95243.1;transl_table=4
+CM008747.1	Genbank	gene	26370	30338	.	-	.	ID=gene-magsep_150;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=magsep_150
+CM008747.1	Genbank	CDS	26370	30338	.	-	0	ID=cds-PIM95244.1;Parent=gene-magsep_150;Dbxref=NCBI_GP:PIM95244.1;Name=PIM95244.1;Note=phmmer;gbkey=CDS;gene=rpoC;locus_tag=magsep_150;product=DNA-directed RNA polymerase subunit beta';protein_id=PIM95244.1;transl_table=4
+CM008747.1	Genbank	gene	30344	34105	.	-	.	ID=gene-magsep_151;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=magsep_151
+CM008747.1	Genbank	CDS	30344	34105	.	-	0	ID=cds-PIM95245.1;Parent=gene-magsep_151;Dbxref=NCBI_GP:PIM95245.1;Name=PIM95245.1;Note=phmmer;gbkey=CDS;gene=rpoB;locus_tag=magsep_151;product=DNA-directed RNA polymerase subunit beta;protein_id=PIM95245.1;transl_table=4
+CM008747.1	Genbank	gene	34109	34465	.	-	.	ID=gene-magsep_152;Name=rplL;gbkey=Gene;gene=rplL;gene_biotype=protein_coding;locus_tag=magsep_152
+CM008747.1	Genbank	CDS	34109	34465	.	-	0	ID=cds-PIM95246.1;Parent=gene-magsep_152;Dbxref=NCBI_GP:PIM95246.1;Name=PIM95246.1;Note=phmmer;gbkey=CDS;gene=rplL;locus_tag=magsep_152;product=50S ribosomal subunit L7/L12;protein_id=PIM95246.1;transl_table=4
+CM008747.1	Genbank	gene	35026	36324	.	-	.	ID=gene-magsep_153;Name=hisD;gbkey=Gene;gene=hisD;gene_biotype=protein_coding;locus_tag=magsep_153
+CM008747.1	Genbank	CDS	35026	36324	.	-	0	ID=cds-PIM95247.1;Parent=gene-magsep_153;Dbxref=NCBI_GP:PIM95247.1;Name=PIM95247.1;Note=phmmer;gbkey=CDS;gene=hisD;locus_tag=magsep_153;product=Histidinol dehydrogenase;protein_id=PIM95247.1;transl_table=4
+CM008747.1	Genbank	gene	38261	38617	.	-	.	ID=gene-magsep_154;Name=rpsK;gbkey=Gene;gene=rpsK;gene_biotype=protein_coding;locus_tag=magsep_154
+CM008747.1	Genbank	CDS	38261	38617	.	-	0	ID=cds-PIM95248.1;Parent=gene-magsep_154;Dbxref=NCBI_GP:PIM95248.1;Name=PIM95248.1;Note=phmmer;gbkey=CDS;gene=rpsK;locus_tag=magsep_154;product=30S ribosomal protein S11;protein_id=PIM95248.1;transl_table=4
+CM008747.1	Genbank	gene	39447	40016	.	-	.	ID=gene-magsep_155;Name=rpsE;gbkey=Gene;gene=rpsE;gene_biotype=protein_coding;locus_tag=magsep_155
+CM008747.1	Genbank	CDS	39447	40016	.	-	0	ID=cds-PIM95249.1;Parent=gene-magsep_155;Dbxref=NCBI_GP:PIM95249.1;Name=PIM95249.1;Note=phmmer;gbkey=CDS;gene=rpsE;locus_tag=magsep_155;product=30S ribosomal protein S5;protein_id=PIM95249.1;transl_table=4
+CM008747.1	Genbank	gene	40723	41085	.	-	.	ID=gene-magsep_156;Name=rpsH;gbkey=Gene;gene=rpsH;gene_biotype=protein_coding;locus_tag=magsep_156
+CM008747.1	Genbank	CDS	40723	41085	.	-	0	ID=cds-PIM95250.1;Parent=gene-magsep_156;Dbxref=NCBI_GP:PIM95250.1;Name=PIM95250.1;Note=phmmer;gbkey=CDS;gene=rpsH;locus_tag=magsep_156;product=30S ribosomal protein S8;protein_id=PIM95250.1;transl_table=4
+CM008747.1	Genbank	gene	41100	41405	.	-	.	ID=gene-magsep_157;Name=rpsN;gbkey=Gene;gene=rpsN;gene_biotype=protein_coding;locus_tag=magsep_157
+CM008747.1	Genbank	CDS	41100	41405	.	-	0	ID=cds-PIM95251.1;Parent=gene-magsep_157;Dbxref=NCBI_GP:PIM95251.1;Name=PIM95251.1;Note=phmmer;gbkey=CDS;gene=rpsN;locus_tag=magsep_157;product=30S ribosomal subunit protein S14;protein_id=PIM95251.1;transl_table=4
+##sequence-region CM008748.1 1 33162
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008748.1	Genbank	region	1	33162	.	+	.	ID=CM008748.1:1..33162;Dbxref=taxon:573658;Is_circular=true;Name=variant26;chromosome=variant26;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008748.1	Genbank	gene	9900	11042	.	+	.	ID=gene-magsep_158;Name=fbcH;gbkey=Gene;gene=fbcH;gene_biotype=protein_coding;locus_tag=magsep_158
+CM008748.1	Genbank	CDS	9900	11042	.	+	0	ID=cds-PIM95224.1;Parent=gene-magsep_158;Dbxref=NCBI_GP:PIM95224.1;Name=PIM95224.1;Note=phmmer;gbkey=CDS;gene=fbcH;locus_tag=magsep_158;product=cytochrome b;protein_id=PIM95224.1;transl_table=4
+CM008748.1	Genbank	gene	12662	13102	.	-	.	ID=gene-magsep_159;Name=ctaE;gbkey=Gene;gene=ctaE;gene_biotype=protein_coding;locus_tag=magsep_159
+CM008748.1	Genbank	CDS	12662	13102	.	-	0	ID=cds-PIM95225.1;Parent=gene-magsep_159;Dbxref=NCBI_GP:PIM95225.1;Name=PIM95225.1;Note=HMMER_3.1b2;gbkey=CDS;gene=ctaE;locus_tag=magsep_159;product=Cytochrome c oxidase subunit 3;protein_id=PIM95225.1;transl_table=4
+CM008748.1	Genbank	gene	13129	13659	.	-	.	ID=gene-magsep_160;Name=ctaG;gbkey=Gene;gene=ctaG;gene_biotype=protein_coding;locus_tag=magsep_160
+CM008748.1	Genbank	CDS	13129	13659	.	-	0	ID=cds-PIM95226.1;Parent=gene-magsep_160;Dbxref=NCBI_GP:PIM95226.1;Name=PIM95226.1;Note=phmmer;gbkey=CDS;gene=ctaG;locus_tag=magsep_160;product=Cytochrome c oxidase assembly protein CtaG;protein_id=PIM95226.1;transl_table=4
+CM008748.1	Genbank	gene	13662	15299	.	-	.	ID=gene-magsep_161;Name=ctaD;gbkey=Gene;gene=ctaD;gene_biotype=protein_coding;locus_tag=magsep_161
+CM008748.1	Genbank	CDS	13662	15299	.	-	0	ID=cds-PIM95227.1;Parent=gene-magsep_161;Dbxref=NCBI_GP:PIM95227.1;Name=PIM95227.1;Note=phmmer;gbkey=CDS;gene=ctaD;locus_tag=magsep_161;product=cytochrome c oxidase subunit 1;protein_id=PIM95227.1;transl_table=4
+CM008748.1	Genbank	gene	15289	16071	.	-	.	ID=gene-magsep_162;Name=ctaC;gbkey=Gene;gene=ctaC;gene_biotype=protein_coding;locus_tag=magsep_162
+CM008748.1	Genbank	CDS	15289	16071	.	-	0	ID=cds-PIM95228.1;Parent=gene-magsep_162;Dbxref=NCBI_GP:PIM95228.1;Name=PIM95228.1;Note=phmmer;gbkey=CDS;gene=ctaC;locus_tag=magsep_162;product=cytochrome c oxidase subunit 2;protein_id=PIM95228.1;transl_table=4
+CM008748.1	Genbank	gene	20440	20511	.	+	.	ID=gene-magsep_163;Name=tRNA-Val;gbkey=Gene;gene=tRNA-Val;gene_biotype=tRNA;locus_tag=magsep_163
+CM008748.1	Genbank	tRNA	20440	20511	.	+	.	ID=rna-magsep_163;Parent=gene-magsep_163;Note=tRNAscan-SE_1.23;gbkey=tRNA;gene=tRNA-Val;locus_tag=magsep_163;product=tRNA-Val
+CM008748.1	Genbank	exon	20440	20511	.	+	.	ID=exon-magsep_163-1;Parent=rna-magsep_163;Note=tRNAscan-SE_1.23;gbkey=tRNA;gene=tRNA-Val;locus_tag=magsep_163;product=tRNA-Val
+CM008748.1	Genbank	gene	22266	23072	.	-	.	ID=gene-magsep_164;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_164
+CM008748.1	Genbank	CDS	22266	23072	.	-	0	ID=cds-PIM95229.1;Parent=gene-magsep_164;Dbxref=NCBI_GP:PIM95229.1;Name=PIM95229.1;Note=phmmer;gbkey=CDS;gene=fpr;locus_tag=magsep_164;product=Ferredoxin--NADP reductase;protein_id=PIM95229.1;transl_table=4
+CM008748.1	Genbank	gene	23094	24596	.	-	.	ID=gene-magsep_165;Name=cysI;gbkey=Gene;gene=cysI;gene_biotype=protein_coding;locus_tag=magsep_165
+CM008748.1	Genbank	CDS	23094	24596	.	-	0	ID=cds-PIM95230.1;Parent=gene-magsep_165;Dbxref=NCBI_GP:PIM95230.1;Name=PIM95230.1;Note=phmmer;gbkey=CDS;gene=cysI;locus_tag=magsep_165;product=Sulfite reductase [NADPH] hemoprotein beta-component;protein_id=PIM95230.1;transl_table=4
+CM008748.1	Genbank	gene	28509	29249	.	+	.	ID=gene-magsep_166;Name=etfB;gbkey=Gene;gene=etfB;gene_biotype=protein_coding;locus_tag=magsep_166
+CM008748.1	Genbank	CDS	28509	29249	.	+	0	ID=cds-PIM95231.1;Parent=gene-magsep_166;Dbxref=NCBI_GP:PIM95231.1;Name=PIM95231.1;Note=phmmer;gbkey=CDS;gene=etfB;locus_tag=magsep_166;product=Electron transfer flavoprotein small subunit;protein_id=PIM95231.1;transl_table=4
+CM008748.1	Genbank	gene	29684	30766	.	+	.	ID=gene-magsep_167;Name=etfA;gbkey=Gene;gene=etfA;gene_biotype=protein_coding;locus_tag=magsep_167
+CM008748.1	Genbank	CDS	29684	30766	.	+	0	ID=cds-PIM95232.1;Parent=gene-magsep_167;Dbxref=NCBI_GP:PIM95232.1;Name=PIM95232.1;Note=phmmer;gbkey=CDS;gene=etfA;locus_tag=magsep_167;product=Electron transfer flavoprotein large subunit;protein_id=PIM95232.1;transl_table=4
+CM008748.1	Genbank	gene	31649	33062	.	+	.	ID=gene-magsep_168;Name=magsep_168;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_168
+CM008748.1	Genbank	rRNA	31649	33062	.	+	.	ID=rna-magsep_168;Parent=gene-magsep_168;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_168;product=16S ribosomal RNA
+CM008748.1	Genbank	exon	31649	33062	.	+	.	ID=exon-magsep_168-1;Parent=rna-magsep_168;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_168;product=16S ribosomal RNA
+##sequence-region CM008749.1 1 30710
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008749.1	Genbank	region	1	30710	.	+	.	ID=CM008749.1:1..30710;Dbxref=taxon:573658;Is_circular=true;Name=variant27;chromosome=variant27;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008749.1	Genbank	gene	4716	5225	.	+	.	ID=gene-magsep_169;Name=cobI;gbkey=Gene;gene=cobI;gene_biotype=protein_coding;locus_tag=magsep_169
+CM008749.1	Genbank	CDS	4716	5225	.	+	0	ID=cds-PIM95219.1;Parent=gene-magsep_169;Dbxref=NCBI_GP:PIM95219.1;Name=PIM95219.1;Note=phmmer;gbkey=CDS;gene=cobI;locus_tag=magsep_169;product=Precorrin-2 C(20)-methyltransferase;protein_id=PIM95219.1;transl_table=4
+CM008749.1	Genbank	gene	11061	11564	.	+	.	ID=gene-magsep_170;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding;locus_tag=magsep_170
+CM008749.1	Genbank	CDS	11061	11564	.	+	0	ID=cds-PIM95220.1;Parent=gene-magsep_170;Dbxref=NCBI_GP:PIM95220.1;Name=PIM95220.1;Note=phmmer;gbkey=CDS;gene=clpP;locus_tag=magsep_170;product=ATP-dependent Clp protease proteolytic subunit precursor;protein_id=PIM95220.1;transl_table=4
+CM008749.1	Genbank	gene	11634	12614	.	+	.	ID=gene-magsep_171;Name=ribD;gbkey=Gene;gene=ribD;gene_biotype=protein_coding;locus_tag=magsep_171
+CM008749.1	Genbank	CDS	11634	12614	.	+	0	ID=cds-PIM95221.1;Parent=gene-magsep_171;Dbxref=NCBI_GP:PIM95221.1;Name=PIM95221.1;Note=phmmer;gbkey=CDS;gene=ribD;locus_tag=magsep_171;product=Riboflavin biosynthesis protein RibD;protein_id=PIM95221.1;transl_table=4
+CM008749.1	Genbank	gene	16753	17400	.	+	.	ID=gene-magsep_172;Name=hisE;gbkey=Gene;gene=hisE;gene_biotype=protein_coding;locus_tag=magsep_172
+CM008749.1	Genbank	CDS	16753	17400	.	+	0	ID=cds-PIM95222.1;Parent=gene-magsep_172;Dbxref=NCBI_GP:PIM95222.1;Name=PIM95222.1;Note=HMMER_3.1b2;gbkey=CDS;gene=hisE;locus_tag=magsep_172;product=Phosphoribosyl-ATP pyrophosphatase;protein_id=PIM95222.1;transl_table=4
+CM008749.1	Genbank	gene	28845	29327	.	+	.	ID=gene-magsep_173;Name=cobO;gbkey=Gene;gene=cobO;gene_biotype=protein_coding;locus_tag=magsep_173
+CM008749.1	Genbank	CDS	28845	29327	.	+	0	ID=cds-PIM95223.1;Parent=gene-magsep_173;Dbxref=NCBI_GP:PIM95223.1;Name=PIM95223.1;Note=phmmer;gbkey=CDS;gene=cobO;locus_tag=magsep_173;product=putative cob(I)alamin adenosyltransferase;protein_id=PIM95223.1;transl_table=4
+##sequence-region CM008750.1 1 30380
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008750.1	Genbank	region	1	30380	.	+	.	ID=CM008750.1:1..30380;Dbxref=taxon:573658;Is_circular=true;Name=variant28;chromosome=variant28;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008750.1	Genbank	gene	279	854	.	+	.	ID=gene-magsep_174;Name=dnaQ;gbkey=Gene;gene=dnaQ;gene_biotype=protein_coding;locus_tag=magsep_174
+CM008750.1	Genbank	CDS	279	854	.	+	0	ID=cds-PIM95213.1;Parent=gene-magsep_174;Dbxref=NCBI_GP:PIM95213.1;Name=PIM95213.1;Note=phmmer;gbkey=CDS;gene=dnaQ;locus_tag=magsep_174;product=DNA polymerase III subunit epsilon;protein_id=PIM95213.1;transl_table=4
+CM008750.1	Genbank	gene	1829	2683	.	-	.	ID=gene-magsep_175;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_175
+CM008750.1	Genbank	CDS	1829	2683	.	-	0	ID=cds-PIM95214.1;Parent=gene-magsep_175;Dbxref=NCBI_GP:PIM95214.1;Name=PIM95214.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_175;product=cobalamin biosynthesis protein;protein_id=PIM95214.1;transl_table=4
+CM008750.1	Genbank	gene	11344	15093	.	+	.	ID=gene-magsep_176;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=magsep_176
+CM008750.1	Genbank	CDS	11344	15093	.	+	0	ID=cds-PIM95215.1;Parent=gene-magsep_176;Dbxref=NCBI_GP:PIM95215.1;Name=PIM95215.1;Note=phmmer;gbkey=CDS;gene=rpoB;locus_tag=magsep_176;product=DNA-directed RNA polymerase subunit beta;protein_id=PIM95215.1;transl_table=4
+CM008750.1	Genbank	gene	15096	19115	.	+	.	ID=gene-magsep_177;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=magsep_177
+CM008750.1	Genbank	CDS	15096	19115	.	+	0	ID=cds-PIM95216.1;Parent=gene-magsep_177;Dbxref=NCBI_GP:PIM95216.1;Name=PIM95216.1;Note=phmmer;gbkey=CDS;gene=rpoC;locus_tag=magsep_177;product=DNA-directed RNA polymerase subunit beta';protein_id=PIM95216.1;transl_table=4
+CM008750.1	Genbank	gene	20068	20706	.	-	.	ID=gene-magsep_178;Name=cobB1;gbkey=Gene;gene=cobB1;gene_biotype=protein_coding;locus_tag=magsep_178
+CM008750.1	Genbank	CDS	20068	20706	.	-	0	ID=cds-PIM95217.1;Parent=gene-magsep_178;Dbxref=NCBI_GP:PIM95217.1;Name=PIM95217.1;Note=phmmer;gbkey=CDS;gene=cobB1;locus_tag=magsep_178;product=Hydrogenobyrinate a%2Cc-diamide synthase;protein_id=PIM95217.1;transl_table=4
+CM008750.1	Genbank	gene	27598	28452	.	+	.	ID=gene-magsep_179;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_179
+CM008750.1	Genbank	CDS	27598	28452	.	+	0	ID=cds-PIM95218.1;Parent=gene-magsep_179;Dbxref=NCBI_GP:PIM95218.1;Name=PIM95218.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_179;product=cobalamin biosynthesis protein;protein_id=PIM95218.1;transl_table=4
+##sequence-region CM008751.1 1 26344
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008751.1	Genbank	region	1	26344	.	+	.	ID=CM008751.1:1..26344;Dbxref=taxon:573658;Is_circular=true;Name=variant29;chromosome=variant29;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008751.1	Genbank	gene	5686	6330	.	+	.	ID=gene-magsep_180;Name=hisE;gbkey=Gene;gene=hisE;gene_biotype=protein_coding;locus_tag=magsep_180
+CM008751.1	Genbank	CDS	5686	6330	.	+	0	ID=cds-PIM95209.1;Parent=gene-magsep_180;Dbxref=NCBI_GP:PIM95209.1;Name=PIM95209.1;Note=HMMER_3.1b2;gbkey=CDS;gene=hisE;locus_tag=magsep_180;product=Phosphoribosyl-ATP pyrophosphatase;protein_id=PIM95209.1;transl_table=4
+CM008751.1	Genbank	gene	8384	8644	.	+	.	ID=gene-magsep_181;Name=infA;gbkey=Gene;gene=infA;gene_biotype=protein_coding;locus_tag=magsep_181
+CM008751.1	Genbank	CDS	8384	8644	.	+	0	ID=cds-PIM95210.1;Parent=gene-magsep_181;Dbxref=NCBI_GP:PIM95210.1;Name=PIM95210.1;Note=phmmer;gbkey=CDS;gene=infA;locus_tag=magsep_181;product=Translation initiation factor IF-1;protein_id=PIM95210.1;transl_table=4
+CM008751.1	Genbank	gene	16737	17918	.	+	.	ID=gene-magsep_182;Name=metC;gbkey=Gene;gene=metC;gene_biotype=protein_coding;locus_tag=magsep_182
+CM008751.1	Genbank	CDS	16737	17918	.	+	0	ID=cds-PIM95211.1;Parent=gene-magsep_182;Dbxref=NCBI_GP:PIM95211.1;Name=PIM95211.1;Note=phmmer;gbkey=CDS;gene=metC;locus_tag=magsep_182;product=cystathionine beta-lyase;protein_id=PIM95211.1;transl_table=4
+##sequence-region CM008753.1 1 23491
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008753.1	Genbank	region	1	23491	.	+	.	ID=CM008753.1:1..23491;Dbxref=taxon:573658;Is_circular=true;Name=variant30;chromosome=variant30;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008753.1	Genbank	gene	7791	9344	.	+	.	ID=gene-magsep_183;Name=magsep_183;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_183
+CM008753.1	Genbank	rRNA	7791	9344	.	+	.	ID=rna-magsep_183;Parent=gene-magsep_183;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_183;product=16S ribosomal RNA
+CM008753.1	Genbank	exon	7791	9344	.	+	.	ID=exon-magsep_183-1;Parent=rna-magsep_183;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_183;product=16S ribosomal RNA
+CM008753.1	Genbank	gene	9813	12396	.	+	.	ID=gene-magsep_184;Name=magsep_184;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_184
+CM008753.1	Genbank	rRNA	9813	12396	.	+	.	ID=rna-magsep_184;Parent=gene-magsep_184;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_184;product=23S ribosomal RNA
+CM008753.1	Genbank	exon	9813	12396	.	+	.	ID=exon-magsep_184-1;Parent=rna-magsep_184;Note=barrnap 0.6;gbkey=rRNA;locus_tag=magsep_184;product=23S ribosomal RNA
+CM008753.1	Genbank	gene	12477	12572	.	+	.	ID=gene-magsep_185;Name=magsep_185;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_185
+CM008753.1	Genbank	rRNA	12477	12572	.	+	.	ID=rna-magsep_185;Parent=gene-magsep_185;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_185;product=5S ribosomal RNA
+CM008753.1	Genbank	exon	12477	12572	.	+	.	ID=exon-magsep_185-1;Parent=rna-magsep_185;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_185;product=5S ribosomal RNA
+CM008753.1	Genbank	gene	12598	12671	.	+	.	ID=gene-magsep_186;Name=tRNA-Met;gbkey=Gene;gene=tRNA-Met;gene_biotype=tRNA;locus_tag=magsep_186
+CM008753.1	Genbank	tRNA	12598	12671	.	+	.	ID=rna-magsep_186;Parent=gene-magsep_186;Note=ARAGORN_v1.2.36%3B tRNA-Met(cat);gbkey=tRNA;gene=tRNA-Met;locus_tag=magsep_186;product=tRNA-Met
+CM008753.1	Genbank	exon	12598	12671	.	+	.	ID=exon-magsep_186-1;Parent=rna-magsep_186;Note=ARAGORN_v1.2.36%3B tRNA-Met(cat);gbkey=tRNA;gene=tRNA-Met;locus_tag=magsep_186;product=tRNA-Met
+CM008753.1	Genbank	gene	14616	14689	.	+	.	ID=gene-magsep_187;Name=tRNA-Pro;gbkey=Gene;gene=tRNA-Pro;gene_biotype=tRNA;locus_tag=magsep_187
+CM008753.1	Genbank	tRNA	14616	14689	.	+	.	ID=rna-magsep_187;Parent=gene-magsep_187;Note=ARAGORN_v1.2.36%3B tRNA-Pro(tgg);gbkey=tRNA;gene=tRNA-Pro;locus_tag=magsep_187;product=tRNA-Pro
+CM008753.1	Genbank	exon	14616	14689	.	+	.	ID=exon-magsep_187-1;Parent=rna-magsep_187;Note=ARAGORN_v1.2.36%3B tRNA-Pro(tgg);gbkey=tRNA;gene=tRNA-Pro;locus_tag=magsep_187;product=tRNA-Pro
+##sequence-region CM008754.1 1 23305
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008754.1	Genbank	region	1	23305	.	+	.	ID=CM008754.1:1..23305;Dbxref=taxon:573658;Is_circular=true;Name=variant31;chromosome=variant31;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008754.1	Genbank	gene	11396	12364	.	-	.	ID=gene-magsep_188;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_188
+CM008754.1	Genbank	CDS	11396	12364	.	-	0	ID=cds-PIM95207.1;Parent=gene-magsep_188;Dbxref=NCBI_GP:PIM95207.1;Name=PIM95207.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_188;product=cobalamin biosynthesis protein;protein_id=PIM95207.1;transl_table=4
+CM008754.1	Genbank	gene	15275	15679	.	-	.	ID=gene-magsep_189;Name=ribH;gbkey=Gene;gene=ribH;gene_biotype=protein_coding;locus_tag=magsep_189
+CM008754.1	Genbank	CDS	15275	15679	.	-	0	ID=cds-PIM95208.1;Parent=gene-magsep_189;Dbxref=NCBI_GP:PIM95208.1;Name=PIM95208.1;Note=phmmer;gbkey=CDS;gene=ribH;locus_tag=magsep_189;product=6%2C7-dimethyl-8-ribityllumazine synthase;protein_id=PIM95208.1;transl_table=4
+CM008754.1	Genbank	gene	17376	17475	.	-	.	ID=gene-magsep_190;Name=magsep_190;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_190
+CM008754.1	Genbank	rRNA	17376	17475	.	-	.	ID=rna-magsep_190;Parent=gene-magsep_190;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_190;product=5S ribosomal RNA
+CM008754.1	Genbank	exon	17376	17475	.	-	.	ID=exon-magsep_190-1;Parent=rna-magsep_190;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_190;product=5S ribosomal RNA
+CM008754.1	Genbank	gene	17529	20111	.	-	.	ID=gene-magsep_191;Name=magsep_191;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_191
+CM008754.1	Genbank	rRNA	17529	20111	.	-	.	ID=rna-magsep_191;Parent=gene-magsep_191;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_191;product=23S ribosomal RNA
+CM008754.1	Genbank	exon	17529	20111	.	-	.	ID=exon-magsep_191-1;Parent=rna-magsep_191;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_191;product=23S ribosomal RNA
+CM008754.1	Genbank	gene	20390	21894	.	-	.	ID=gene-magsep_192;Name=magsep_192;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_192
+CM008754.1	Genbank	rRNA	20390	21894	.	-	.	ID=rna-magsep_192;Parent=gene-magsep_192;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_192;product=16S ribosomal RNA
+CM008754.1	Genbank	exon	20390	21894	.	-	.	ID=exon-magsep_192-1;Parent=rna-magsep_192;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_192;product=16S ribosomal RNA
+##sequence-region CM008755.1 1 20205
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008755.1	Genbank	region	1	20205	.	+	.	ID=CM008755.1:1..20205;Dbxref=taxon:573658;Is_circular=true;Name=variant32;chromosome=variant32;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008755.1	Genbank	gene	4505	5380	.	-	.	ID=gene-magsep_193;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_193
+CM008755.1	Genbank	CDS	4505	5380	.	-	0	ID=cds-PIM95203.1;Parent=gene-magsep_193;Dbxref=NCBI_GP:PIM95203.1;Name=PIM95203.1;Note=phmmer;gbkey=CDS;gene=fpr;locus_tag=magsep_193;product=Ferredoxin--NADP reductase;protein_id=PIM95203.1;transl_table=4
+CM008755.1	Genbank	gene	6152	7081	.	-	.	ID=gene-magsep_194;Name=ribD;gbkey=Gene;gene=ribD;gene_biotype=protein_coding;locus_tag=magsep_194
+CM008755.1	Genbank	CDS	6152	7081	.	-	0	ID=cds-PIM95204.1;Parent=gene-magsep_194;Dbxref=NCBI_GP:PIM95204.1;Name=PIM95204.1;Note=phmmer;gbkey=CDS;gene=ribD;locus_tag=magsep_194;product=Riboflavin biosynthesis protein RibD;protein_id=PIM95204.1;transl_table=4
+CM008755.1	Genbank	gene	15859	17307	.	-	.	ID=gene-magsep_195;Name=cobQ;gbkey=Gene;gene=cobQ;gene_biotype=protein_coding;locus_tag=magsep_195
+CM008755.1	Genbank	CDS	15859	17307	.	-	0	ID=cds-PIM95205.1;Parent=gene-magsep_195;Dbxref=NCBI_GP:PIM95205.1;Name=PIM95205.1;Note=phmmer;gbkey=CDS;gene=cobQ;locus_tag=magsep_195;product=Cobyric acid synthase;protein_id=PIM95205.1;transl_table=4
+CM008755.1	Genbank	gene	18727	19743	.	-	.	ID=gene-magsep_196;Name=magsep_196;Note=xxxA;gbkey=Gene;gene_biotype=protein_coding;locus_tag=magsep_196
+CM008755.1	Genbank	CDS	18727	19743	.	-	0	ID=cds-PIM95206.1;Parent=gene-magsep_196;Dbxref=NCBI_GP:PIM95206.1;Name=PIM95206.1;Note=phmmer;gbkey=CDS;locus_tag=magsep_196;product=hypothetical protein;protein_id=PIM95206.1;transl_table=4
+##sequence-region CM008756.1 1 19057
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008756.1	Genbank	region	1	19057	.	+	.	ID=CM008756.1:1..19057;Dbxref=taxon:573658;Is_circular=true;Name=variant33;chromosome=variant33;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008756.1	Genbank	gene	6077	6628	.	+	.	ID=gene-magsep_197;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_197
+CM008756.1	Genbank	CDS	6077	6628	.	+	0	ID=cds-PIM95199.1;Parent=gene-magsep_197;Dbxref=NCBI_GP:PIM95199.1;Name=PIM95199.1;Note=HMMER_3.1b2;gbkey=CDS;gene=fpr;locus_tag=magsep_197;product=Ferredoxin--NADP reductase;protein_id=PIM95199.1;transl_table=4
+CM008756.1	Genbank	gene	8125	8349	.	-	.	ID=gene-magsep_198;Name=rpsP;gbkey=Gene;gene=rpsP;gene_biotype=protein_coding;locus_tag=magsep_198
+CM008756.1	Genbank	CDS	8125	8349	.	-	0	ID=cds-PIM95200.1;Parent=gene-magsep_198;Dbxref=NCBI_GP:PIM95200.1;Name=PIM95200.1;Note=phmmer;gbkey=CDS;gene=rpsP;locus_tag=magsep_198;product=30S ribosomal protein S16;protein_id=PIM95200.1;transl_table=4
+CM008756.1	Genbank	gene	15909	16229	.	+	.	ID=gene-magsep_199;Name=fdxA;gbkey=Gene;gene=fdxA;gene_biotype=protein_coding;locus_tag=magsep_199
+CM008756.1	Genbank	CDS	15909	16229	.	+	0	ID=cds-PIM95201.1;Parent=gene-magsep_199;Dbxref=NCBI_GP:PIM95201.1;Name=PIM95201.1;Note=phmmer;gbkey=CDS;gene=fdxA;locus_tag=magsep_199;product=Ferredoxin II;protein_id=PIM95201.1;transl_table=4
+CM008756.1	Genbank	gene	18149	18928	.	+	.	ID=gene-magsep_200;Name=ctaC;gbkey=Gene;gene=ctaC;gene_biotype=protein_coding;locus_tag=magsep_200
+CM008756.1	Genbank	CDS	18149	18928	.	+	0	ID=cds-PIM95202.1;Parent=gene-magsep_200;Dbxref=NCBI_GP:PIM95202.1;Name=PIM95202.1;Note=phmmer;gbkey=CDS;gene=ctaC;locus_tag=magsep_200;product=cytochrome c oxidase subunit 2;protein_id=PIM95202.1;transl_table=4
+##sequence-region CM008757.1 1 19055
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008757.1	Genbank	region	1	19055	.	+	.	ID=CM008757.1:1..19055;Dbxref=taxon:573658;Is_circular=true;Name=variant34;chromosome=variant34;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008757.1	Genbank	gene	8127	8351	.	-	.	ID=gene-magsep_201;Name=rpsP;gbkey=Gene;gene=rpsP;gene_biotype=protein_coding;locus_tag=magsep_201
+CM008757.1	Genbank	CDS	8127	8351	.	-	0	ID=cds-PIM95196.1;Parent=gene-magsep_201;Dbxref=NCBI_GP:PIM95196.1;Name=PIM95196.1;Note=phmmer;gbkey=CDS;gene=rpsP;locus_tag=magsep_201;product=30S ribosomal protein S16;protein_id=PIM95196.1;transl_table=4
+CM008757.1	Genbank	gene	15906	16280	.	+	.	ID=gene-magsep_202;Name=fdxA;gbkey=Gene;gene=fdxA;gene_biotype=protein_coding;locus_tag=magsep_202
+CM008757.1	Genbank	CDS	15906	16280	.	+	0	ID=cds-PIM95197.1;Parent=gene-magsep_202;Dbxref=NCBI_GP:PIM95197.1;Name=PIM95197.1;Note=phmmer;gbkey=CDS;gene=fdxA;locus_tag=magsep_202;product=Ferredoxin II;protein_id=PIM95197.1;transl_table=4
+CM008757.1	Genbank	gene	18147	18926	.	+	.	ID=gene-magsep_203;Name=ctaC;gbkey=Gene;gene=ctaC;gene_biotype=protein_coding;locus_tag=magsep_203
+CM008757.1	Genbank	CDS	18147	18926	.	+	0	ID=cds-PIM95198.1;Parent=gene-magsep_203;Dbxref=NCBI_GP:PIM95198.1;Name=PIM95198.1;Note=phmmer;gbkey=CDS;gene=ctaC;locus_tag=magsep_203;product=cytochrome c oxidase subunit 2;protein_id=PIM95198.1;transl_table=4
+##sequence-region CM008758.1 1 16038
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008758.1	Genbank	region	1	16038	.	+	.	ID=CM008758.1:1..16038;Dbxref=taxon:573658;Is_circular=true;Name=variant35;chromosome=variant35;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008758.1	Genbank	gene	2702	3046	.	-	.	ID=gene-magsep_204;Name=rpsM;gbkey=Gene;gene=rpsM;gene_biotype=protein_coding;locus_tag=magsep_204
+CM008758.1	Genbank	CDS	2702	3046	.	-	0	ID=cds-PIM95193.1;Parent=gene-magsep_204;Dbxref=NCBI_GP:PIM95193.1;Name=PIM95193.1;Note=phmmer;gbkey=CDS;gene=rpsM;locus_tag=magsep_204;product=30S ribosomal protein S13;protein_id=PIM95193.1;transl_table=4
+CM008758.1	Genbank	gene	4314	4805	.	-	.	ID=gene-magsep_205;Name=rplF;gbkey=Gene;gene=rplF;gene_biotype=protein_coding;locus_tag=magsep_205
+CM008758.1	Genbank	CDS	4314	4805	.	-	0	ID=cds-PIM95194.1;Parent=gene-magsep_205;Dbxref=NCBI_GP:PIM95194.1;Name=PIM95194.1;Note=phmmer;gbkey=CDS;gene=rplF;locus_tag=magsep_205;product=50S ribosomal protein L6;protein_id=PIM95194.1;transl_table=4
+CM008758.1	Genbank	gene	6032	6205	.	-	.	ID=gene-magsep_206;Name=rplX;gbkey=Gene;gene=rplX;gene_biotype=protein_coding;locus_tag=magsep_206
+CM008758.1	Genbank	CDS	6032	6205	.	-	0	ID=cds-PIM95195.1;Parent=gene-magsep_206;Dbxref=NCBI_GP:PIM95195.1;Name=PIM95195.1;Note=HMMER_3.1b2;gbkey=CDS;gene=rplX;locus_tag=magsep_206;product=50S ribosomal protein L24;protein_id=PIM95195.1;transl_table=4
+##sequence-region CM008759.1 1 14776
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008759.1	Genbank	region	1	14776	.	+	.	ID=CM008759.1:1..14776;Dbxref=taxon:573658;Is_circular=true;Name=variant36;chromosome=variant36;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008759.1	Genbank	gene	4139	5197	.	+	.	ID=gene-magsep_207;Name=magsep_207;Note=xxxB;gbkey=Gene;gene_biotype=protein_coding;locus_tag=magsep_207
+CM008759.1	Genbank	CDS	4139	5197	.	+	0	ID=cds-PIM95190.1;Parent=gene-magsep_207;Dbxref=NCBI_GP:PIM95190.1;Name=PIM95190.1;Note=HMMER_3.1b2;gbkey=CDS;locus_tag=magsep_207;product=hypothetical protein;protein_id=PIM95190.1;transl_table=4
+CM008759.1	Genbank	gene	11010	11183	.	+	.	ID=gene-magsep_208;Name=rplX;gbkey=Gene;gene=rplX;gene_biotype=protein_coding;locus_tag=magsep_208
+CM008759.1	Genbank	CDS	11010	11183	.	+	0	ID=cds-PIM95191.1;Parent=gene-magsep_208;Dbxref=NCBI_GP:PIM95191.1;Name=PIM95191.1;Note=HMMER_3.1b2;gbkey=CDS;gene=rplX;locus_tag=magsep_208;product=50S ribosomal protein L24;protein_id=PIM95191.1;transl_table=4
+CM008759.1	Genbank	gene	14171	14515	.	+	.	ID=gene-magsep_209;Name=rpsM;gbkey=Gene;gene=rpsM;gene_biotype=protein_coding;locus_tag=magsep_209
+CM008759.1	Genbank	CDS	14171	14515	.	+	0	ID=cds-PIM95192.1;Parent=gene-magsep_209;Dbxref=NCBI_GP:PIM95192.1;Name=PIM95192.1;Note=phmmer;gbkey=CDS;gene=rpsM;locus_tag=magsep_209;product=30S ribosomal protein S13;protein_id=PIM95192.1;transl_table=4
+##sequence-region CM008760.1 1 13724
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008760.1	Genbank	region	1	13724	.	+	.	ID=CM008760.1:1..13724;Dbxref=taxon:573658;Is_circular=true;Name=variant37;chromosome=variant37;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008760.1	Genbank	gene	6912	7715	.	+	.	ID=gene-magsep_210;Name=rplB;gbkey=Gene;gene=rplB;gene_biotype=protein_coding;locus_tag=magsep_210
+CM008760.1	Genbank	CDS	6912	7715	.	+	0	ID=cds-PIM95184.1;Parent=gene-magsep_210;Dbxref=NCBI_GP:PIM95184.1;Name=PIM95184.1;Note=phmmer;gbkey=CDS;gene=rplB;locus_tag=magsep_210;product=50S ribosomal subunit protein L2;protein_id=PIM95184.1;transl_table=4
+CM008760.1	Genbank	gene	7976	8320	.	+	.	ID=gene-magsep_211;Name=rplV;gbkey=Gene;gene=rplV;gene_biotype=protein_coding;locus_tag=magsep_211
+CM008760.1	Genbank	CDS	7976	8320	.	+	0	ID=cds-PIM95185.1;Parent=gene-magsep_211;Dbxref=NCBI_GP:PIM95185.1;Name=PIM95185.1;Note=phmmer;gbkey=CDS;gene=rplV;locus_tag=magsep_211;product=50S Ribosomal protein L22p/L17e;protein_id=PIM95185.1;transl_table=4
+CM008760.1	Genbank	gene	8304	8927	.	+	.	ID=gene-magsep_212;Name=rpsC;gbkey=Gene;gene=rpsC;gene_biotype=protein_coding;locus_tag=magsep_212
+CM008760.1	Genbank	CDS	8304	8927	.	+	0	ID=cds-PIM95186.1;Parent=gene-magsep_212;Dbxref=NCBI_GP:PIM95186.1;Name=PIM95186.1;Note=phmmer;gbkey=CDS;gene=rpsC;locus_tag=magsep_212;product=30S ribosomal protein S3;protein_id=PIM95186.1;transl_table=4
+CM008760.1	Genbank	gene	9544	9897	.	-	.	ID=gene-magsep_214;Name=smpB;gbkey=Gene;gene=smpB;gene_biotype=protein_coding;locus_tag=magsep_214
+CM008760.1	Genbank	CDS	9544	9897	.	-	0	ID=cds-PIM95188.1;Parent=gene-magsep_214;Dbxref=NCBI_GP:PIM95188.1;Name=PIM95188.1;Note=HMMER_3.1b2;gbkey=CDS;gene=smpB;locus_tag=magsep_214;product=SsrA-binding protein;protein_id=PIM95188.1;transl_table=4
+CM008760.1	Genbank	gene	9590	9925	.	+	.	ID=gene-magsep_213;Name=rplN;gbkey=Gene;gene=rplN;gene_biotype=protein_coding;locus_tag=magsep_213
+CM008760.1	Genbank	CDS	9590	9925	.	+	0	ID=cds-PIM95187.1;Parent=gene-magsep_213;Dbxref=NCBI_GP:PIM95187.1;Name=PIM95187.1;Note=phmmer;gbkey=CDS;gene=rplN;locus_tag=magsep_213;product=50S ribosomal protein L14;protein_id=PIM95187.1;transl_table=4
+CM008760.1	Genbank	gene	13119	13463	.	+	.	ID=gene-magsep_215;Name=rpsM;gbkey=Gene;gene=rpsM;gene_biotype=protein_coding;locus_tag=magsep_215
+CM008760.1	Genbank	CDS	13119	13463	.	+	0	ID=cds-PIM95189.1;Parent=gene-magsep_215;Dbxref=NCBI_GP:PIM95189.1;Name=PIM95189.1;Note=phmmer;gbkey=CDS;gene=rpsM;locus_tag=magsep_215;product=30S ribosomal protein S13;protein_id=PIM95189.1;transl_table=4
+##sequence-region CM008761.1 1 10218
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008761.1	Genbank	region	1	10218	.	+	.	ID=CM008761.1:1..10218;Dbxref=taxon:573658;Is_circular=true;Name=variant38;chromosome=variant38;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008761.1	Genbank	gene	467	3173	.	+	.	ID=gene-magsep_216;Name=magsep_216;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_216
+CM008761.1	Genbank	rRNA	467	3173	.	+	.	ID=rna-magsep_216;Parent=gene-magsep_216;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_216;product=23S ribosomal RNA
+CM008761.1	Genbank	exon	467	3173	.	+	.	ID=exon-magsep_216-1;Parent=rna-magsep_216;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_216;product=23S ribosomal RNA
+CM008761.1	Genbank	gene	3227	3328	.	+	.	ID=gene-magsep_217;Name=magsep_217;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_217
+CM008761.1	Genbank	rRNA	3227	3328	.	+	.	ID=rna-magsep_217;Parent=gene-magsep_217;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_217;product=5S ribosomal RNA
+CM008761.1	Genbank	exon	3227	3328	.	+	.	ID=exon-magsep_217-1;Parent=rna-magsep_217;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_217;product=5S ribosomal RNA
+CM008761.1	Genbank	gene	3835	4683	.	+	.	ID=gene-magsep_218;Name=fpr;gbkey=Gene;gene=fpr;gene_biotype=protein_coding;locus_tag=magsep_218
+CM008761.1	Genbank	CDS	3835	4683	.	+	0	ID=cds-PIM95176.1;Parent=gene-magsep_218;Dbxref=NCBI_GP:PIM95176.1;Name=PIM95176.1;Note=phmmer;gbkey=CDS;gene=fpr;locus_tag=magsep_218;product=Ferredoxin--NADP reductase;protein_id=PIM95176.1;transl_table=4
+##sequence-region CM008762.1 1 10207
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+CM008762.1	Genbank	region	1	10207	.	+	.	ID=CM008762.1:1..10207;Dbxref=taxon:573658;Is_circular=true;Name=variant39;chromosome=variant39;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;genome=chromosome;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+CM008762.1	Genbank	gene	1204	1779	.	+	.	ID=gene-magsep_219;Name=dnaQ;gbkey=Gene;gene=dnaQ;gene_biotype=protein_coding;locus_tag=magsep_219
+CM008762.1	Genbank	CDS	1204	1779	.	+	0	ID=cds-PIM95160.1;Parent=gene-magsep_219;Dbxref=NCBI_GP:PIM95160.1;Name=PIM95160.1;Note=phmmer;gbkey=CDS;gene=dnaQ;locus_tag=magsep_219;product=DNA polymerase III subunit epsilon;protein_id=PIM95160.1;transl_table=4
+CM008762.1	Genbank	gene	2753	3607	.	-	.	ID=gene-magsep_220;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_220
+CM008762.1	Genbank	CDS	2753	3607	.	-	0	ID=cds-PIM95161.1;Parent=gene-magsep_220;Dbxref=NCBI_GP:PIM95161.1;Name=PIM95161.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_220;product=cobalamin biosynthesis protein;protein_id=PIM95161.1;transl_table=4
+##sequence-region NXGN01000045.1 1 55416
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000045.1	Genbank	region	1	55416	.	+	.	ID=NXGN01000045.1:1..55416;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000045.1	Genbank	gene	3666	4370	.	-	.	ID=gene-magsep_223;Name=cobA;gbkey=Gene;gene=cobA;gene_biotype=protein_coding;locus_tag=magsep_223
+NXGN01000045.1	Genbank	CDS	3666	4370	.	-	0	ID=cds-PIM95106.1;Parent=gene-magsep_223;Dbxref=NCBI_GP:PIM95106.1;Name=PIM95106.1;Note=phmmer;gbkey=CDS;gene=cobA;locus_tag=magsep_223;product=putative uroporphyrin-III c-methyltransferase;protein_id=PIM95106.1;transl_table=4
+NXGN01000045.1	Genbank	gene	12329	16387	.	-	.	ID=gene-magsep_224;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=magsep_224
+NXGN01000045.1	Genbank	CDS	12329	16387	.	-	0	ID=cds-PIM95107.1;Parent=gene-magsep_224;Dbxref=NCBI_GP:PIM95107.1;Name=PIM95107.1;Note=phmmer;gbkey=CDS;gene=rpoC;locus_tag=magsep_224;product=DNA-directed RNA polymerase subunit beta';protein_id=PIM95107.1;transl_table=4
+NXGN01000045.1	Genbank	gene	16391	20116	.	-	.	ID=gene-magsep_225;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=magsep_225
+NXGN01000045.1	Genbank	CDS	16391	20116	.	-	0	ID=cds-PIM95108.1;Parent=gene-magsep_225;Dbxref=NCBI_GP:PIM95108.1;Name=PIM95108.1;Note=phmmer;gbkey=CDS;gene=rpoB;locus_tag=magsep_225;product=DNA-directed RNA polymerase subunit beta;protein_id=PIM95108.1;transl_table=4
+NXGN01000045.1	Genbank	gene	20255	21307	.	-	.	ID=gene-magsep_226;Name=gatB;gbkey=Gene;gene=gatB;gene_biotype=protein_coding;locus_tag=magsep_226
+NXGN01000045.1	Genbank	CDS	20255	21307	.	-	0	ID=cds-PIM95109.1;Parent=gene-magsep_226;Dbxref=NCBI_GP:PIM95109.1;Name=PIM95109.1;Note=phmmer;gbkey=CDS;gene=gatB;locus_tag=magsep_226;product=Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B;protein_id=PIM95109.1;transl_table=4
+NXGN01000045.1	Genbank	gene	32598	33539	.	-	.	ID=gene-magsep_227;Name=metF;gbkey=Gene;gene=metF;gene_biotype=protein_coding;locus_tag=magsep_227
+NXGN01000045.1	Genbank	CDS	32598	33539	.	-	0	ID=cds-PIM95110.1;Parent=gene-magsep_227;Dbxref=NCBI_GP:PIM95110.1;Name=PIM95110.1;Note=phmmer;gbkey=CDS;gene=metF;locus_tag=magsep_227;product=5%2C10-methylenetetrahydrofolate reductase;protein_id=PIM95110.1;transl_table=4
+NXGN01000045.1	Genbank	gene	45997	46093	.	-	.	ID=gene-magsep_228;Name=magsep_228;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_228
+NXGN01000045.1	Genbank	rRNA	45997	46093	.	-	.	ID=rna-magsep_228;Parent=gene-magsep_228;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_228;product=5S ribosomal RNA
+NXGN01000045.1	Genbank	exon	45997	46093	.	-	.	ID=exon-magsep_228-1;Parent=rna-magsep_228;Note=rnammer_1.2;gbkey=rRNA;locus_tag=magsep_228;product=5S ribosomal RNA
+NXGN01000045.1	Genbank	gene	46145	48850	.	-	.	ID=gene-magsep_229;Name=magsep_229;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_229
+NXGN01000045.1	Genbank	rRNA	46145	48850	.	-	.	ID=rna-magsep_229;Parent=gene-magsep_229;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_229;product=23S ribosomal RNA
+NXGN01000045.1	Genbank	exon	46145	48850	.	-	.	ID=exon-magsep_229-1;Parent=rna-magsep_229;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_229;product=23S ribosomal RNA
+NXGN01000045.1	Genbank	gene	49013	50522	.	-	.	ID=gene-magsep_230;Name=magsep_230;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_230
+NXGN01000045.1	Genbank	rRNA	49013	50522	.	-	.	ID=rna-magsep_230;Parent=gene-magsep_230;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_230;product=16S ribosomal RNA
+NXGN01000045.1	Genbank	exon	49013	50522	.	-	.	ID=exon-magsep_230-1;Parent=rna-magsep_230;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_230;product=16S ribosomal RNA
+NXGN01000045.1	Genbank	gene	53454	54806	.	-	.	ID=gene-magsep_231;Name=glyA;gbkey=Gene;gene=glyA;gene_biotype=protein_coding;locus_tag=magsep_231
+NXGN01000045.1	Genbank	CDS	53454	54806	.	-	0	ID=cds-PIM95111.1;Parent=gene-magsep_231;Dbxref=NCBI_GP:PIM95111.1;Name=PIM95111.1;Note=phmmer;gbkey=CDS;gene=glyA;locus_tag=magsep_231;product=Serine hydroxymethyltransferase;protein_id=PIM95111.1;transl_table=4
+##sequence-region NXGN01000040.1 1 1242
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000040.1	Genbank	region	1	1242	.	+	.	ID=NXGN01000040.1:1..1242;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000041.1 1 1228
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000041.1	Genbank	region	1	1228	.	+	.	ID=NXGN01000041.1:1..1228;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000042.1 1 2577
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000042.1	Genbank	region	1	2577	.	+	.	ID=NXGN01000042.1:1..2577;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000043.1 1 1223
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000043.1	Genbank	region	1	1223	.	+	.	ID=NXGN01000043.1:1..1223;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000043.1	Genbank	gene	27	971	.	-	.	ID=gene-magsep_222;Name=pcobS;gbkey=Gene;gene=pcobS;gene_biotype=protein_coding;locus_tag=magsep_222
+NXGN01000043.1	Genbank	CDS	27	971	.	-	0	ID=cds-PIM95124.1;Parent=gene-magsep_222;Dbxref=NCBI_GP:PIM95124.1;Name=PIM95124.1;Note=phmmer;gbkey=CDS;gene=pcobS;locus_tag=magsep_222;product=Cobalamin biosynthesis protein CobS;protein_id=PIM95124.1;transl_table=4
+##sequence-region NXGN01000044.1 1 2556
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000044.1	Genbank	region	1	2556	.	+	.	ID=NXGN01000044.1:1..2556;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000046.1 1 2541
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000046.1	Genbank	region	1	2541	.	+	.	ID=NXGN01000046.1:1..2541;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000047.1 1 7353
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000047.1	Genbank	region	1	7353	.	+	.	ID=NXGN01000047.1:1..7353;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000047.1	Genbank	gene	3063	4574	.	-	.	ID=gene-magsep_232;Name=etfD;gbkey=Gene;gene=etfD;gene_biotype=protein_coding;locus_tag=magsep_232
+NXGN01000047.1	Genbank	CDS	3063	4574	.	-	0	ID=cds-PIM95087.1;Parent=gene-magsep_232;Dbxref=NCBI_GP:PIM95087.1;Name=PIM95087.1;Note=phmmer;gbkey=CDS;gene=etfD;locus_tag=magsep_232;product=Electron transfer flavoprotein-ubiquinone oxidoreductase;protein_id=PIM95087.1;transl_table=4
+##sequence-region NXGN01000048.1 1 7344
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000048.1	Genbank	region	1	7344	.	+	.	ID=NXGN01000048.1:1..7344;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000048.1	Genbank	gene	342	881	.	+	.	ID=gene-magsep_233;Name=ctaG;gbkey=Gene;gene=ctaG;gene_biotype=protein_coding;locus_tag=magsep_233
+NXGN01000048.1	Genbank	CDS	342	881	.	+	0	ID=cds-PIM95080.1;Parent=gene-magsep_233;Dbxref=NCBI_GP:PIM95080.1;Name=PIM95080.1;Note=phmmer;gbkey=CDS;gene=ctaG;locus_tag=magsep_233;product=Cytochrome c oxidase assembly protein CtaG;protein_id=PIM95080.1;transl_table=4
+NXGN01000048.1	Genbank	gene	908	1348	.	+	.	ID=gene-magsep_234;Name=ctaE;gbkey=Gene;gene=ctaE;gene_biotype=protein_coding;locus_tag=magsep_234
+NXGN01000048.1	Genbank	CDS	908	1348	.	+	0	ID=cds-PIM95081.1;Parent=gene-magsep_234;Dbxref=NCBI_GP:PIM95081.1;Name=PIM95081.1;Note=HMMER_3.1b2;gbkey=CDS;gene=ctaE;locus_tag=magsep_234;product=Cytochrome c oxidase subunit 3;protein_id=PIM95081.1;transl_table=4
+NXGN01000048.1	Genbank	gene	1350	1820	.	-	.	ID=gene-magsep_235;Name=rpsD;gbkey=Gene;gene=rpsD;gene_biotype=protein_coding;locus_tag=magsep_235
+NXGN01000048.1	Genbank	CDS	1350	1820	.	-	0	ID=cds-PIM95082.1;Parent=gene-magsep_235;Dbxref=NCBI_GP:PIM95082.1;Name=PIM95082.1;Note=HMMER_3.1b2;gbkey=CDS;gene=rpsD;locus_tag=magsep_235;product=30S ribosomal subunit protein S4;protein_id=PIM95082.1;transl_table=4
+NXGN01000048.1	Genbank	gene	2972	4114	.	-	.	ID=gene-magsep_236;Name=fbcH;gbkey=Gene;gene=fbcH;gene_biotype=protein_coding;locus_tag=magsep_236
+NXGN01000048.1	Genbank	CDS	2972	4114	.	-	0	ID=cds-PIM95083.1;Parent=gene-magsep_236;Dbxref=NCBI_GP:PIM95083.1;Name=PIM95083.1;Note=phmmer;gbkey=CDS;gene=fbcH;locus_tag=magsep_236;product=cytochrome b;protein_id=PIM95083.1;transl_table=4
+##sequence-region NXGN01000049.1 1 7108
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000049.1	Genbank	region	1	7108	.	+	.	ID=NXGN01000049.1:1..7108;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000050.1 1 6995
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000050.1	Genbank	region	1	6995	.	+	.	ID=NXGN01000050.1:1..6995;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000051.1 1 2330
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000051.1	Genbank	region	1	2330	.	+	.	ID=NXGN01000051.1:1..2330;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000052.1 1 6877
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000052.1	Genbank	region	1	6877	.	+	.	ID=NXGN01000052.1:1..6877;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000053.1 1 6719
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000053.1	Genbank	region	1	6719	.	+	.	ID=NXGN01000053.1:1..6719;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000054.1 1 1136
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000054.1	Genbank	region	1	1136	.	+	.	ID=NXGN01000054.1:1..1136;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000055.1 1 1126
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000055.1	Genbank	region	1	1126	.	+	.	ID=NXGN01000055.1:1..1126;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000055.1	Genbank	gene	85	708	.	-	.	ID=gene-magsep_237;Name=rpsD;gbkey=Gene;gene=rpsD;gene_biotype=protein_coding;locus_tag=magsep_237
+NXGN01000055.1	Genbank	CDS	85	708	.	-	0	ID=cds-PIM95060.1;Parent=gene-magsep_237;Dbxref=NCBI_GP:PIM95060.1;Name=PIM95060.1;Note=phmmer;gbkey=CDS;gene=rpsD;locus_tag=magsep_237;product=30S ribosomal subunit protein S4;protein_id=PIM95060.1;transl_table=4
+##sequence-region NXGN01000056.1 1 6536
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000056.1	Genbank	region	1	6536	.	+	.	ID=NXGN01000056.1:1..6536;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000056.1	Genbank	gene	263	1213	.	-	.	ID=gene-magsep_238;Name=metF;gbkey=Gene;gene=metF;gene_biotype=protein_coding;locus_tag=magsep_238
+NXGN01000056.1	Genbank	CDS	263	1213	.	-	0	ID=cds-PIM95056.1;Parent=gene-magsep_238;Dbxref=NCBI_GP:PIM95056.1;Name=PIM95056.1;Note=phmmer;gbkey=CDS;gene=metF;locus_tag=magsep_238;product=5%2C10-methylenetetrahydrofolate reductase;protein_id=PIM95056.1;transl_table=4
+##sequence-region NXGN01000057.1 1 1095
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000057.1	Genbank	region	1	1095	.	+	.	ID=NXGN01000057.1:1..1095;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000058.1 1 1074
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000058.1	Genbank	region	1	1074	.	+	.	ID=NXGN01000058.1:1..1074;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000059.1 1 6172
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000059.1	Genbank	region	1	6172	.	+	.	ID=NXGN01000059.1:1..6172;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000059.1	Genbank	gene	45	2759	.	-	.	ID=gene-magsep_239;Name=magsep_239;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_239
+NXGN01000059.1	Genbank	rRNA	45	2759	.	-	.	ID=rna-magsep_239;Parent=gene-magsep_239;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_239;product=23S ribosomal RNA
+NXGN01000059.1	Genbank	exon	45	2759	.	-	.	ID=exon-magsep_239-1;Parent=rna-magsep_239;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_239;product=23S ribosomal RNA
+NXGN01000059.1	Genbank	gene	3097	4651	.	-	.	ID=gene-magsep_240;Name=magsep_240;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_240
+NXGN01000059.1	Genbank	rRNA	3097	4651	.	-	.	ID=rna-magsep_240;Parent=gene-magsep_240;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_240;product=16S ribosomal RNA
+NXGN01000059.1	Genbank	exon	3097	4651	.	-	.	ID=exon-magsep_240-1;Parent=rna-magsep_240;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_240;product=16S ribosomal RNA
+##sequence-region NXGN01000060.1 1 1067
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000060.1	Genbank	region	1	1067	.	+	.	ID=NXGN01000060.1:1..1067;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000061.1 1 1988
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000061.1	Genbank	region	1	1988	.	+	.	ID=NXGN01000061.1:1..1988;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000061.1	Genbank	gene	246	1496	.	-	.	ID=gene-magsep_241;Name=rpoD;gbkey=Gene;gene=rpoD;gene_biotype=protein_coding;locus_tag=magsep_241
+NXGN01000061.1	Genbank	CDS	246	1496	.	-	0	ID=cds-PIM95019.1;Parent=gene-magsep_241;Dbxref=NCBI_GP:PIM95019.1;Name=PIM95019.1;Note=phmmer;gbkey=CDS;gene=rpoD;locus_tag=magsep_241;product=RNA polymerase sigma factor rpoD;protein_id=PIM95019.1;transl_table=4
+##sequence-region NXGN01000062.1 1 1986
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000062.1	Genbank	region	1	1986	.	+	.	ID=NXGN01000062.1:1..1986;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000063.1 1 1060
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000063.1	Genbank	region	1	1060	.	+	.	ID=NXGN01000063.1:1..1060;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000064.1 1 1055
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000064.1	Genbank	region	1	1055	.	+	.	ID=NXGN01000064.1:1..1055;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000093.1 1 93841
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000093.1	Genbank	region	1	93841	.	+	.	ID=NXGN01000093.1:1..93841;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000093.1	Genbank	gene	6859	7140	.	-	.	ID=gene-magsep_261;Name=rpmB;gbkey=Gene;gene=rpmB;gene_biotype=protein_coding;locus_tag=magsep_261
+NXGN01000093.1	Genbank	CDS	6859	7140	.	-	0	ID=cds-PIM94928.1;Parent=gene-magsep_261;Dbxref=NCBI_GP:PIM94928.1;Name=PIM94928.1;Note=phmmer;gbkey=CDS;gene=rpmB;locus_tag=magsep_261;product=50S ribosomal protein L28;protein_id=PIM94928.1;transl_table=4
+NXGN01000093.1	Genbank	gene	12189	12746	.	-	.	ID=gene-magsep_262;Name=dnaQ;gbkey=Gene;gene=dnaQ;gene_biotype=protein_coding;locus_tag=magsep_262
+NXGN01000093.1	Genbank	CDS	12189	12746	.	-	0	ID=cds-PIM94929.1;Parent=gene-magsep_262;Dbxref=NCBI_GP:PIM94929.1;Name=PIM94929.1;Note=phmmer;gbkey=CDS;gene=dnaQ;locus_tag=magsep_262;product=DNA polymerase III subunit epsilon;protein_id=PIM94929.1;transl_table=4
+NXGN01000093.1	Genbank	gene	18057	18569	.	-	.	ID=gene-magsep_263;Name=magsep_263;Note=xxxC;gbkey=Gene;gene_biotype=protein_coding;locus_tag=magsep_263
+NXGN01000093.1	Genbank	CDS	18057	18569	.	-	0	ID=cds-PIM94930.1;Parent=gene-magsep_263;Dbxref=NCBI_GP:PIM94930.1;Name=PIM94930.1;Note=HMMER_3.1b2;gbkey=CDS;locus_tag=magsep_263;product=hypothetical protein;protein_id=PIM94930.1;transl_table=4
+NXGN01000093.1	Genbank	gene	24496	24873	.	-	.	ID=gene-magsep_264;Name=infC;gbkey=Gene;gene=infC;gene_biotype=protein_coding;locus_tag=magsep_264
+NXGN01000093.1	Genbank	CDS	24496	24873	.	-	0	ID=cds-PIM94931.1;Parent=gene-magsep_264;Dbxref=NCBI_GP:PIM94931.1;Name=PIM94931.1;Note=phmmer;gbkey=CDS;gene=infC;locus_tag=magsep_264;product=Translation initiation factor IF-3;protein_id=PIM94931.1;transl_table=4
+NXGN01000093.1	Genbank	gene	25167	29225	.	-	.	ID=gene-magsep_265;Name=rpoC;gbkey=Gene;gene=rpoC;gene_biotype=protein_coding;locus_tag=magsep_265
+NXGN01000093.1	Genbank	CDS	25167	29225	.	-	0	ID=cds-PIM94932.1;Parent=gene-magsep_265;Dbxref=NCBI_GP:PIM94932.1;Name=PIM94932.1;Note=phmmer;gbkey=CDS;gene=rpoC;locus_tag=magsep_265;product=DNA-directed RNA polymerase subunit beta';protein_id=PIM94932.1;transl_table=4
+NXGN01000093.1	Genbank	gene	29229	32954	.	-	.	ID=gene-magsep_266;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=magsep_266
+NXGN01000093.1	Genbank	CDS	29229	32954	.	-	0	ID=cds-PIM94933.1;Parent=gene-magsep_266;Dbxref=NCBI_GP:PIM94933.1;Name=PIM94933.1;Note=phmmer;gbkey=CDS;gene=rpoB;locus_tag=magsep_266;product=DNA-directed RNA polymerase subunit beta;protein_id=PIM94933.1;transl_table=4
+NXGN01000093.1	Genbank	gene	33012	33084	.	-	.	ID=gene-magsep_267;Name=tRNA-Gly;gbkey=Gene;gene=tRNA-Gly;gene_biotype=tRNA;locus_tag=magsep_267
+NXGN01000093.1	Genbank	tRNA	33012	33084	.	-	.	ID=rna-magsep_267;Parent=gene-magsep_267;Note=ARAGORN_v1.2.36%3B tRNA-Gly(tcc);gbkey=tRNA;gene=tRNA-Gly;locus_tag=magsep_267;product=tRNA-Gly
+NXGN01000093.1	Genbank	exon	33012	33084	.	-	.	ID=exon-magsep_267-1;Parent=rna-magsep_267;Note=ARAGORN_v1.2.36%3B tRNA-Gly(tcc);gbkey=tRNA;gene=tRNA-Gly;locus_tag=magsep_267;product=tRNA-Gly
+NXGN01000093.1	Genbank	gene	43839	44411	.	-	.	ID=gene-magsep_268;Name=cycM;gbkey=Gene;gene=cycM;gene_biotype=protein_coding;locus_tag=magsep_268
+NXGN01000093.1	Genbank	CDS	43839	44411	.	-	0	ID=cds-PIM94934.1;Parent=gene-magsep_268;Dbxref=NCBI_GP:PIM94934.1;Name=PIM94934.1;Note=phmmer;gbkey=CDS;gene=cycM;locus_tag=magsep_268;product=Cytochrome c;protein_id=PIM94934.1;transl_table=4
+NXGN01000093.1	Genbank	gene	47012	50593	.	-	.	ID=gene-magsep_269;Name=metH;gbkey=Gene;gene=metH;gene_biotype=protein_coding;locus_tag=magsep_269
+NXGN01000093.1	Genbank	CDS	47012	50593	.	-	0	ID=cds-PIM94935.1;Parent=gene-magsep_269;Dbxref=NCBI_GP:PIM94935.1;Name=PIM94935.1;Note=phmmer;gbkey=CDS;gene=metH;locus_tag=magsep_269;product=Methionine synthase;protein_id=PIM94935.1;transl_table=4
+NXGN01000093.1	Genbank	gene	54222	56922	.	-	.	ID=gene-magsep_272;Name=magsep_272;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_272
+NXGN01000093.1	Genbank	rRNA	54222	56922	.	-	.	ID=rna-magsep_272;Parent=gene-magsep_272;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_272;product=23S ribosomal RNA
+NXGN01000093.1	Genbank	exon	54222	56922	.	-	.	ID=exon-magsep_272-1;Parent=rna-magsep_272;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_272;product=23S ribosomal RNA
+NXGN01000093.1	Genbank	gene	57084	58594	.	-	.	ID=gene-magsep_271;Name=magsep_271;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_271
+NXGN01000093.1	Genbank	rRNA	57084	58594	.	-	.	ID=rna-magsep_271;Parent=gene-magsep_271;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_271;product=16S ribosomal RNA
+NXGN01000093.1	Genbank	exon	57084	58594	.	-	.	ID=exon-magsep_271-1;Parent=rna-magsep_271;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_271;product=16S ribosomal RNA
+NXGN01000093.1	Genbank	gene	68957	70141	.	-	.	ID=gene-magsep_273;Name=metC;gbkey=Gene;gene=metC;gene_biotype=protein_coding;locus_tag=magsep_273
+NXGN01000093.1	Genbank	CDS	68957	70141	.	-	0	ID=cds-PIM94936.1;Parent=gene-magsep_273;Dbxref=NCBI_GP:PIM94936.1;Name=PIM94936.1;Note=phmmer;gbkey=CDS;gene=metC;locus_tag=magsep_273;product=cystathionine beta-lyase;protein_id=PIM94936.1;transl_table=4
+NXGN01000093.1	Genbank	gene	74314	74718	.	-	.	ID=gene-magsep_274;Name=ribH;gbkey=Gene;gene=ribH;gene_biotype=protein_coding;locus_tag=magsep_274
+NXGN01000093.1	Genbank	CDS	74314	74718	.	-	0	ID=cds-PIM94937.1;Parent=gene-magsep_274;Dbxref=NCBI_GP:PIM94937.1;Name=PIM94937.1;Note=phmmer;gbkey=CDS;gene=ribH;locus_tag=magsep_274;product=6%2C7-dimethyl-8-ribityllumazine synthase;protein_id=PIM94937.1;transl_table=4
+NXGN01000093.1	Genbank	gene	78215	78475	.	-	.	ID=gene-magsep_275;Name=infA;gbkey=Gene;gene=infA;gene_biotype=protein_coding;locus_tag=magsep_275
+NXGN01000093.1	Genbank	CDS	78215	78475	.	-	0	ID=cds-PIM94938.1;Parent=gene-magsep_275;Dbxref=NCBI_GP:PIM94938.1;Name=PIM94938.1;Note=phmmer;gbkey=CDS;gene=infA;locus_tag=magsep_275;product=Translation initiation factor IF-1;protein_id=PIM94938.1;transl_table=4
+NXGN01000093.1	Genbank	gene	86919	89619	.	-	.	ID=gene-magsep_277;Name=magsep_277;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_277
+NXGN01000093.1	Genbank	rRNA	86919	89619	.	-	.	ID=rna-magsep_277;Parent=gene-magsep_277;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_277;product=23S ribosomal RNA
+NXGN01000093.1	Genbank	exon	86919	89619	.	-	.	ID=exon-magsep_277-1;Parent=rna-magsep_277;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_277;product=23S ribosomal RNA
+NXGN01000093.1	Genbank	gene	89781	91291	.	-	.	ID=gene-magsep_276;Name=magsep_276;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_276
+NXGN01000093.1	Genbank	rRNA	89781	91291	.	-	.	ID=rna-magsep_276;Parent=gene-magsep_276;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_276;product=16S ribosomal RNA
+NXGN01000093.1	Genbank	exon	89781	91291	.	-	.	ID=exon-magsep_276-1;Parent=rna-magsep_276;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_276;product=16S ribosomal RNA
+##sequence-region NXGN01000066.1 1 13240
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000066.1	Genbank	region	1	13240	.	+	.	ID=NXGN01000066.1:1..13240;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000066.1	Genbank	gene	4147	5445	.	-	.	ID=gene-magsep_242;Name=hisD;gbkey=Gene;gene=hisD;gene_biotype=protein_coding;locus_tag=magsep_242
+NXGN01000066.1	Genbank	CDS	4147	5445	.	-	0	ID=cds-PIM95006.1;Parent=gene-magsep_242;Dbxref=NCBI_GP:PIM95006.1;Name=PIM95006.1;Note=phmmer;gbkey=CDS;gene=hisD;locus_tag=magsep_242;product=Histidinol dehydrogenase;protein_id=PIM95006.1;transl_table=4
+NXGN01000066.1	Genbank	gene	11196	11333	.	-	.	ID=gene-magsep_243;Name=rplX;gbkey=Gene;gene=rplX;gene_biotype=protein_coding;locus_tag=magsep_243
+NXGN01000066.1	Genbank	CDS	11196	11333	.	-	0	ID=cds-PIM95007.1;Parent=gene-magsep_243;Dbxref=NCBI_GP:PIM95007.1;Name=PIM95007.1;Note=HMMER_3.1b2;gbkey=CDS;gene=rplX;locus_tag=magsep_243;product=50S ribosomal protein L24;protein_id=PIM95007.1;transl_table=4
+##sequence-region NXGN01000065.1 1 1052
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000065.1	Genbank	region	1	1052	.	+	.	ID=NXGN01000065.1:1..1052;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000068.1 1 13161
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000068.1	Genbank	region	1	13161	.	+	.	ID=NXGN01000068.1:1..13161;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000068.1	Genbank	gene	1672	3221	.	+	.	ID=gene-magsep_244;Name=magsep_244;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_244
+NXGN01000068.1	Genbank	rRNA	1672	3221	.	+	.	ID=rna-magsep_244;Parent=gene-magsep_244;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_244;product=16S ribosomal RNA
+NXGN01000068.1	Genbank	exon	1672	3221	.	+	.	ID=exon-magsep_244-1;Parent=rna-magsep_244;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_244;product=16S ribosomal RNA
+NXGN01000068.1	Genbank	gene	3327	6009	.	+	.	ID=gene-magsep_245;Name=magsep_245;gbkey=Gene;gene_biotype=rRNA;locus_tag=magsep_245
+NXGN01000068.1	Genbank	rRNA	3327	6009	.	+	.	ID=rna-magsep_245;Parent=gene-magsep_245;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_245;product=23S ribosomal RNA
+NXGN01000068.1	Genbank	exon	3327	6009	.	+	.	ID=exon-magsep_245-1;Parent=rna-magsep_245;Note=RNAmmer-1.2;gbkey=rRNA;locus_tag=magsep_245;product=23S ribosomal RNA
+NXGN01000068.1	Genbank	gene	8621	8995	.	+	.	ID=gene-magsep_246;Name=greA;gbkey=Gene;gene=greA;gene_biotype=protein_coding;locus_tag=magsep_246
+NXGN01000068.1	Genbank	CDS	8621	8995	.	+	0	ID=cds-PIM94991.1;Parent=gene-magsep_246;Dbxref=NCBI_GP:PIM94991.1;Name=PIM94991.1;Note=phmmer;gbkey=CDS;gene=greA;locus_tag=magsep_246;product=Transcription elongation factor GreA;protein_id=PIM94991.1;transl_table=4
+NXGN01000068.1	Genbank	gene	10473	11369	.	+	.	ID=gene-magsep_247;Name=ribD;gbkey=Gene;gene=ribD;gene_biotype=protein_coding;locus_tag=magsep_247
+NXGN01000068.1	Genbank	CDS	10473	11369	.	+	0	ID=cds-PIM94992.1;Parent=gene-magsep_247;Dbxref=NCBI_GP:PIM94992.1;Name=PIM94992.1;Note=phmmer;gbkey=CDS;gene=ribD;locus_tag=magsep_247;product=Riboflavin biosynthesis protein RibD;protein_id=PIM94992.1;transl_table=4
+NXGN01000068.1	Genbank	gene	11754	12926	.	+	.	ID=gene-magsep_248;Name=trmE;gbkey=Gene;gene=trmE;gene_biotype=protein_coding;locus_tag=magsep_248
+NXGN01000068.1	Genbank	CDS	11754	12926	.	+	0	ID=cds-PIM94993.1;Parent=gene-magsep_248;Dbxref=NCBI_GP:PIM94993.1;Name=PIM94993.1;Note=phmmer;gbkey=CDS;gene=trmE;locus_tag=magsep_248;product=tRNA modification GTPase MnmE;protein_id=PIM94993.1;transl_table=4
+##sequence-region NXGN01000067.1 1 1049
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000067.1	Genbank	region	1	1049	.	+	.	ID=NXGN01000067.1:1..1049;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000069.1 1 1924
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000069.1	Genbank	region	1	1924	.	+	.	ID=NXGN01000069.1:1..1924;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000069.1	Genbank	gene	56	850	.	+	.	ID=gene-magsep_249;Name=etfA;gbkey=Gene;gene=etfA;gene_biotype=protein_coding;locus_tag=magsep_249
+NXGN01000069.1	Genbank	CDS	56	850	.	+	0	ID=cds-PIM94984.1;Parent=gene-magsep_249;Dbxref=NCBI_GP:PIM94984.1;Name=PIM94984.1;Note=HMMER_3.1b2;gbkey=CDS;gene=etfA;locus_tag=magsep_249;product=Electron transfer flavoprotein large subunit;protein_id=PIM94984.1;transl_table=4
+##sequence-region NXGN01000070.1 1 1039
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000070.1	Genbank	region	1	1039	.	+	.	ID=NXGN01000070.1:1..1039;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000072.1 1 13003
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000072.1	Genbank	region	1	13003	.	+	.	ID=NXGN01000072.1:1..13003;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000071.1 1 1034
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000071.1	Genbank	region	1	1034	.	+	.	ID=NXGN01000071.1:1..1034;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000073.1 1 1033
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000073.1	Genbank	region	1	1033	.	+	.	ID=NXGN01000073.1:1..1033;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000074.1 1 1893
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000074.1	Genbank	region	1	1893	.	+	.	ID=NXGN01000074.1:1..1893;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000074.1	Genbank	gene	101	1318	.	-	.	ID=gene-magsep_251;Name=metC;gbkey=Gene;gene=metC;gene_biotype=protein_coding;locus_tag=magsep_251
+NXGN01000074.1	Genbank	CDS	101	1318	.	-	0	ID=cds-PIM94969.1;Parent=gene-magsep_251;Dbxref=NCBI_GP:PIM94969.1;Name=PIM94969.1;Note=phmmer;gbkey=CDS;gene=metC;locus_tag=magsep_251;product=cystathionine beta-lyase;protein_id=PIM94969.1;transl_table=4
+##sequence-region NXGN01000075.1 1 1029
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000075.1	Genbank	region	1	1029	.	+	.	ID=NXGN01000075.1:1..1029;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000076.1 1 5800
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000076.1	Genbank	region	1	5800	.	+	.	ID=NXGN01000076.1:1..5800;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000076.1	Genbank	gene	1973	5617	.	-	.	ID=gene-magsep_252;Name=rpoB;gbkey=Gene;gene=rpoB;gene_biotype=protein_coding;locus_tag=magsep_252
+NXGN01000076.1	Genbank	CDS	1973	5617	.	-	0	ID=cds-PIM94965.1;Parent=gene-magsep_252;Dbxref=NCBI_GP:PIM94965.1;Name=PIM94965.1;Note=phmmer;gbkey=CDS;gene=rpoB;locus_tag=magsep_252;product=DNA-directed RNA polymerase subunit beta;protein_id=PIM94965.1;transl_table=4
+##sequence-region NXGN01000077.1 1 1865
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000077.1	Genbank	region	1	1865	.	+	.	ID=NXGN01000077.1:1..1865;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000077.1	Genbank	gene	1097	1170	.	+	.	ID=gene-magsep_253;Name=tRNA-Val;gbkey=Gene;gene=tRNA-Val;gene_biotype=tRNA;locus_tag=magsep_253
+NXGN01000077.1	Genbank	tRNA	1097	1170	.	+	.	ID=rna-magsep_253;Parent=gene-magsep_253;Note=ARAGORN_v1.2.36%3B tRNA-Val(tac);gbkey=tRNA;gene=tRNA-Val;locus_tag=magsep_253;product=tRNA-Val
+NXGN01000077.1	Genbank	exon	1097	1170	.	+	.	ID=exon-magsep_253-1;Parent=rna-magsep_253;Note=ARAGORN_v1.2.36%3B tRNA-Val(tac);gbkey=tRNA;gene=tRNA-Val;locus_tag=magsep_253;product=tRNA-Val
+##sequence-region NXGN01000078.1 1 1012
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000078.1	Genbank	region	1	1012	.	+	.	ID=NXGN01000078.1:1..1012;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000079.1 1 5637
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000079.1	Genbank	region	1	5637	.	+	.	ID=NXGN01000079.1:1..5637;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000079.1	Genbank	gene	1757	3259	.	+	.	ID=gene-magsep_254;Name=cysI;gbkey=Gene;gene=cysI;gene_biotype=protein_coding;locus_tag=magsep_254
+NXGN01000079.1	Genbank	CDS	1757	3259	.	+	0	ID=cds-PIM94962.1;Parent=gene-magsep_254;Dbxref=NCBI_GP:PIM94962.1;Name=PIM94962.1;Note=phmmer;gbkey=CDS;gene=cysI;locus_tag=magsep_254;product=Sulfite reductase [NADPH] hemoprotein beta-component;protein_id=PIM94962.1;transl_table=4
+NXGN01000079.1	Genbank	gene	4593	5618	.	+	.	ID=gene-magsep_255;Name=cysK;gbkey=Gene;gene=cysK;gene_biotype=protein_coding;locus_tag=magsep_255
+NXGN01000079.1	Genbank	CDS	4593	5618	.	+	0	ID=cds-PIM94963.1;Parent=gene-magsep_255;Dbxref=NCBI_GP:PIM94963.1;Name=PIM94963.1;Note=phmmer;gbkey=CDS;gene=cysK;locus_tag=magsep_255;product=Cysteine synthase;protein_id=PIM94963.1;transl_table=4
+##sequence-region NXGN01000080.1 1 1007
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000080.1	Genbank	region	1	1007	.	+	.	ID=NXGN01000080.1:1..1007;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000081.1 1 1004
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000081.1	Genbank	region	1	1004	.	+	.	ID=NXGN01000081.1:1..1004;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000082.1 1 12440
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000082.1	Genbank	region	1	12440	.	+	.	ID=NXGN01000082.1:1..12440;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000083.1 1 993
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000083.1	Genbank	region	1	993	.	+	.	ID=NXGN01000083.1:1..993;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000083.1	Genbank	gene	591	938	.	-	.	ID=gene-magsep_256;Name=def;gbkey=Gene;gene=def;gene_biotype=protein_coding;locus_tag=magsep_256
+NXGN01000083.1	Genbank	CDS	591	938	.	-	0	ID=cds-PIM94949.1;Parent=gene-magsep_256;Dbxref=NCBI_GP:PIM94949.1;Name=PIM94949.1;Note=phmmer;gbkey=CDS;gene=def;locus_tag=magsep_256;product=Peptide deformylase;protein_id=PIM94949.1;transl_table=4
+##sequence-region NXGN01000084.1 1 991
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000084.1	Genbank	region	1	991	.	+	.	ID=NXGN01000084.1:1..991;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000085.1 1 989
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000085.1	Genbank	region	1	989	.	+	.	ID=NXGN01000085.1:1..989;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000086.1 1 5483
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000086.1	Genbank	region	1	5483	.	+	.	ID=NXGN01000086.1:1..5483;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000087.1 1 987
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000087.1	Genbank	region	1	987	.	+	.	ID=NXGN01000087.1:1..987;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000087.1	Genbank	gene	318	779	.	-	.	ID=gene-magsep_257;Name=clpP;gbkey=Gene;gene=clpP;gene_biotype=protein_coding;locus_tag=magsep_257
+NXGN01000087.1	Genbank	CDS	318	779	.	-	0	ID=cds-PIM94947.1;Parent=gene-magsep_257;Dbxref=NCBI_GP:PIM94947.1;Name=PIM94947.1;Note=phmmer;gbkey=CDS;gene=clpP;locus_tag=magsep_257;product=ATP-dependent Clp protease proteolytic subunit precursor;protein_id=PIM94947.1;transl_table=4
+##sequence-region NXGN01000088.1 1 5409
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000088.1	Genbank	region	1	5409	.	+	.	ID=NXGN01000088.1:1..5409;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000088.1	Genbank	gene	273	764	.	-	.	ID=gene-magsep_258;Name=rpsR;gbkey=Gene;gene=rpsR;gene_biotype=protein_coding;locus_tag=magsep_258
+NXGN01000088.1	Genbank	CDS	273	764	.	-	0	ID=cds-PIM94946.1;Parent=gene-magsep_258;Dbxref=NCBI_GP:PIM94946.1;Name=PIM94946.1;Note=phmmer;gbkey=CDS;gene=rpsR;locus_tag=magsep_258;product=30S ribosomal protein S18;protein_id=PIM94946.1;transl_table=4
+##sequence-region NXGN01000089.1 1 976
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000089.1	Genbank	region	1	976	.	+	.	ID=NXGN01000089.1:1..976;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000090.1 1 1756
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000090.1	Genbank	region	1	1756	.	+	.	ID=NXGN01000090.1:1..1756;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000090.1	Genbank	gene	222	1756	.	+	.	ID=gene-magsep_259;Name=ctaD;end_range=1756,.;gbkey=Gene;gene=ctaD;gene_biotype=protein_coding;locus_tag=magsep_259;partial=true
+NXGN01000090.1	Genbank	CDS	222	1756	.	+	0	ID=cds-PIM94943.1;Parent=gene-magsep_259;Dbxref=NCBI_GP:PIM94943.1;Name=PIM94943.1;Note=phmmer;end_range=1756,.;gbkey=CDS;gene=ctaD;locus_tag=magsep_259;partial=true;product=cytochrome c oxidase subunit 1;protein_id=PIM94943.1;transl_table=4
+##sequence-region NXGN01000091.1 1 954
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000091.1	Genbank	region	1	954	.	+	.	ID=NXGN01000091.1:1..954;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000092.1 1 1715
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000092.1	Genbank	region	1	1715	.	+	.	ID=NXGN01000092.1:1..1715;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000092.1	Genbank	gene	643	1715	.	+	.	ID=gene-magsep_260;Name=sufS;end_range=1715,.;gbkey=Gene;gene=sufS;gene_biotype=protein_coding;locus_tag=magsep_260;partial=true
+NXGN01000092.1	Genbank	CDS	643	1715	.	+	0	ID=cds-PIM94940.1;Parent=gene-magsep_260;Dbxref=NCBI_GP:PIM94940.1;Name=PIM94940.1;Note=phmmer;end_range=1715,.;gbkey=CDS;gene=sufS;locus_tag=magsep_260;partial=true;product=Cysteine desulfurase;protein_id=PIM94940.1;transl_table=4
+##sequence-region NXGN01000104.1 1 61285
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000104.1	Genbank	region	1	61285	.	+	.	ID=NXGN01000104.1:1..61285;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000104.1	Genbank	gene	6252	6470	.	-	.	ID=gene-magsep_284;Name=magsep_284;Note=xxxF;gbkey=Gene;gene_biotype=protein_coding;locus_tag=magsep_284
+NXGN01000104.1	Genbank	CDS	6252	6470	.	-	0	ID=cds-PIM94904.1;Parent=gene-magsep_284;Dbxref=NCBI_GP:PIM94904.1;Name=PIM94904.1;Note=HMMER_3.1b2;gbkey=CDS;locus_tag=magsep_284;product=hypothetical protein;protein_id=PIM94904.1;transl_table=4
+NXGN01000104.1	Genbank	gene	14163	14909	.	-	.	ID=gene-magsep_285;Name=glyQ;gbkey=Gene;gene=glyQ;gene_biotype=protein_coding;locus_tag=magsep_285
+NXGN01000104.1	Genbank	CDS	14163	14909	.	-	0	ID=cds-PIM94905.1;Parent=gene-magsep_285;Dbxref=NCBI_GP:PIM94905.1;Name=PIM94905.1;Note=phmmer;gbkey=CDS;gene=glyQ;locus_tag=magsep_285;product=Glycine--tRNA ligase alpha subunit;protein_id=PIM94905.1;transl_table=4
+NXGN01000104.1	Genbank	gene	16769	17740	.	+	.	ID=gene-magsep_286;Name=trpS;gbkey=Gene;gene=trpS;gene_biotype=protein_coding;locus_tag=magsep_286
+NXGN01000104.1	Genbank	CDS	16769	17740	.	+	0	ID=cds-PIM94906.1;Parent=gene-magsep_286;Dbxref=NCBI_GP:PIM94906.1;Name=PIM94906.1;Note=phmmer;gbkey=CDS;gene=trpS;locus_tag=magsep_286;product=Tryptophan--tRNA ligase;protein_id=PIM94906.1;transl_table=4
+NXGN01000104.1	Genbank	gene	25626	26555	.	-	.	ID=gene-magsep_287;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_287
+NXGN01000104.1	Genbank	CDS	25626	26555	.	-	0	ID=cds-PIM94907.1;Parent=gene-magsep_287;Dbxref=NCBI_GP:PIM94907.1;Name=PIM94907.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_287;product=cobalamin biosynthesis protein;protein_id=PIM94907.1;transl_table=4
+NXGN01000104.1	Genbank	gene	47171	47530	.	-	.	ID=gene-magsep_288;Name=cobP;gbkey=Gene;gene=cobP;gene_biotype=protein_coding;locus_tag=magsep_288
+NXGN01000104.1	Genbank	CDS	47171	47530	.	-	0	ID=cds-PIM94908.1;Parent=gene-magsep_288;Dbxref=NCBI_GP:PIM94908.1;Name=PIM94908.1;Note=HMMER_3.1b2;gbkey=CDS;gene=cobP;locus_tag=magsep_288;product=Adenosylcobinamide kinase;protein_id=PIM94908.1;transl_table=4
+NXGN01000104.1	Genbank	gene	51131	51886	.	-	.	ID=gene-magsep_289;Name=cobM;gbkey=Gene;gene=cobM;gene_biotype=protein_coding;locus_tag=magsep_289
+NXGN01000104.1	Genbank	CDS	51131	51886	.	-	0	ID=cds-PIM94909.1;Parent=gene-magsep_289;Dbxref=NCBI_GP:PIM94909.1;Name=PIM94909.1;Note=phmmer;gbkey=CDS;gene=cobM;locus_tag=magsep_289;product=Cobalt-precorrin-4 C(11)-methyltransferase;protein_id=PIM94909.1;transl_table=4
+NXGN01000104.1	Genbank	gene	59096	60526	.	-	.	ID=gene-magsep_290;Name=infB;gbkey=Gene;gene=infB;gene_biotype=protein_coding;locus_tag=magsep_290
+NXGN01000104.1	Genbank	CDS	59096	60526	.	-	0	ID=cds-PIM94910.1;Parent=gene-magsep_290;Dbxref=NCBI_GP:PIM94910.1;Name=PIM94910.1;Note=phmmer;gbkey=CDS;gene=infB;locus_tag=magsep_290;product=Translation initiation factor IF-2;protein_id=PIM94910.1;transl_table=4
+##sequence-region NXGN01000094.1 1 947
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000094.1	Genbank	region	1	947	.	+	.	ID=NXGN01000094.1:1..947;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000095.1 1 1697
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000095.1	Genbank	region	1	1697	.	+	.	ID=NXGN01000095.1:1..1697;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000095.1	Genbank	gene	146	679	.	+	.	ID=gene-magsep_278;Name=cysH;gbkey=Gene;gene=cysH;gene_biotype=protein_coding;locus_tag=magsep_278
+NXGN01000095.1	Genbank	CDS	146	679	.	+	0	ID=cds-PIM94925.1;Parent=gene-magsep_278;Dbxref=NCBI_GP:PIM94925.1;Name=PIM94925.1;Note=HMMER_3.1b2;gbkey=CDS;gene=cysH;locus_tag=magsep_278;product=Phosphoadenosine phosphosulfate reductase;protein_id=PIM94925.1;transl_table=4
+NXGN01000095.1	Genbank	gene	692	765	.	-	.	ID=gene-magsep_279;Name=tRNA-Gln;gbkey=Gene;gene=tRNA-Gln;gene_biotype=tRNA;locus_tag=magsep_279
+NXGN01000095.1	Genbank	tRNA	692	765	.	-	.	ID=rna-magsep_279;Parent=gene-magsep_279;Note=ARAGORN_v1.2.36%3B tRNA-Gln(ttg);gbkey=tRNA;gene=tRNA-Gln;locus_tag=magsep_279;product=tRNA-Gln
+NXGN01000095.1	Genbank	exon	692	765	.	-	.	ID=exon-magsep_279-1;Parent=rna-magsep_279;Note=ARAGORN_v1.2.36%3B tRNA-Gln(ttg);gbkey=tRNA;gene=tRNA-Gln;locus_tag=magsep_279;product=tRNA-Gln
+NXGN01000095.1	Genbank	gene	769	840	.	-	.	ID=gene-magsep_280;Name=tRNA-Ile;gbkey=Gene;gene=tRNA-Ile;gene_biotype=tRNA;locus_tag=magsep_280
+NXGN01000095.1	Genbank	tRNA	769	840	.	-	.	ID=rna-magsep_280;Parent=gene-magsep_280;Note=ARAGORN_v1.2.36%3B tRNA-Ile(gat);gbkey=tRNA;gene=tRNA-Ile;locus_tag=magsep_280;product=tRNA-Ile
+NXGN01000095.1	Genbank	exon	769	840	.	-	.	ID=exon-magsep_280-1;Parent=rna-magsep_280;Note=ARAGORN_v1.2.36%3B tRNA-Ile(gat);gbkey=tRNA;gene=tRNA-Ile;locus_tag=magsep_280;product=tRNA-Ile
+##sequence-region NXGN01000096.1 1 938
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000096.1	Genbank	region	1	938	.	+	.	ID=NXGN01000096.1:1..938;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000096.1	Genbank	gene	52	702	.	-	.	ID=gene-magsep_281;Name=xxxJ;gbkey=Gene;gene=xxxJ;gene_biotype=protein_coding;locus_tag=magsep_281
+NXGN01000096.1	Genbank	CDS	52	702	.	-	0	ID=cds-PIM94923.1;Parent=gene-magsep_281;Dbxref=NCBI_GP:PIM94923.1;Name=PIM94923.1;Note=phmmer;gbkey=CDS;gene=xxxJ;locus_tag=magsep_281;product=Alpha/beta hydrolase;protein_id=PIM94923.1;transl_table=4
+##sequence-region NXGN01000097.1 1 926
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000097.1	Genbank	region	1	926	.	+	.	ID=NXGN01000097.1:1..926;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000098.1 1 926
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000098.1	Genbank	region	1	926	.	+	.	ID=NXGN01000098.1:1..926;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000099.1 1 917
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000099.1	Genbank	region	1	917	.	+	.	ID=NXGN01000099.1:1..917;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000100.1 1 911
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000100.1	Genbank	region	1	911	.	+	.	ID=NXGN01000100.1:1..911;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000101.1 1 895
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000101.1	Genbank	region	1	895	.	+	.	ID=NXGN01000101.1:1..895;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000102.1 1 10545
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000102.1	Genbank	region	1	10545	.	+	.	ID=NXGN01000102.1:1..10545;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000102.1	Genbank	gene	5956	6219	.	-	.	ID=gene-magsep_282;Name=hisI;gbkey=Gene;gene=hisI;gene_biotype=protein_coding;locus_tag=magsep_282
+NXGN01000102.1	Genbank	CDS	5956	6219	.	-	0	ID=cds-PIM94913.1;Parent=gene-magsep_282;Dbxref=NCBI_GP:PIM94913.1;Name=PIM94913.1;Note=phmmer;gbkey=CDS;gene=hisI;locus_tag=magsep_282;product=Phosphoribosyl-AMP cyclohydrolase;protein_id=PIM94913.1;transl_table=4
+NXGN01000102.1	Genbank	gene	7578	8918	.	+	.	ID=gene-magsep_283;Name=gltX;gbkey=Gene;gene=gltX;gene_biotype=protein_coding;locus_tag=magsep_283
+NXGN01000102.1	Genbank	CDS	7578	8918	.	+	0	ID=cds-PIM94914.1;Parent=gene-magsep_283;Dbxref=NCBI_GP:PIM94914.1;Name=PIM94914.1;Note=phmmer;gbkey=CDS;gene=gltX;locus_tag=magsep_283;product=Glutamate--tRNA ligase;protein_id=PIM94914.1;transl_table=4
+##sequence-region NXGN01000103.1 1 879
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000103.1	Genbank	region	1	879	.	+	.	ID=NXGN01000103.1:1..879;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000105.1 1 875
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000105.1	Genbank	region	1	875	.	+	.	ID=NXGN01000105.1:1..875;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000106.1 1 875
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000106.1	Genbank	region	1	875	.	+	.	ID=NXGN01000106.1:1..875;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000107.1 1 874
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000107.1	Genbank	region	1	874	.	+	.	ID=NXGN01000107.1:1..874;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000108.1 1 867
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000108.1	Genbank	region	1	867	.	+	.	ID=NXGN01000108.1:1..867;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000108.1	Genbank	gene	352	819	.	+	.	ID=gene-magsep_291;Name=rplC;gbkey=Gene;gene=rplC;gene_biotype=protein_coding;locus_tag=magsep_291
+NXGN01000108.1	Genbank	CDS	352	819	.	+	0	ID=cds-PIM94884.1;Parent=gene-magsep_291;Dbxref=NCBI_GP:PIM94884.1;Name=PIM94884.1;Note=HMMER_3.1b2;gbkey=CDS;gene=rplC;locus_tag=magsep_291;product=50S ribosomal subunit protein L3;protein_id=PIM94884.1;transl_table=4
+##sequence-region NXGN01000109.1 1 1551
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000109.1	Genbank	region	1	1551	.	+	.	ID=NXGN01000109.1:1..1551;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000110.1 1 1549
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000110.1	Genbank	region	1	1549	.	+	.	ID=NXGN01000110.1:1..1549;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000111.1 1 859
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000111.1	Genbank	region	1	859	.	+	.	ID=NXGN01000111.1:1..859;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000112.1 1 857
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000112.1	Genbank	region	1	857	.	+	.	ID=NXGN01000112.1:1..857;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000113.1 1 4285
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000113.1	Genbank	region	1	4285	.	+	.	ID=NXGN01000113.1:1..4285;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000114.1 1 853
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000114.1	Genbank	region	1	853	.	+	.	ID=NXGN01000114.1:1..853;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000115.1 1 1521
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000115.1	Genbank	region	1	1521	.	+	.	ID=NXGN01000115.1:1..1521;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000116.1 1 847
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000116.1	Genbank	region	1	847	.	+	.	ID=NXGN01000116.1:1..847;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000117.1 1 1511
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000117.1	Genbank	region	1	1511	.	+	.	ID=NXGN01000117.1:1..1511;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000118.1 1 841
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000118.1	Genbank	region	1	841	.	+	.	ID=NXGN01000118.1:1..841;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000119.1 1 1509
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000119.1	Genbank	region	1	1509	.	+	.	ID=NXGN01000119.1:1..1509;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000120.1 1 837
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000120.1	Genbank	region	1	837	.	+	.	ID=NXGN01000120.1:1..837;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000121.1 1 836
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000121.1	Genbank	region	1	836	.	+	.	ID=NXGN01000121.1:1..836;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000122.1 1 831
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000122.1	Genbank	region	1	831	.	+	.	ID=NXGN01000122.1:1..831;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000123.1 1 1491
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000123.1	Genbank	region	1	1491	.	+	.	ID=NXGN01000123.1:1..1491;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000124.1 1 823
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000124.1	Genbank	region	1	823	.	+	.	ID=NXGN01000124.1:1..823;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000125.1 1 817
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000125.1	Genbank	region	1	817	.	+	.	ID=NXGN01000125.1:1..817;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000126.1 1 9692
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000126.1	Genbank	region	1	9692	.	+	.	ID=NXGN01000126.1:1..9692;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000126.1	Genbank	gene	3154	3933	.	+	.	ID=gene-magsep_292;Name=cbiX;gbkey=Gene;gene=cbiX;gene_biotype=protein_coding;locus_tag=magsep_292
+NXGN01000126.1	Genbank	CDS	3154	3933	.	+	0	ID=cds-PIM94846.1;Parent=gene-magsep_292;Dbxref=NCBI_GP:PIM94846.1;Name=PIM94846.1;Note=phmmer;gbkey=CDS;gene=cbiX;locus_tag=magsep_292;product=Sirohydrochlorin cobaltochelatase;protein_id=PIM94846.1;transl_table=4
+##sequence-region NXGN01000127.1 1 809
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000127.1	Genbank	region	1	809	.	+	.	ID=NXGN01000127.1:1..809;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000128.1 1 1438
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000128.1	Genbank	region	1	1438	.	+	.	ID=NXGN01000128.1:1..1438;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000129.1 1 794
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000129.1	Genbank	region	1	794	.	+	.	ID=NXGN01000129.1:1..794;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000130.1 1 793
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000130.1	Genbank	region	1	793	.	+	.	ID=NXGN01000130.1:1..793;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000131.1 1 790
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000131.1	Genbank	region	1	790	.	+	.	ID=NXGN01000131.1:1..790;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000132.1 1 3640
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000132.1	Genbank	region	1	3640	.	+	.	ID=NXGN01000132.1:1..3640;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000132.1	Genbank	gene	86	718	.	-	.	ID=gene-magsep_293;Name=tilS;gbkey=Gene;gene=tilS;gene_biotype=protein_coding;locus_tag=magsep_293
+NXGN01000132.1	Genbank	CDS	86	718	.	-	0	ID=cds-PIM94840.1;Parent=gene-magsep_293;Dbxref=NCBI_GP:PIM94840.1;Name=PIM94840.1;Note=HMMER_3.1b2;gbkey=CDS;gene=tilS;locus_tag=magsep_293;product=tRNA(Ile)-lysidine synthetase;protein_id=PIM94840.1;transl_table=4
+NXGN01000132.1	Genbank	gene	1185	2111	.	-	.	ID=gene-magsep_294;Name=magsep_294;Note=xxxK;gbkey=Gene;gene_biotype=protein_coding;locus_tag=magsep_294
+NXGN01000132.1	Genbank	CDS	1185	2111	.	-	0	ID=cds-PIM94841.1;Parent=gene-magsep_294;Dbxref=NCBI_GP:PIM94841.1;Name=PIM94841.1;Note=HMMER_3.1b2;gbkey=CDS;locus_tag=magsep_294;product=hypothetical protein;protein_id=PIM94841.1;transl_table=4
+NXGN01000132.1	Genbank	gene	2121	3623	.	-	.	ID=gene-magsep_295;Name=mnmG;gbkey=Gene;gene=mnmG;gene_biotype=protein_coding;locus_tag=magsep_295
+NXGN01000132.1	Genbank	CDS	2121	3623	.	-	0	ID=cds-PIM94842.1;Parent=gene-magsep_295;Dbxref=NCBI_GP:PIM94842.1;Name=PIM94842.1;Note=phmmer;gbkey=CDS;gene=mnmG;locus_tag=magsep_295;product=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG;protein_id=PIM94842.1;transl_table=4
+##sequence-region NXGN01000133.1 1 779
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000133.1	Genbank	region	1	779	.	+	.	ID=NXGN01000133.1:1..779;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000134.1 1 779
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000134.1	Genbank	region	1	779	.	+	.	ID=NXGN01000134.1:1..779;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000135.1 1 777
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000135.1	Genbank	region	1	777	.	+	.	ID=NXGN01000135.1:1..777;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000136.1 1 1403
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000136.1	Genbank	region	1	1403	.	+	.	ID=NXGN01000136.1:1..1403;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000136.1	Genbank	gene	56	850	.	+	.	ID=gene-magsep_296;Name=etfA;gbkey=Gene;gene=etfA;gene_biotype=protein_coding;locus_tag=magsep_296
+NXGN01000136.1	Genbank	CDS	56	850	.	+	0	ID=cds-PIM94837.1;Parent=gene-magsep_296;Dbxref=NCBI_GP:PIM94837.1;Name=PIM94837.1;Note=HMMER_3.1b2;gbkey=CDS;gene=etfA;locus_tag=magsep_296;product=Electron transfer flavoprotein large subunit;protein_id=PIM94837.1;transl_table=4
+##sequence-region NXGN01000137.1 1 3491
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000137.1	Genbank	region	1	3491	.	+	.	ID=NXGN01000137.1:1..3491;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000137.1	Genbank	gene	541	1893	.	+	.	ID=gene-magsep_297;Name=glyA;gbkey=Gene;gene=glyA;gene_biotype=protein_coding;locus_tag=magsep_297
+NXGN01000137.1	Genbank	CDS	541	1893	.	+	0	ID=cds-PIM94836.1;Parent=gene-magsep_297;Dbxref=NCBI_GP:PIM94836.1;Name=PIM94836.1;Note=phmmer;gbkey=CDS;gene=glyA;locus_tag=magsep_297;product=Serine hydroxymethyltransferase;protein_id=PIM94836.1;transl_table=4
+##sequence-region NXGN01000138.1 1 1389
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000138.1	Genbank	region	1	1389	.	+	.	ID=NXGN01000138.1:1..1389;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000139.1 1 764
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000139.1	Genbank	region	1	764	.	+	.	ID=NXGN01000139.1:1..764;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000140.1 1 3415
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000140.1	Genbank	region	1	3415	.	+	.	ID=NXGN01000140.1:1..3415;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000140.1	Genbank	gene	1238	1477	.	+	.	ID=gene-magsep_298;Name=rpsS;gbkey=Gene;gene=rpsS;gene_biotype=protein_coding;locus_tag=magsep_298
+NXGN01000140.1	Genbank	CDS	1238	1477	.	+	0	ID=cds-PIM94833.1;Parent=gene-magsep_298;Dbxref=NCBI_GP:PIM94833.1;Name=PIM94833.1;Note=phmmer;gbkey=CDS;gene=rpsS;locus_tag=magsep_298;product=30S ribosomal protein S19;protein_id=PIM94833.1;transl_table=4
+NXGN01000140.1	Genbank	gene	1799	2422	.	+	.	ID=gene-magsep_299;Name=rpsC;gbkey=Gene;gene=rpsC;gene_biotype=protein_coding;locus_tag=magsep_299
+NXGN01000140.1	Genbank	CDS	1799	2422	.	+	0	ID=cds-PIM94834.1;Parent=gene-magsep_299;Dbxref=NCBI_GP:PIM94834.1;Name=PIM94834.1;Note=phmmer;gbkey=CDS;gene=rpsC;locus_tag=magsep_299;product=30S ribosomal protein S3;protein_id=PIM94834.1;transl_table=4
+NXGN01000140.1	Genbank	gene	3050	3412	.	+	.	ID=gene-magsep_300;Name=rplN;gbkey=Gene;gene=rplN;gene_biotype=protein_coding;locus_tag=magsep_300
+NXGN01000140.1	Genbank	CDS	3050	3412	.	+	0	ID=cds-PIM94835.1;Parent=gene-magsep_300;Dbxref=NCBI_GP:PIM94835.1;Name=PIM94835.1;Note=phmmer;gbkey=CDS;gene=rplN;locus_tag=magsep_300;product=50S ribosomal protein L14;protein_id=PIM94835.1;transl_table=4
+##sequence-region NXGN01000141.1 1 761
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000141.1	Genbank	region	1	761	.	+	.	ID=NXGN01000141.1:1..761;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000142.1 1 759
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000142.1	Genbank	region	1	759	.	+	.	ID=NXGN01000142.1:1..759;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000143.1 1 8842
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000143.1	Genbank	region	1	8842	.	+	.	ID=NXGN01000143.1:1..8842;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000143.1	Genbank	gene	582	2063	.	+	.	ID=gene-magsep_301;Name=infB;gbkey=Gene;gene=infB;gene_biotype=protein_coding;locus_tag=magsep_301
+NXGN01000143.1	Genbank	CDS	582	2063	.	+	0	ID=cds-PIM94828.1;Parent=gene-magsep_301;Dbxref=NCBI_GP:PIM94828.1;Name=PIM94828.1;Note=phmmer;gbkey=CDS;gene=infB;locus_tag=magsep_301;product=Translation initiation factor IF-2;protein_id=PIM94828.1;transl_table=4
+NXGN01000143.1	Genbank	gene	7267	8220	.	-	.	ID=gene-magsep_302;Name=cobD;gbkey=Gene;gene=cobD;gene_biotype=protein_coding;locus_tag=magsep_302
+NXGN01000143.1	Genbank	CDS	7267	8220	.	-	0	ID=cds-PIM94829.1;Parent=gene-magsep_302;Dbxref=NCBI_GP:PIM94829.1;Name=PIM94829.1;Note=phmmer;gbkey=CDS;gene=cobD;locus_tag=magsep_302;product=cobalamin biosynthesis protein;protein_id=PIM94829.1;transl_table=4
+##sequence-region NXGN01000144.1 1 1371
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000144.1	Genbank	region	1	1371	.	+	.	ID=NXGN01000144.1:1..1371;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000145.1 1 754
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000145.1	Genbank	region	1	754	.	+	.	ID=NXGN01000145.1:1..754;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000146.1 1 752
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000146.1	Genbank	region	1	752	.	+	.	ID=NXGN01000146.1:1..752;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000147.1 1 751
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000147.1	Genbank	region	1	751	.	+	.	ID=NXGN01000147.1:1..751;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000148.1 1 737
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000148.1	Genbank	region	1	737	.	+	.	ID=NXGN01000148.1:1..737;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000149.1 1 3175
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000149.1	Genbank	region	1	3175	.	+	.	ID=NXGN01000149.1:1..3175;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000149.1	Genbank	gene	962	1522	.	-	.	ID=gene-magsep_304;Name=cobB2;gbkey=Gene;gene=cobB2;gene_biotype=protein_coding;locus_tag=magsep_304
+NXGN01000149.1	Genbank	CDS	962	1522	.	-	0	ID=cds-PIM94822.1;Parent=gene-magsep_304;Dbxref=NCBI_GP:PIM94822.1;Name=PIM94822.1;Note=phmmer;gbkey=CDS;gene=cobB2;locus_tag=magsep_304;product=Hydrogenobyrinate a%2Cc-diamide synthase;protein_id=PIM94822.1;transl_table=4
+##sequence-region NXGN01000150.1 1 580
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000150.1	Genbank	region	1	580	.	+	.	ID=NXGN01000150.1:1..580;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000151.1 1 492
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000151.1	Genbank	region	1	492	.	+	.	ID=NXGN01000151.1:1..492;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000152.1 1 489
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000152.1	Genbank	region	1	489	.	+	.	ID=NXGN01000152.1:1..489;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000153.1 1 478
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000153.1	Genbank	region	1	478	.	+	.	ID=NXGN01000153.1:1..478;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000154.1 1 473
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000154.1	Genbank	region	1	473	.	+	.	ID=NXGN01000154.1:1..473;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000155.1 1 2962
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000155.1	Genbank	region	1	2962	.	+	.	ID=NXGN01000155.1:1..2962;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000155.1	Genbank	gene	451	753	.	-	.	ID=gene-magsep_305;Name=hisI;gbkey=Gene;gene=hisI;gene_biotype=protein_coding;locus_tag=magsep_305
+NXGN01000155.1	Genbank	CDS	451	753	.	-	0	ID=cds-PIM94805.1;Parent=gene-magsep_305;Dbxref=NCBI_GP:PIM94805.1;Name=PIM94805.1;Note=phmmer;gbkey=CDS;gene=hisI;locus_tag=magsep_305;product=Phosphoribosyl-AMP cyclohydrolase;protein_id=PIM94805.1;transl_table=4
+NXGN01000155.1	Genbank	gene	761	1312	.	-	.	ID=gene-magsep_306;Name=folE;gbkey=Gene;gene=folE;gene_biotype=protein_coding;locus_tag=magsep_306
+NXGN01000155.1	Genbank	CDS	761	1312	.	-	0	ID=cds-PIM94806.1;Parent=gene-magsep_306;Dbxref=NCBI_GP:PIM94806.1;Name=PIM94806.1;Note=phmmer;gbkey=CDS;gene=folE;locus_tag=magsep_306;product=GTP cyclohydrolase 1;protein_id=PIM94806.1;transl_table=4
+NXGN01000155.1	Genbank	gene	1329	2831	.	+	.	ID=gene-magsep_307;Name=etfD;gbkey=Gene;gene=etfD;gene_biotype=protein_coding;locus_tag=magsep_307
+NXGN01000155.1	Genbank	CDS	1329	2831	.	+	0	ID=cds-PIM94807.1;Parent=gene-magsep_307;Dbxref=NCBI_GP:PIM94807.1;Name=PIM94807.1;Note=phmmer;gbkey=CDS;gene=etfD;locus_tag=magsep_307;product=Electron transfer flavoprotein-ubiquinone oxidoreductase;protein_id=PIM94807.1;transl_table=4
+##sequence-region NXGN01000156.1 1 8187
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000156.1	Genbank	region	1	8187	.	+	.	ID=NXGN01000156.1:1..8187;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000157.1 1 2888
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000157.1	Genbank	region	1	2888	.	+	.	ID=NXGN01000157.1:1..2888;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000158.1 1 2885
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000158.1	Genbank	region	1	2885	.	+	.	ID=NXGN01000158.1:1..2885;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000158.1	Genbank	gene	2227	2691	.	-	.	ID=gene-magsep_308;Name=rpsG;gbkey=Gene;gene=rpsG;gene_biotype=protein_coding;locus_tag=magsep_308
+NXGN01000158.1	Genbank	CDS	2227	2691	.	-	0	ID=cds-PIM94795.1;Parent=gene-magsep_308;Dbxref=NCBI_GP:PIM94795.1;Name=PIM94795.1;Note=phmmer;gbkey=CDS;gene=rpsG;locus_tag=magsep_308;product=30S ribosomal protein S7;protein_id=PIM94795.1;transl_table=4
+##sequence-region NXGN01000159.1 1 2873
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000159.1	Genbank	region	1	2873	.	+	.	ID=NXGN01000159.1:1..2873;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000160.1 1 2853
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000160.1	Genbank	region	1	2853	.	+	.	ID=NXGN01000160.1:1..2853;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000160.1	Genbank	gene	638	1210	.	+	.	ID=gene-magsep_310;Name=etfB;gbkey=Gene;gene=etfB;gene_biotype=protein_coding;locus_tag=magsep_310
+NXGN01000160.1	Genbank	CDS	638	1210	.	+	0	ID=cds-PIM94792.1;Parent=gene-magsep_310;Dbxref=NCBI_GP:PIM94792.1;Name=PIM94792.1;Note=HMMER_3.1b2;gbkey=CDS;gene=etfB;locus_tag=magsep_310;product=Electron transfer flavoprotein small subunit;protein_id=PIM94792.1;transl_table=4
+##sequence-region NXGN01000161.1 1 7883
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000161.1	Genbank	region	1	7883	.	+	.	ID=NXGN01000161.1:1..7883;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000161.1	Genbank	gene	6953	7883	.	+	.	ID=gene-magsep_311;Name=hisD;end_range=7883,.;gbkey=Gene;gene=hisD;gene_biotype=protein_coding;locus_tag=magsep_311;partial=true
+NXGN01000161.1	Genbank	CDS	6953	7883	.	+	0	ID=cds-PIM94785.1;Parent=gene-magsep_311;Dbxref=NCBI_GP:PIM94785.1;Name=PIM94785.1;Note=HMMER_3.1b2;end_range=7883,.;gbkey=CDS;gene=hisD;locus_tag=magsep_311;partial=true;product=Histidinol dehydrogenase;protein_id=PIM94785.1;transl_table=4
+##sequence-region NXGN01000162.1 1 2705
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000162.1	Genbank	region	1	2705	.	+	.	ID=NXGN01000162.1:1..2705;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+##sequence-region NXGN01000163.1 1 7735
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573658
+NXGN01000163.1	Genbank	region	1	7735	.	+	.	ID=NXGN01000163.1:1..7735;Dbxref=taxon:573658;collection-date=09-Jun-2013;country=USA: New Haven County%2C Connecticut;gbkey=Src;isolation-source=bacteriome tissue;lat-lon=41.547617 N 71.845897 W;mol_type=genomic DNA;nat-host=Magicicada septendecim;strain=MAGSEP
+NXGN01000163.1	Genbank	gene	442	1356	.	-	.	ID=gene-magsep_312;Name=tufA;gbkey=Gene;gene=tufA;gene_biotype=protein_coding;locus_tag=magsep_312
+NXGN01000163.1	Genbank	CDS	442	1356	.	-	0	ID=cds-PIM94781.1;Parent=gene-magsep_312;Dbxref=NCBI_GP:PIM94781.1;Name=PIM94781.1;Note=phmmer;gbkey=CDS;gene=tufA;locus_tag=magsep_312;product=Elongation factor Tu;protein_id=PIM94781.1;transl_table=4
+NXGN01000163.1	Genbank	gene	1619	3667	.	-	.	ID=gene-magsep_313;Name=fusA;gbkey=Gene;gene=fusA;gene_biotype=protein_coding;locus_tag=magsep_313
+NXGN01000163.1	Genbank	CDS	1619	3667	.	-	0	ID=cds-PIM94782.1;Parent=gene-magsep_313;Dbxref=NCBI_GP:PIM94782.1;Name=PIM94782.1;Note=phmmer;gbkey=CDS;gene=fusA;locus_tag=magsep_313;product=Elongation factor G;protein_id=PIM94782.1;transl_table=4
+NXGN01000163.1	Genbank	gene	3661	4125	.	-	.	ID=gene-magsep_314;Name=rpsG;gbkey=Gene;gene=rpsG;gene_biotype=protein_coding;locus_tag=magsep_314
+NXGN01000163.1	Genbank	CDS	3661	4125	.	-	0	ID=cds-PIM94783.1;Parent=gene-magsep_314;Dbxref=NCBI_GP:PIM94783.1;Name=PIM94783.1;Note=phmmer;gbkey=CDS;gene=rpsG;locus_tag=magsep_314;product=30S ribosomal protein S7;protein_id=PIM94783.1;transl_table=4
+###
