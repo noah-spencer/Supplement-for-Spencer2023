@@ -1,0 +1,5 @@
+genome_entry,NXGN01000048.1,7344,
+NXGN01000048.1,ctaG,Other,Functional,342,881,+,
+NXGN01000048.1,ctaE,Other,Functional,908,1348,+,
+NXGN01000048.1,rpsD,riboprot,Functional,1350,1820,-,
+NXGN01000048.1,fbcH,Other,Functional,2972,4114,-,

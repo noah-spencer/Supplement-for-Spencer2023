@@ -1,0 +1,5 @@
+genome_entry,CM008768.1,34489,
+CM008768.1,hisG,biosynth,Functional,20367,21026,+,
+CM008768.1,cobN,biosynth,Functional,24513,27707,+,
+CM008768.1,pcobS,biosynth,Functional,28935,29882,+,
+CM008768.1,cobD,biosynth,Functional,30360,31262,+,

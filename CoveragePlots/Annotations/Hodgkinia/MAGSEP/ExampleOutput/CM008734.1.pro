@@ -1,0 +1,5 @@
+genome_entry,CM008734.1,22204,
+CM008734.1,23SribosomalRNA,rRNA,Functional,561,3150,-,
+CM008734.1,16SribosomalRNA,rRNA,Functional,3828,5387,-,
+CM008734.1,tsf,Other,Functional,12694,13425,-,
+CM008734.1,cysE,Other,Functional,18590,19270,-,

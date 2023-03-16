@@ -1,0 +1,5 @@
+genome_entry,CM008755.1,20205,
+CM008755.1,fpr,Other,Functional,4505,5380,-,
+CM008755.1,ribD,Other,Functional,6152,7081,-,
+CM008755.1,cobQ,biosynth,Functional,15859,17307,-,
+CM008755.1,magsep_196,Other,Functional,18727,19743,-,

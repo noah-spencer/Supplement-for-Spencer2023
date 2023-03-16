@@ -1,0 +1,3 @@
+genome_entry,NXGN01000059.1,6172,
+NXGN01000059.1,23SribosomalRNA,rRNA,Functional,45,2759,-,
+NXGN01000059.1,16SribosomalRNA,rRNA,Functional,3097,4651,-,

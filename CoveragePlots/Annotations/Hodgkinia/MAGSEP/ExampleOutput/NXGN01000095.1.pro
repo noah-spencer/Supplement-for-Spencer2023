@@ -1,0 +1,4 @@
+genome_entry,NXGN01000095.1,1697,
+NXGN01000095.1,cysH,Other,Functional,146,679,+,
+NXGN01000095.1,tRNA-Gln,tRNA,Functional,692,765,-,
+NXGN01000095.1,tRNA-Ile,tRNA,Functional,769,840,-,

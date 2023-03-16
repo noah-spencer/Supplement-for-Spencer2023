@@ -1,0 +1,8 @@
+genome_entry,CM008752.1,61285,
+CM008752.1,cobD,biosynth,Functional,95,1024,+,
+CM008752.1,trpS,Other,Functional,8910,9881,-,
+CM008752.1,glyQ,Other,Functional,11741,12487,+,
+CM008752.1,magsep_33,Other,Functional,20180,20398,+,
+CM008752.1,infB,Other,Functional,27409,28839,+,
+CM008752.1,cobM,biosynth,Functional,36049,36804,+,
+CM008752.1,cobP,biosynth,Functional,40405,40764,+,

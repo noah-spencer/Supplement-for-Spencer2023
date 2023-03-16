@@ -1,0 +1,7 @@
+genome_entry,CM008750.1,30380,
+CM008750.1,dnaQ,Other,Functional,279,854,+,
+CM008750.1,cobD,biosynth,Functional,1829,2683,-,
+CM008750.1,rpoB,Other,Functional,11344,15093,+,
+CM008750.1,rpoC,Other,Functional,15096,19115,+,
+CM008750.1,cobB1,Other,Functional,20068,20706,-,
+CM008750.1,cobD,biosynth,Functional,27598,28452,+,

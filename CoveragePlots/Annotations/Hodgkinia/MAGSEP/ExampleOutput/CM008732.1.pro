@@ -1,0 +1,5 @@
+genome_entry,CM008732.1,28244,
+CM008732.1,infA,Other,Functional,7229,7429,-,
+CM008732.1,etfA,Other,Functional,13619,14638,-,
+CM008732.1,etfB,Other,Functional,14644,15384,-,
+CM008732.1,cycM,Other,Functional,15385,15939,-,

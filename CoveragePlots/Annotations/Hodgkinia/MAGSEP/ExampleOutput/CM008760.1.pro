@@ -1,0 +1,7 @@
+genome_entry,CM008760.1,13724,
+CM008760.1,rplB,riboprot,Functional,6912,7715,+,
+CM008760.1,rplV,riboprot,Functional,7976,8320,+,
+CM008760.1,rpsC,riboprot,Functional,8304,8927,+,
+CM008760.1,smpB,Other,Functional,9544,9897,-,
+CM008760.1,rplN,riboprot,Functional,9590,9925,+,
+CM008760.1,rpsM,riboprot,Functional,13119,13463,+,

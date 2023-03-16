@@ -1,0 +1,8 @@
+genome_entry,NXGN01000104.1,61285,
+NXGN01000104.1,magsep_284,Other,Functional,6252,6470,-,
+NXGN01000104.1,glyQ,Other,Functional,14163,14909,-,
+NXGN01000104.1,trpS,Other,Functional,16769,17740,+,
+NXGN01000104.1,cobD,biosynth,Functional,25626,26555,-,
+NXGN01000104.1,cobP,biosynth,Functional,47171,47530,-,
+NXGN01000104.1,cobM,biosynth,Functional,51131,51886,-,
+NXGN01000104.1,infB,Other,Functional,59096,60526,-,

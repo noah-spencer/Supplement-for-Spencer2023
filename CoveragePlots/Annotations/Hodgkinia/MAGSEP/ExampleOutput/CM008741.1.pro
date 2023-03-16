@@ -1,0 +1,8 @@
+genome_entry,CM008741.1,61848,
+CM008741.1,metH,biosynth,Functional,8864,12439,-,
+CM008741.1,tsf,Other,Functional,25635,26315,-,
+CM008741.1,rpsB,riboprot,Functional,26335,27408,-,
+CM008741.1,glyA,Other,Functional,47251,48621,-,
+CM008741.1,hisE,Other,Functional,55259,55903,-,
+CM008741.1,tRNA-Ile,tRNA,Functional,58321,58393,+,
+CM008741.1,cysK,Other,Functional,58955,59995,-,

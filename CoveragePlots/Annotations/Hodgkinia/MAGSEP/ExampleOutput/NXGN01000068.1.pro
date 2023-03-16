@@ -1,0 +1,6 @@
+genome_entry,NXGN01000068.1,13161,
+NXGN01000068.1,16SribosomalRNA,rRNA,Functional,1672,3221,+,
+NXGN01000068.1,23SribosomalRNA,rRNA,Functional,3327,6009,+,
+NXGN01000068.1,greA,Other,Functional,8621,8995,+,
+NXGN01000068.1,ribD,Other,Functional,10473,11369,+,
+NXGN01000068.1,trmE,Other,Functional,11754,12926,+,

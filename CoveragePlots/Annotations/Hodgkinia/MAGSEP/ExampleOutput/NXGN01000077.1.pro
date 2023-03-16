@@ -1,0 +1,2 @@
+genome_entry,NXGN01000077.1,1865,
+NXGN01000077.1,tRNA-Val,tRNA,Functional,1097,1170,+,

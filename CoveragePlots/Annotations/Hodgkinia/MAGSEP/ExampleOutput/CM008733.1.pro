@@ -1,0 +1,6 @@
+genome_entry,CM008733.1,22960,
+CM008733.1,cobD,biosynth,Functional,11396,12364,-,
+CM008733.1,ribH,Other,Functional,15275,15679,-,
+CM008733.1,5SribosomalRNA,rRNA,Functional,17376,17475,-,
+CM008733.1,23SribosomalRNA,rRNA,Functional,17521,20111,-,
+CM008733.1,16SribosomalRNA,rRNA,Functional,20383,21893,-,

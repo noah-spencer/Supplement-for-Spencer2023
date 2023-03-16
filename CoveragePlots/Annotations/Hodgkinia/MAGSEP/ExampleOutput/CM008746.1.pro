@@ -1,0 +1,5 @@
+genome_entry,CM008746.1,49806,
+CM008746.1,rplP,riboprot,Functional,19545,19970,-,
+CM008746.1,hisD,biosynth,Functional,25813,27111,-,
+CM008746.1,23SribosomalRNA,rRNA,Functional,44299,46874,-,
+CM008746.1,16SribosomalRNA,rRNA,Functional,47349,48903,-,

@@ -1,0 +1,6 @@
+genome_entry,CM008749.1,30710,
+CM008749.1,cobI,Other,Functional,4716,5225,+,
+CM008749.1,clpP,Other,Functional,11061,11564,+,
+CM008749.1,ribD,Other,Functional,11634,12614,+,
+CM008749.1,hisE,Other,Functional,16753,17400,+,
+CM008749.1,cobO,biosynth,Functional,28845,29327,+,

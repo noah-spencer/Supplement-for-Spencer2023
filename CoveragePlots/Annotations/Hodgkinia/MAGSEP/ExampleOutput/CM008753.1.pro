@@ -1,0 +1,6 @@
+genome_entry,CM008753.1,23491,
+CM008753.1,16SribosomalRNA,rRNA,Functional,7791,9344,+,
+CM008753.1,23SribosomalRNA,rRNA,Functional,9813,12396,+,
+CM008753.1,5SribosomalRNA,rRNA,Functional,12477,12572,+,
+CM008753.1,tRNA-Met,tRNA,Functional,12598,12671,+,
+CM008753.1,tRNA-Pro,tRNA,Functional,14616,14689,+,
