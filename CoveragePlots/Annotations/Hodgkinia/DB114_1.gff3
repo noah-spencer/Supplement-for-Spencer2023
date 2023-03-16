@@ -1,0 +1,203 @@
+##gff-version 3
+##sequence-region  DB114_1 1 130417
+DB114_1	rnammer_1.2	gene	2	1467	.	+	0	ID=gene_1;locus_tag=DB114_1_001;gbkey=Gene;gene_biotype=rRNA;gene=rrsA;name=rrsA;
+DB114_1	rnammer_1.2	rRNA	2	1467	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_001;gbkey=rRNA;product=16S ribosomal RNA;note=inference:RNAmmer 1.2
+DB114_1	tRNAscan-SE_1.23	gene	1608	1680	.	+	0	ID=gene_1;locus_tag=DB114_1_002;gbkey=Gene;gene_biotype=tRNA;gene=trnA;note=tRNA-Ala;
+DB114_1	tRNAscan-SE_1.23	tRNA	1608	1680	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_002;gbkey=tRNA;product=tRNA-Ala;note=inference:tRNAscan-SE 1.23
+DB114_1	rnammer_1.2	gene	1701	4432	.	+	0	ID=gene_1;locus_tag=DB114_1_003;gbkey=Gene;gene_biotype=rRNA;gene=rrlA;name=rrlA;
+DB114_1	rnammer_1.2	rRNA	1701	4432	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_003;gbkey=rRNA;product=23S ribosomal RNA;note=inference:RNAmmer 1.2
+DB114_1	rnammer_1.2	gene	4463	4567	.	+	0	ID=gene_1;locus_tag=DB114_1_004;gbkey=Gene;gene_biotype=rRNA;gene=rrfA;name=rrfA;
+DB114_1	rnammer_1.2	rRNA	4463	4567	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_004;gbkey=rRNA;product=5S ribosomal RNA;note=inference:RNAmmer 1.2
+DB114_1	tRNAscan-SE_1.23	gene	4584	4655	.	+	0	ID=gene_1;locus_tag=DB114_1_005;gbkey=Gene;gene_biotype=tRNA;gene=trnM;note=tRNA-Met;
+DB114_1	tRNAscan-SE_1.23	tRNA	4584	4655	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_005;gbkey=tRNA;product=tRNA-Met;note=inference:tRNAscan-SE 1.23
+DB114_1	HMMER_3.1b2	gene	5134	5271	.	+	0	ID=gene_1;locus_tag=DB114_1_006;gbkey=Gene;gene_biotype=protein_coding;gene=rpmF;name=rpmF;
+DB114_1	HMMER_3.1b2	CDS	5134	5271	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_006;gbkey=CDS;gene=rpmF;product=50S ribosomal protein L32;note=inference: phmmer, similar to AA sequence: WP_003507205.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	5217	6530	.	+	0	ID=gene_1;locus_tag=DB114_1_007;gbkey=Gene;gene_biotype=protein_coding;gene=glyA;name=glyA;
+DB114_1	HMMER_3.1b2	CDS	5217	6530	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_007;gbkey=CDS;gene=glyA;product=Serine hydroxymethyltransferase;eC_number=2.1.2.1;note=inference: phmmer, similar to AA sequence: WP_040999930.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	7186	7728	.	+	0	ID=gene_1;locus_tag=DB114_1_008;gbkey=Gene;gene_biotype=protein_coding;gene=ribC;name=ribC;
+DB114_1	HMMER_3.1b2	CDS	7186	7728	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_008;gbkey=CDS;gene=ribC;product=Riboflavin synthase alpha chain;eC_number=2.5.1.9;note=inference: phmmer, similar to AA sequence: WP_018326042.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	7721	9046	.	+	0	ID=gene_1;locus_tag=DB114_1_009;gbkey=Gene;gene_biotype=protein_coding;gene=hisS;name=hisS;
+DB114_1	HMMER_3.1b2	CDS	7721	9046	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_009;gbkey=CDS;gene=hisS;product=Histidine--tRNA ligase;note=inference: phmmer, similar to AA sequence: WP_054784405.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	9040	10017	.	+	0	ID=gene_1;locus_tag=DB114_1_010;gbkey=Gene;gene_biotype=protein_coding;gene=hisZ;name=hisZ;
+DB114_1	HMMER_3.1b2	CDS	9040	10017	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_010;gbkey=CDS;gene=hisZ;product=ATP phosphoribosyltransferase regulatory subunit;note=inference: phmmer, similar to AA sequence: WP_056332825.1_;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	10540	10892	.	+	0	ID=gene_1;locus_tag=DB114_1_011;gbkey=Gene;gene_biotype=Pseudogene;gene=cysE;name=cysE;gene_desc=Serine acetyltransferase;note=inference: phmmer, similar to AA sequence: WP_050929517.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	10957	11787	.	+	0	ID=gene_1;locus_tag=DB114_1_012;gbkey=Gene;gene_biotype=protein_coding;gene=glyQ;name=glyQ;
+DB114_1	HMMER_3.1b2	CDS	10957	11787	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_012;gbkey=CDS;gene=glyQ;product=Glycine--tRNA ligase alpha subunit;eC_number=6.1.1.14;note=inference: phmmer, similar to AA sequence: WP_045856438.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	11774	12856	.	+	0	ID=gene_1;locus_tag=DB114_1_013;gbkey=Gene;gene_biotype=protein_coding;name=DB114_1_013;
+DB114_1	HMMER_3.1b2	CDS	11774	12856	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_013;gbkey=CDS;product=conserved hypothetical protein;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	12853	15414	.	-	0	ID=gene_1;locus_tag=DB114_1_014;gbkey=Gene;gene_biotype=protein_coding;gene=ileS;name=ileS;
+DB114_1	HMMER_3.1b2	CDS	12853	15414	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_014;gbkey=CDS;gene=ileS;product=Isoleucine--tRNA ligase;eC_number=6.1.1.5;note=inference: phmmer, similar to AA sequence: WP_012778664.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	15434	15697	.	+	0	ID=gene_1;locus_tag=DB114_1_015;gbkey=Gene;gene_biotype=protein_coding;gene=groS;name=groS;
+DB114_1	HMMER_3.1b2	CDS	15434	15697	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_015;gbkey=CDS;gene=groS;product=10 kDa chaperonin;note=inference: phmmer, similar to AA sequence: WP_006447861.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	15690	17300	.	+	0	ID=gene_1;locus_tag=DB114_1_016;gbkey=Gene;gene_biotype=protein_coding;gene=groL;name=groL;
+DB114_1	HMMER_3.1b2	CDS	15690	17300	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_016;gbkey=CDS;gene=groL;product=60 kDa chaperonin;note=inference: phmmer, similar to AA sequence: WP_052637125.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	17257	18546	.	-	0	ID=gene_1;locus_tag=DB114_1_017;gbkey=Gene;gene_biotype=protein_coding;gene=rpsA;name=rpsA;
+DB114_1	HMMER_3.1b2	CDS	17257	18546	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_017;gbkey=CDS;gene=rpsA;product=30S ribosomal protein S1;note=inference: phmmer, similar to AA sequence: WP_027002379.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	19029	20288	.	+	0	ID=gene_1;locus_tag=DB114_1_018;gbkey=Gene;gene_biotype=protein_coding;gene=rpsB;name=rpsB;
+DB114_1	HMMER_3.1b2	CDS	19029	20288	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_018;gbkey=CDS;gene=rpsB;product=30S ribosomal protein S2;note=inference: phmmer, similar to AA sequence: WP_008959879.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	20351	20740	.	+	0	ID=gene_1;locus_tag=DB114_1_019;gbkey=Gene;gene_biotype=Pseudogene;gene=tsf;name=tsf;gene_desc=elongation factor EF-Ts;note=inference: phmmer, similar to AA sequence: WP_009736172.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	21200	22588	.	-	0	ID=gene_1;locus_tag=DB114_1_020;gbkey=Gene;gene_biotype=protein_coding;gene=metG;name=metG;
+DB114_1	HMMER_3.1b2	CDS	21200	22588	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_020;gbkey=CDS;gene=metG;product=Methionine--tRNA ligase;eC_number=6.1.1.10;note=inference: phmmer, similar to AA sequence: WP_007606619.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	22648	23760	.	-	0	ID=gene_1;locus_tag=DB114_1_021;gbkey=Gene;gene_biotype=Pseudogene;gene=hisC;name=hisC;gene_desc=Histidinol-phosphate aminotransferase;note=inference: phmmer, similar to AA sequence: WP_007789429.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	23752	24033	.	+	0	ID=gene_1;locus_tag=DB114_1_022;gbkey=Gene;gene_biotype=protein_coding;gene=rpmB;name=rpmB;note=putative pseudogene;
+DB114_1	HMMER_3.1b2	CDS	23752	24033	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_022;gbkey=CDS;gene=rpmB;product=50S ribosomal protein L28;note=inference: phmmer, similar to AA sequence: WP_014198082.1;note=putative pseudogene;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	24791	25246	.	+	0	ID=gene_1;locus_tag=DB114_1_023;gbkey=Gene;gene_biotype=protein_coding;gene=rpsR;name=rpsR;
+DB114_1	HMMER_3.1b2	CDS	24791	25246	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_023;gbkey=CDS;gene=rpsR;product=30S ribosomal protein S18;note=inference: phmmer, similar to AA sequence: WP_047003152.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	25329	26368	.	+	0	ID=gene_1;locus_tag=DB114_1_024;gbkey=Gene;gene_biotype=Pseudogene;gene=dnaB;name=dnaB;gene_desc=Replicative DNA helicase;note=inference: phmmer, similar to AA sequence: WP_010705018.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	27244	30870	.	-	0	ID=gene_1;locus_tag=DB114_1_025;gbkey=Gene;gene_biotype=protein_coding;gene=metH;name=metH;
+DB114_1	HMMER_3.1b2	CDS	27244	30870	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_025;gbkey=CDS;gene=metH;product=Methionine synthase;eC_number=2.1.1.13;note=inference: phmmer, similar to AA sequence: WP_042617253.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	31330	31449	.	+	0	ID=gene_1;locus_tag=DB114_1_026;gbkey=Gene;gene_biotype=Pseudogene;gene=rpmI;name=rpmI;gene_desc=50S ribosomal protein L35;note=inference: phmmer, similar to AA sequence: WP_011642071.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	31543	31776	.	+	0	ID=gene_1;locus_tag=DB114_1_027;gbkey=Gene;gene_biotype=Pseudogene;gene=rplT;name=rplT;gene_desc=50S ribosomal subunit protein L20;note=inference: phmmer, similar to AA sequence: WP_009453125.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	32654	34711	.	+	0	ID=gene_1;locus_tag=DB114_1_028;gbkey=Gene;gene_biotype=protein_coding;gene=pheT;name=pheT;
+DB114_1	HMMER_3.1b2	CDS	32654	34711	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_028;gbkey=CDS;gene=pheT;product=Phenylalanine--tRNA ligase beta subunit;eC_number=6.1.1.20;note=inference: phmmer, similar to AA sequence: WP_015273480.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	34705	35262	.	+	0	ID=gene_1;locus_tag=DB114_1_029;gbkey=Gene;gene_biotype=protein_coding;gene=petA;name=petA;
+DB114_1	HMMER_3.1b2	CDS	34705	35262	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_029;gbkey=CDS;gene=petA;product=Ubiquinol-cytochrome c reductase iron-sulfur subunit;eC_number=1.10.2.2;note=inference: phmmer, similar to AA sequence: WP_008124300.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	35318	36478	.	+	0	ID=gene_1;locus_tag=DB114_1_030;gbkey=Gene;gene_biotype=protein_coding;gene=fbcH;name=fbcH;
+DB114_1	HMMER_3.1b2	CDS	35318	36478	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_030;gbkey=CDS;gene=fbcH;product=Cytochrome b;note=inference: phmmer, similar to AA sequence: WP_037184326.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	36451	36606	.	+	0	ID=gene_1;locus_tag=DB114_1_031;gbkey=Gene;gene_biotype=Pseudogene;gene=petC;name=petC;gene_desc=Cytochrome c1 precursor;note=inference: phmmer, similar to AA sequence: WP_012149336.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	37932	40085	.	+	0	ID=gene_1;locus_tag=DB114_1_032;gbkey=Gene;gene_biotype=protein_coding;gene=alaS;name=alaS;
+DB114_1	HMMER_3.1b2	CDS	37932	40085	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_032;gbkey=CDS;gene=alaS;product=Alanine--tRNA ligase;eC_number=6.1.1.7;note=inference: phmmer, similar to AA sequence: WP_045889842.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	40276	40425	.	+	0	ID=gene_1;locus_tag=DB114_1_033;gbkey=Gene;gene_biotype=Pseudogene;gene=rpsD;name=rpsD;gene_desc=30S ribosomal subunit protein S4;note=inference: phmmer, similar to AA sequence: WP_004625164.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	40664	41167	.	-	0	ID=gene_1;locus_tag=DB114_1_034;gbkey=Gene;gene_biotype=protein_coding;gene=ctaE;name=ctaE;
+DB114_1	HMMER_3.1b2	CDS	40664	41167	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_034;gbkey=CDS;gene=ctaE;product=Cytochrome c oxidase subunit 3;eC_number=1.9.3.1;note=inference: phmmer, similar to AA sequence: WP_007607977.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	41301	41603	.	-	0	ID=gene_1;locus_tag=DB114_1_035;gbkey=Gene;gene_biotype=Pseudogene;gene=ctaG;name=ctaG;gene_desc=Cytochrome c oxidase assembly protein CtaG;note=inference: phmmer, similar to AA sequence: WP_026618539.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	41702	43315	.	-	0	ID=gene_1;locus_tag=DB114_1_036;gbkey=Gene;gene_biotype=protein_coding;gene=ctaD;name=ctaD;
+DB114_1	HMMER_3.1b2	CDS	41702	43315	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_036;gbkey=CDS;gene=ctaD;product=Cytochrome c oxidase subunit 1;eC_number=1.9.3.1;note=inference: phmmer, similar to AA sequence: WP_036258365.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	43308	44099	.	-	0	ID=gene_1;locus_tag=DB114_1_037;gbkey=Gene;gene_biotype=protein_coding;gene=ctaC;name=ctaC;
+DB114_1	HMMER_3.1b2	CDS	43308	44099	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_037;gbkey=CDS;gene=ctaC;product=Cytochrome c oxidase subunit 2;eC_number=1.9.3.1;note=inference: phmmer, similar to AA sequence: WP_014327593.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	44237	44979	.	-	0	ID=gene_1;locus_tag=DB114_1_038;gbkey=Gene;gene_biotype=Pseudogene;gene=trxB;name=trxB;gene_desc=Thioredoxin reductase;note=inference: phmmer, similar to AA sequence: WP_045368074.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	45838	45960	.	-	0	ID=gene_1;locus_tag=DB114_1_039;gbkey=Gene;gene_biotype=Pseudogene;gene=rpmE;name=rpmE;gene_desc=50S ribosomal protein L31;note=inference: phmmer, similar to AA sequence: WP_011388827.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	46044	46163	.	+	0	ID=gene_1;locus_tag=DB114_1_040;gbkey=Gene;gene_biotype=protein_coding;gene=rpmJ;name=rpmJ;
+DB114_1	HMMER_3.1b2	CDS	46044	46163	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_040;gbkey=CDS;gene=rpmJ;product=50S ribosomal protein L36;note=inference: phmmer, similar to AA sequence: WP_019998227.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	46386	47084	.	-	0	ID=gene_1;locus_tag=DB114_1_041;gbkey=Gene;gene_biotype=protein_coding;name=DB114_1_041;
+DB114_1	HMMER_3.1b2	CDS	46386	47084	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_041;gbkey=CDS;product=conserved hypothetical protein;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	47114	48541	.	+	0	ID=gene_1;locus_tag=DB114_1_042;gbkey=Gene;gene_biotype=protein_coding;gene=cobQ;name=cobQ;
+DB114_1	HMMER_3.1b2	CDS	47114	48541	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_042;gbkey=CDS;gene=cobQ;product=Cobyric acid synthase;note=inference: phmmer, similar to AA sequence: WP_025090457.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	48558	48833	.	+	0	ID=gene_1;locus_tag=DB114_1_043;gbkey=Gene;gene_biotype=Pseudogene;gene=cobP;name=cobP;gene_desc=Adenosylcobinamide kinase;note=inference: phmmer, similar to AA sequence: WP_028894736.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	49237	49575	.	+	0	ID=gene_1;locus_tag=DB114_1_044;gbkey=Gene;gene_biotype=Pseudogene;gene=cbiX;name=cbiX;gene_desc=Sirohydrochlorin cobaltochelatase;note=inference: phmmer, similar to AA sequence: WP_055658393.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	50061	50432	.	+	0	ID=gene_1;locus_tag=DB114_1_045;gbkey=Gene;gene_biotype=Pseudogene;gene=cobH;name=cobH;gene_desc=Precorrin-8X methylmutase;note=inference: phmmer, similar to AA sequence: WP_025660493.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	50506	51405	.	+	0	ID=gene_1;locus_tag=DB114_1_046;gbkey=Gene;gene_biotype=protein_coding;gene=cobL;name=cobL;
+DB114_1	HMMER_3.1b2	CDS	50506	51405	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_046;gbkey=CDS;gene=cobL;product=Precorrin-6Y C5%2C15-methyltransferase;note=inference: phmmer, similar to AA sequence: WP_027367422.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	52405	52548	.	+	0	ID=gene_1;locus_tag=DB114_1_047;gbkey=Gene;gene_biotype=Pseudogene;gene=cobJ;name=cobJ;gene_desc=precorrin-3B C17-methyltransferase;note=inference: phmmer, similar to AA sequence: WP_054159922.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	55973	56911	.	+	0	ID=gene_1;locus_tag=DB114_1_048;gbkey=Gene;gene_biotype=protein_coding;gene=cobD;name=cobD;
+DB114_1	HMMER_3.1b2	CDS	55973	56911	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_048;gbkey=CDS;gene=cobD;product=cobalamin biosynthesis protein;note=inference: phmmer, similar to AA sequence: WP_033074892.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	56920	57252	.	-	0	ID=gene_1;locus_tag=DB114_1_049;gbkey=Gene;gene_biotype=protein_coding;gene=fdxA;name=fdxA;
+DB114_1	HMMER_3.1b2	CDS	56920	57252	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_049;gbkey=CDS;gene=fdxA;product=Ferredoxin II;note=inference: phmmer, similar to AA sequence: WP_028737186.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	57401	58642	.	+	0	ID=gene_1;locus_tag=DB114_1_050;gbkey=Gene;gene_biotype=protein_coding;gene=rpoD;name=rpoD;
+DB114_1	HMMER_3.1b2	CDS	57401	58642	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_050;gbkey=CDS;gene=rpoD;product=RNA polymerase sigma factor rpoD;note=inference: phmmer, similar to AA sequence: WP_020491508.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	58873	59031	.	-	0	ID=gene_1;locus_tag=DB114_1_051;gbkey=Gene;gene_biotype=Pseudogene;gene=dnaQ;name=dnaQ;gene_desc=DNA polymerase III subunit epsilon;note=inference: phmmer, similar to AA sequence: WP_016556855.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	59591	61150	.	-	0	ID=gene_1;locus_tag=DB114_1_052;gbkey=Gene;gene_biotype=Pseudogene;gene=mnmG;name=mnmG;gene_desc=tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG;note=inference: phmmer, similar to AA sequence: WP_037970895.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	60374	61150	.	-	0	ID=gene_1;locus_tag=DB114_1_053;gbkey=Gene;gene_biotype=Pseudogene;gene=trmE;name=trmE;gene_desc=tRNA modification GTPase MnmE;note=inference: phmmer, similar to AA sequence: WP_012462469.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	62723	63244	.	+	0	ID=gene_1;locus_tag=DB114_1_054;gbkey=Gene;gene_biotype=Pseudogene;gene=hisB;name=hisB;gene_desc=Imidazoleglycerol-phosphate dehydratase;note=inference: phmmer, similar to AA sequence: WP_035845522.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	63238	63870	.	+	0	ID=gene_1;locus_tag=DB114_1_055;gbkey=Gene;gene_biotype=protein_coding;gene=hisH;name=hisH;
+DB114_1	HMMER_3.1b2	CDS	63238	63870	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_055;gbkey=CDS;gene=hisH;product=Imidazole glycerol phosphate synthase subunit HisH 1;eC_number=2.4.2.-;note=inference: phmmer, similar to AA sequence: WP_012173019.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	63875	64603	.	+	0	ID=gene_1;locus_tag=DB114_1_056;gbkey=Gene;gene_biotype=protein_coding;gene=hisA;name=hisA;
+DB114_1	HMMER_3.1b2	CDS	63875	64603	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_056;gbkey=CDS;gene=hisA;product=1-(5-phosphoribosyl)-5-[(5- phosphoribosylamino)methylideneamino] imidazole-4-carboxamide isomerase;eC_number=5.3.1.16;note=inference: phmmer, similar to AA sequence: WP_008036927.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	64597	65391	.	+	0	ID=gene_1;locus_tag=DB114_1_057;gbkey=Gene;gene_biotype=protein_coding;gene=hisF;name=hisF;
+DB114_1	HMMER_3.1b2	CDS	64597	65391	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_057;gbkey=CDS;gene=hisF;product=Imidazole glycerol phosphate synthase subunit HisF;eC_number=4.1.3.-;note=inference: phmmer, similar to AA sequence: WP_031195830.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	65445	66200	.	+	0	ID=gene_1;locus_tag=DB114_1_058;gbkey=Gene;gene_biotype=protein_coding;gene=hisE;name=hisE;
+DB114_1	HMMER_3.1b2	CDS	65445	66200	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_058;gbkey=CDS;gene=hisE;product=Phosphoribosyl-ATP pyrophosphatase;note=inference: phmmer, similar to AA sequence: WP_036140587.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	66212	66448	.	+	0	ID=gene_1;locus_tag=DB114_1_059;gbkey=Gene;gene_biotype=protein_coding;gene=trxA;name=trxA;
+DB114_1	HMMER_3.1b2	CDS	66212	66448	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_059;gbkey=CDS;gene=trxA;product=Thioredoxin;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	66462	67337	.	+	0	ID=gene_1;locus_tag=DB114_1_060;gbkey=Gene;gene_biotype=protein_coding;gene=metF;name=metF;
+DB114_1	HMMER_3.1b2	CDS	66462	67337	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_060;gbkey=CDS;gene=metF;product=5%2C10-methylenetetrahydrofolate reductase;eC_number=1.5.1.20;note=inference: phmmer, similar to AA sequence: WP_029937361.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	67415	67634	.	+	0	ID=gene_1;locus_tag=DB114_1_061;gbkey=Gene;gene=rnpB;
+DB114_1	HMMER_3.1b2	ncRNA	67415	67634	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_061;ncRNA_class=RNase_P_RNA;product=RNAse P;
+DB114_1	HMMER_3.1b2	gene	68062	68508	.	-	0	ID=gene_1;locus_tag=DB114_1_062;gbkey=Gene;gene_biotype=protein_coding;name=DB114_1_062;
+DB114_1	HMMER_3.1b2	CDS	68062	68508	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_062;gbkey=CDS;product=Alpha/beta hydrolase;note=inference: phmmer, similar to AA sequence: WP_015273294.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	68681	69233	.	+	0	ID=gene_1;locus_tag=DB114_1_063;gbkey=Gene;gene_biotype=Pseudogene;gene=sufB;name=sufB;gene_desc=FeS cluster assembly protein sufB;note=inference: phmmer, similar to AA sequence: WP_027512440.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	70238	70693	.	+	0	ID=gene_1;locus_tag=DB114_1_064;gbkey=Gene;gene_biotype=Pseudogene;gene=sufD;name=sufD;gene_desc=FeS cluster assembly protein SufD;note=inference: phmmer, similar to AA sequence: WP_000907979.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	70776	71849	.	+	0	ID=gene_1;locus_tag=DB114_1_065;gbkey=Gene;gene_biotype=Pseudogene;gene=sufS;name=sufS;gene_desc=Cysteine desulfurase;note=inference: phmmer, similar to AA sequence: WP_021584038.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	72069	72350	.	+	0	ID=gene_1;locus_tag=DB114_1_066;gbkey=Gene;gene_biotype=Pseudogene;gene=rluC;name=rluC;gene_desc=Pseudouridine synthase;note=inference: phmmer, similar to AA sequence: UniProtKB:A0A0A0XD23;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	72439	74610	.	+	0	ID=gene_1;locus_tag=DB114_1_067;gbkey=Gene;gene_biotype=protein_coding;gene=valS;name=valS;
+DB114_1	HMMER_3.1b2	CDS	72439	74610	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_067;gbkey=CDS;gene=valS;product=Valine--tRNA ligase;eC_number=6.1.1.9;note=inference: phmmer, similar to AA sequence: WP_046667971.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	74715	74972	.	+	0	ID=gene_1;locus_tag=DB114_1_068;gbkey=Gene;gene_biotype=Pseudogene;gene=rluA;name=rluA;gene_desc=pseudouridine synthase%2C RluA family;note=inference: phmmer, similar to AA sequence: WP_007922900.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	75309	75662	.	+	0	ID=gene_1;locus_tag=DB114_1_069;gbkey=Gene;gene_biotype=Pseudogene;gene=hisN;name=hisN;gene_desc=Histidinol phosphatase;note=inference: phmmer, similar to AA sequence: UniProtKB: WP_023515713.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	76312	76572	.	+	0	ID=gene_1;locus_tag=DB114_1_070;gbkey=Gene;gene_biotype=Pseudogene;gene=tilS;name=tilS;gene_desc=tRNA(Ile)-lysidine synthetase;note=inference: phmmer, similar to AA sequence: WP_015398505.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	77389	78443	.	-	0	ID=gene_1;locus_tag=DB114_1_071;gbkey=Gene;gene_biotype=Pseudogene;gene=etfD;name=etfD;gene_desc=Electron transfer flavoprotein-ubiquinone oxidoreductase;note=inference: phmmer, similar to AA sequence: WP_050631949.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	78711	79150	.	+	0	ID=gene_1;locus_tag=DB114_1_072;gbkey=Gene;gene_biotype=Pseudogene;gene=folE;name=folE;gene_desc=GTP cyclohydrolase 1;note=inference: phmmer, similar to AA sequence: WP_005427546.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	79354	80706	.	+	0	ID=gene_1;locus_tag=DB114_1_073;gbkey=Gene;gene_biotype=protein_coding;gene=gltX;name=gltX;
+DB114_1	HMMER_3.1b2	CDS	79354	80706	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_073;gbkey=CDS;gene=gltX;product=Glutamate--tRNA ligase;eC_number=6.1.1.17;note=inference: phmmer, similar to AA sequence: WP_040055335.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	81901	82216	.	-	0	ID=gene_1;locus_tag=DB114_1_074;gbkey=Gene;gene_biotype=Pseudogene;gene=yqgF;name=yqgF;gene_desc=Putative pre-16S rRNA nuclease;note=inference: phmmer, similar to AA sequence: WP_041436449.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	82402	83841	.	+	0	ID=gene_1;locus_tag=DB114_1_075;gbkey=Gene;gene_biotype=protein_coding;gene=gatA;name=gatA;
+DB114_1	HMMER_3.1b2	CDS	82402	83841	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_075;gbkey=CDS;gene=gatA;product=Glutamyl-tRNA(Gln) amidotransferase subunit A;eC_number=6.3.5.7;note=inference: phmmer, similar to AA sequence: UniProtKB:A0A0K8ME27;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	83814	84887	.	+	0	ID=gene_1;locus_tag=DB114_1_076;gbkey=Gene;gene_biotype=protein_coding;gene=gatB;name=gatB;
+DB114_1	HMMER_3.1b2	CDS	83814	84887	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_076;gbkey=CDS;gene=gatB;product=Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B;eC_number=6.3.5.-;note=inference: phmmer, similar to AA sequence: WP_024544252.1;transl_table=4;codon_start=1
+DB114_1	tRNAscan-SE_1.23	gene	84941	85011	.	+	0	ID=gene_1;locus_tag=DB114_1_077;gbkey=Gene;gene_biotype=tRNA;gene=trnG;note=tRNA-Gly;
+DB114_1	tRNAscan-SE_1.23	tRNA	84941	85011	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_077;gbkey=tRNA;product=tRNA-Gly;note=inference:tRNAscan-SE 1.23
+DB114_1	tRNAscan-SE_1.23	gene	85028	85099	.	+	0	ID=gene_1;locus_tag=DB114_1_078;gbkey=Gene;gene_biotype=tRNA;gene=trnS;note=tRNA-Ser;
+DB114_1	tRNAscan-SE_1.23	tRNA	85028	85099	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_078;gbkey=tRNA;product=tRNA-Ser;note=inference:tRNAscan-SE 1.23
+DB114_1	HMMER_3.1b2	pseudogene	85314	85535	.	+	0	ID=gene_1;locus_tag=DB114_1_079;gbkey=Gene;gene_biotype=Pseudogene;gene=rplK;name=rplK;gene_desc=50S ribosomal subunit protein L11;note=inference: phmmer, similar to AA sequence: UniProtKB:A0A0Q5Z840;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	86107	86455	.	+	0	ID=gene_1;locus_tag=DB114_1_080;gbkey=Gene;gene_biotype=Pseudogene;gene=rplL;name=rplL;gene_desc=50S ribosomal subunit L7/L12;note=inference: phmmer, similar to AA sequence: WP_029035720.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	86439	90173	.	+	0	ID=gene_1;locus_tag=DB114_1_081;gbkey=Gene;gene_biotype=protein_coding;gene=rpoB;name=rpoB;
+DB114_1	HMMER_3.1b2	CDS	86439	90173	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_081;gbkey=CDS;gene=rpoB;product=DNA-directed RNA polymerase subunit beta;eC_number=2.7.7.6;note=inference: phmmer, similar to AA sequence: WP_042110832.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	90139	94083	.	+	0	ID=gene_1;locus_tag=DB114_1_082;gbkey=Gene;gene_biotype=protein_coding;gene=rpoC;name=rpoC;
+DB114_1	HMMER_3.1b2	CDS	90139	94083	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_082;gbkey=CDS;gene=rpoC;product=DNA-directed RNA polymerase subunit beta';eC_number=2.7.7.6;note=inference: phmmer, similar to AA sequence: WP_020921042.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	94148	94378	.	+	0	ID=gene_1;locus_tag=DB114_1_083;gbkey=Gene;gene_biotype=Pseudogene;gene=rpsL;name=rpsL;gene_desc=30S ribosomal protein S12;note=inference: phmmer, similar to AA sequence: WP_012373059.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	94544	94903	.	+	0	ID=gene_1;locus_tag=DB114_1_084;gbkey=Gene;gene_biotype=protein_coding;gene=rpsG;name=rpsG;
+DB114_1	HMMER_3.1b2	CDS	94544	94903	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_084;gbkey=CDS;gene=rpsG;product=30S ribosomal protein S7;note=inference: phmmer, similar to AA sequence: WP_053944179.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	95003	96694	.	+	0	ID=gene_1;locus_tag=DB114_1_085;gbkey=Gene;gene_biotype=Pseudogene;gene=fusA;name=fusA;gene_desc=Elongation factor G;note=inference: phmmer, similar to AA sequence: WP_046605442.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	96800	98014	.	+	0	ID=gene_1;locus_tag=DB114_1_086;gbkey=Gene;gene_biotype=Pseudogene;gene=tufA;name=tufA;gene_desc=Elongation factor Tu;note=inference: phmmer, similar to AA sequence: WP_034518454.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	98602	98745	.	+	0	ID=gene_1;locus_tag=DB114_1_087;gbkey=Gene;gene_biotype=Pseudogene;gene=rplC;name=rplC;gene_desc=50S ribosomal subunit protein L3;note=inference: phmmer, similar to AA sequence: WP_007282721.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	99359	100180	.	+	0	ID=gene_1;locus_tag=DB114_1_088;gbkey=Gene;gene_biotype=protein_coding;gene=rplB;name=rplB;
+DB114_1	HMMER_3.1b2	CDS	99359	100180	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_088;gbkey=CDS;gene=rplB;product=50S ribosomal subunit protein L2;note=inference: phmmer, similar to AA sequence: WP_024585426.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	100621	101291	.	+	0	ID=gene_1;locus_tag=DB114_1_089;gbkey=Gene;gene_biotype=Pseudogene;gene=rpsC;name=rpsC;gene_desc=30S ribosomal protein S3;note=inference: phmmer, similar to AA sequence: UniProtKB:A0A0Q7Y1Z9;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	101209	101349	.	+	0	ID=gene_1;locus_tag=DB114_1_090;gbkey=Gene;gene_biotype=Pseudogene;gene=rplP;name=rplP;gene_desc=50S ribosomal subunit protein L16;note=inference: phmmer, similar to AA sequence: WP_047030246.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	101838	101978	.	+	0	ID=gene_1;locus_tag=DB114_1_091;gbkey=Gene;gene_biotype=Pseudogene;gene=rplN;name=rplN;gene_desc=50S ribosomal protein L14;note=inference: phmmer, similar to AA sequence: WP_025384884.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	102298	102639	.	+	0	ID=gene_1;locus_tag=DB114_1_092;gbkey=Gene;gene_biotype=Pseudogene;gene=rplE;name=rplE;gene_desc=50S ribosomal protein L5;note=inference: phmmer, similar to AA sequence: WP_045024692.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	103020	103271	.	+	0	ID=gene_1;locus_tag=DB114_1_093;gbkey=Gene;gene_biotype=Pseudogene;gene=rpsH;name=rpsH;gene_desc=30S ribosomal protein S8;note=inference: phmmer, similar to AA sequence: WP_047558127.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	103747	103968	.	+	0	ID=gene_1;locus_tag=DB114_1_094;gbkey=Gene;gene_biotype=protein_coding;gene=rplR;name=rplR;
+DB114_1	HMMER_3.1b2	CDS	103747	103968	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_094;gbkey=CDS;gene=rplR;product=50S ribosomal subunit protein L18;note=inference: phmmer, similar to AA sequence: WP_006841800.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	104151	104351	.	+	0	ID=gene_1;locus_tag=DB114_1_095;gbkey=Gene;gene_biotype=Pseudogene;gene=rpsE;name=rpsE;gene_desc=30S ribosomal protein S5;note=inference: phmmer, similar to AA sequence: WP_026362373.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	104454	104738	.	+	0	ID=gene_1;locus_tag=DB114_1_096;gbkey=Gene;gene_biotype=Pseudogene;gene=rplO;name=rplO;gene_desc=50S ribosomal protein L15;note=inference: phmmer, similar to AA sequence: WP_010766214.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	104819	105061	.	-	0	ID=gene_1;locus_tag=DB114_1_097;gbkey=Gene;gene_biotype=Pseudogene;gene=rplY;name=rplY;gene_desc=50S ribosomal protein L25;note=inference: phmmer, similar to AA sequence: WP_015832770.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	105269	106165	.	-	0	ID=gene_1;locus_tag=DB114_1_098;gbkey=Gene;gene_biotype=protein_coding;gene=prs;name=prs;
+DB114_1	HMMER_3.1b2	CDS	105269	106165	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_098;gbkey=CDS;gene=prs;product=Ribose-phosphate pyrophosphokinase;eC_number=2.7.6.1;note=inference: phmmer, similar to AA sequence: WP_010415406.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	107043	107768	.	+	0	ID=gene_1;locus_tag=DB114_1_099;gbkey=Gene;gene_biotype=protein_coding;gene=prfA;name=prfA;
+DB114_1	HMMER_3.1b2	CDS	107043	107768	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_099;gbkey=CDS;gene=prfA;product=Peptide chain release factor 1;note=inference: phmmer, similar to AA sequence: WP_043751475.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	107727	108050	.	-	0	ID=gene_1;locus_tag=DB114_1_100;gbkey=Gene;gene_biotype=protein_coding;name=DB114_1_100;
+DB114_1	HMMER_3.1b2	CDS	107727	108050	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_100;gbkey=CDS;product=conserved hypothetical protein;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	107932	109827	.	+	0	ID=gene_1;locus_tag=DB114_1_101;gbkey=Gene;gene_biotype=protein_coding;name=DB114_1_101;
+DB114_1	HMMER_3.1b2	CDS	107932	109827	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_101;gbkey=CDS;product=hypothetical protein;transl_table=4;codon_start=1
+DB114_1	tRNAscan-SE_1.23	gene	109820	109890	.	-	0	ID=gene_1;locus_tag=DB114_1_102;gbkey=Gene;gene_biotype=tRNA;gene=trnT;note=tRNA-Thr;
+DB114_1	tRNAscan-SE_1.23	tRNA	109820	109890	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_102;gbkey=tRNA;product=tRNA-Thr;note=inference:tRNAscan-SE 1.23
+DB114_1	HMMER_3.1b2	gene	109891	111231	.	+	0	ID=gene_1;locus_tag=DB114_1_103;gbkey=Gene;gene_biotype=protein_coding;gene=hisD;name=hisD;
+DB114_1	HMMER_3.1b2	CDS	109891	111231	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_103;gbkey=CDS;gene=hisD;product=Histidinol dehydrogenase;eC_number=1.1.1.23;note=inference: phmmer, similar to AA sequence: WP_026608532.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	111188	111355	.	+	0	ID=gene_1;locus_tag=DB114_1_104;gbkey=Gene;gene_biotype=protein_coding;gene=infA;name=infA;
+DB114_1	HMMER_3.1b2	CDS	111188	111355	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_104;gbkey=CDS;gene=infA;product=Translation initiation factor IF-1;note=inference: phmmer, similar to AA sequence: UniProtKB:A0A0N0D1H5;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	111436	114393	.	-	0	ID=gene_1;locus_tag=DB114_1_105;gbkey=Gene;gene_biotype=protein_coding;gene=dnaE;name=dnaE;
+DB114_1	HMMER_3.1b2	CDS	111436	114393	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_105;gbkey=CDS;gene=dnaE;product=DNA polymerase III subunit alpha;eC_number=2.7.7.7;note=inference: phmmer, similar to AA sequence: WP_039619125.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	114386	115519	.	-	0	ID=gene_1;locus_tag=DB114_1_106;gbkey=Gene;gene_biotype=protein_coding;gene=proS;name=proS;
+DB114_1	HMMER_3.1b2	CDS	114386	115519	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_106;gbkey=CDS;gene=proS;product=Proline--tRNA ligase;eC_number=6.1.1.15;note=inference: phmmer, similar to AA sequence: WP_025264346.1;transl_table=4;codon_start=1
+DB114_1	tRNAscan-SE_1.23	gene	115605	115677	.	-	0	ID=gene_1;locus_tag=DB114_1_107;gbkey=Gene;gene_biotype=tRNA;gene=gene;note=product;
+DB114_1	tRNAscan-SE_1.23	tRNA	115605	115677	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_107;gbkey=tRNA;product=product;note=inference:tRNAscan-SE 1.23
+DB114_1	HMMER_3.1b2	gene	115610	116305	.	+	0	ID=gene_1;locus_tag=DB114_1_108;gbkey=Gene;gene_biotype=protein_coding;name=DB114_1_108;
+DB114_1	HMMER_3.1b2	CDS	115610	116305	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_108;gbkey=CDS;product=hypothetical protein;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	116463	116603	.	+	0	ID=gene_1;locus_tag=DB114_1_109;gbkey=Gene;gene_biotype=Pseudogene;gene=rpsP;name=rpsP;gene_desc=30S ribosomal protein S16;note=inference: phmmer, similar to AA sequence: WP_044958884.1;pseudogene=allelic
+DB114_1	tRNAscan-SE_1.23	gene	116864	116937	.	+	0	ID=gene_1;locus_tag=DB114_1_110;gbkey=Gene;gene_biotype=tRNA;gene=trnG;note=tRNA-Gly;
+DB114_1	tRNAscan-SE_1.23	tRNA	116864	116937	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_110;gbkey=tRNA;product=tRNA-Gly;note=inference:tRNAscan-SE 1.23
+DB114_1	HMMER_3.1b2	gene	116915	117361	.	+	0	ID=gene_1;locus_tag=DB114_1_111;gbkey=Gene;gene_biotype=protein_coding;gene=def;name=def;
+DB114_1	HMMER_3.1b2	CDS	116915	117361	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_111;gbkey=CDS;gene=def;product=Peptide deformylase;eC_number=3.5.1.88;note=inference: phmmer, similar to AA sequence: WP_036591737.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	117358	118320	.	-	0	ID=gene_1;locus_tag=DB114_1_112;gbkey=Gene;gene_biotype=protein_coding;gene=cysK;name=cysK;
+DB114_1	HMMER_3.1b2	CDS	117358	118320	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_112;gbkey=CDS;gene=cysK;product=Cysteine synthase;eC_number=2.5.1.47;note=inference: phmmer, similar to AA sequence: WP_012288748.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	118416	118520	.	+	0	ID=gene_1;locus_tag=DB114_1_113;gbkey=Gene;gene_biotype=Pseudogene;name=DB114_1_113;gene_desc=conserved hypothetical protein;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	119335	119532	.	+	0	ID=gene_1;locus_tag=DB114_1_114;gbkey=Gene;gene_biotype=Pseudogene;gene=trpS;name=trpS;gene_desc=Tryptophan--tRNA ligase;note=inference: phmmer, similar to AA sequence: WP_041300505.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	119592	119804	.	+	0	ID=gene_1;locus_tag=DB114_1_115;gbkey=Gene;gene_biotype=Pseudogene;gene=ybeY;name=ybeY;gene_desc=Endoribonuclease YbeY;note=inference: phmmer, similar to AA sequence: WP_022108631.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	119926	120259	.	-	0	ID=gene_1;locus_tag=DB114_1_116;gbkey=Gene;gene_biotype=Pseudogene;gene=smpB;name=smpB;gene_desc=SsrA-binding protein;note=inference: phmmer, similar to AA sequence: WP_012798058.1;pseudogene=allelic
+DB114_1	tRNAscan-SE_1.23	gene	120203	120281	.	+	0	ID=gene_1;locus_tag=DB114_1_117;gbkey=Gene;gene_biotype=tRNA;gene=trnK;note=tRNA-Lys;
+DB114_1	tRNAscan-SE_1.23	tRNA	120203	120281	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_117;gbkey=tRNA;product=tRNA-Lys;note=inference:tRNAscan-SE 1.23
+DB114_1	HMMER_3.1b2	gene	120289	121086	.	-	0	ID=gene_1;locus_tag=DB114_1_118;gbkey=Gene;gene_biotype=protein_coding;gene=fpr;name=fpr;
+DB114_1	HMMER_3.1b2	CDS	120289	121086	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_118;gbkey=CDS;gene=fpr;product=Ferredoxin--NADP reductase;eC_number=1.18.1.2;note=inference: phmmer, similar to AA sequence: WP_015915955.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	121090	122595	.	-	0	ID=gene_1;locus_tag=DB114_1_119;gbkey=Gene;gene_biotype=protein_coding;gene=cysI;name=cysI;
+DB114_1	HMMER_3.1b2	CDS	121090	122595	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_119;gbkey=CDS;gene=cysI;product=Sulfite reductase [NADPH] hemoprotein beta-component;eC_number=1.8.1.2;note=inference: phmmer, similar to AA sequence: WP_045364931.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	123287	124324	.	-	0	ID=gene_1;locus_tag=DB114_1_120;gbkey=Gene;gene_biotype=protein_coding;gene=dnaJ;name=dnaJ;
+DB114_1	HMMER_3.1b2	CDS	123287	124324	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_120;gbkey=CDS;gene=dnaJ;product=Chaperone protein DnaJ;note=inference: phmmer, similar to AA sequence: WP_037390648.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	gene	124330	126165	.	-	0	ID=gene_1;locus_tag=DB114_1_121;gbkey=Gene;gene_biotype=protein_coding;gene=dnaK;name=dnaK;
+DB114_1	HMMER_3.1b2	CDS	124330	126165	.	-	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_121;gbkey=CDS;gene=dnaK;product=Heat shock protein 70;note=inference: phmmer, similar to AA sequence: WP_028002146.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	126525	127022	.	-	0	ID=gene_1;locus_tag=DB114_1_122;gbkey=Gene;gene_biotype=Pseudogene;gene=infB;name=infB;gene_desc=Translation initiation factor IF-2;note=inference: phmmer, similar to AA sequence: WP_013950991.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	pseudogene	127780	127968	.	+	0	ID=gene_1;locus_tag=DB114_1_123;gbkey=Gene;gene_biotype=Pseudogene;gene=cycM;name=cycM;gene_desc=Cytochrome c;note=inference: phmmer, similar to AA sequence: UniProtKB:A0A0S9PRZ0;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	128091	128834	.	+	0	ID=gene_1;locus_tag=DB114_1_124;gbkey=Gene;gene_biotype=protein_coding;gene=etfB;name=etfB;
+DB114_1	HMMER_3.1b2	CDS	128091	128834	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_124;gbkey=CDS;gene=etfB;product=Electron transfer flavoprotein small subunit;note=inference: phmmer, similar to AA sequence: WP_028037186.1;transl_table=4;codon_start=1
+DB114_1	HMMER_3.1b2	pseudogene	128943	129793	.	+	0	ID=gene_1;locus_tag=DB114_1_125;gbkey=Gene;gene_biotype=Pseudogene;gene=etfA;name=etfA;gene_desc=Electron transfer flavoprotein large subunit;note=inference: phmmer, similar to AA sequence: WP_005773116.1;pseudogene=allelic
+DB114_1	HMMER_3.1b2	gene	129891	130202	.	+	0	ID=gene_1;locus_tag=DB114_1_126;gbkey=Gene;gene_biotype=tmRNA;gene=ssrA;
+DB114_1	HMMER_3.1b2	tmRNA	129891	130202	.	+	0	ID=product_1;Parent=gene_1;locus_tag=DB114_1_126;product=transfer-messenger mRNA;
